@@ -9,11 +9,86 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="icon" type="image/png" href="../image/25.png" />
   </head>
-  
   <body>
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html"><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a>
+        <button class="nav-btn" id="login">로그인</button>
+        <button class="nav-btn" id="signup">회원가입</button>
+        <button class="nav-btn" id="question">문의사항</button>
+      </div>
+
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">메인</a>
+        </li>
+        <li class="nav-item">
+          <a href="product-list.html" class="nav-link">상의</a>
+        </li>
+        <li class="nav-item">
+          <a href="product-list.html" class="nav-link">하의</a>
+        </li>
+        <li class="nav-item">
+          <a href="product-list.html" class="nav-link">운동복</a>
+        </li>
+        <li class="nav-item">
+          <a href="product-list.html" class="nav-link">코트</a>
+        </li>
+        <li class="nav-item">
+          <a href="product-list.html" class="nav-link">패딩</a>
+        </li>
+      </ul>
+    </div>
+    <div class="best-img">
+      <img src="../json/products.json" alt="베스트 상품" />
+      <button class="bestBtn" id="best-btn"><</button>
+      <button class="bestBtn" id="best-btn">></button>
+    </div>
+
+    <div class="images">
+      <div>
+        <div class="imageInfo">
+          <strong>상의</strong>
+        </div>
+        <img
+          src="https://cafe24img.poxo.com/barrelslee/web/product/medium/202504/0dbd42ba4b3f99dca333634561d5fd68.jpg"
+          alt="상의"
+        />
+      </div>
+      <div>
+        <div class="imageInfo">
+          <strong>하의</strong>
+        </div>
+        <img src="#" alt="하의" />
+      </div>
+      <div>
+        <div class="imageInfo">
+          <strong>운동복</strong>
+        </div>
+        <img src="#" alt="운동복" />
+      </div>
+      <div>
+        <div class="imageInfo">
+          <strong>코트</strong>
+        </div>
+        <img src="#" alt="코트" />
+      </div>
+      <div>
+        <div class="imageInfo">
+          <strong>패딩</strong>
+        </div>
+        <img src="#" alt="패딩" />
+      </div>
+    </div>
+
+    <div class="banner">
+      <div id="bannerResult">배너위치</div>
+      <button id="bannerBtn">^</button>
+    </div>
     <script src="../js/index.js"></script>
   </body>
 </html>
