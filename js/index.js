@@ -1,8 +1,8 @@
 $(function () {
   $("#loginBtn").click(loginFn);
   bestFn();
-  상의();
-  $("#imageInfoResult").click(상의이동);
+  shirtFn();
+  // $("#imageInfoResult").click(상의이동);
 
   banner();
 });
@@ -28,41 +28,45 @@ function loginFn() {
 // 베스트 상품 이미지 페이지
 function bestFn() {
   $.get("../json/products.json").done(function (data) {
-    console.log("데이터 가져오기 가능?");
+    const bestImg = data.slice(0, 3);
     $("#bestResult").html(
-      data.map(
-        (bimg) =>
-          `
+      bestImg
+        .filter((b) => b.category === "베스트")
+        .map(
+          (bimg) =>
+            `
           <div class="best-img">
             <img src="${bimg.imageUrl}"/>
           </div>
           `
-      )
+        )
     );
   });
 }
 
 // 리스트_상의 이미지 페이지
-function 상의() {
+function shirtFn() {
   $.get("../json/products.json").done(function (data) {
-    console.log("데이터 가져왓나?");
-    $("#imageInfoResult").html(
-      data.map(
-        (info) => `
-        <div class="list-image">
+    // const ShirtImg = data.slice(0, 7);
+    $("#shirtResult").html(
+      data
+        .filter((s) => s.category === "상의")
+        .map(
+          (s) =>
+            `
+          <a href="#">
           <div class="image-info">
-          <img src="${info.imageUrl}" alt="상의" />
-          <div>
-          <p>${info.name}</p>
-          <p>가격 : ${info.price}</p>
-        </div>
-
-        `
-      )
+            <img src="${s.imageUrl}" alt="상의"/>
+            <p>${s.name}</p>
+            <p>가격 : ${s.price}</p>
+          </div>
+          </a>
+          `
+        )
+        .join("")
     );
   });
 }
-
 
 function 상의이동() {
   window.open("product-detail.html", "_blank");

@@ -2,7 +2,7 @@
   {
     "productId": "A12345",
     "name": "오버사이즈 반팔 티셔츠",
-    "category": "상의",
+    "category": "베스트",
     "price": 19900,
     "currency": "KRW",
     "colors": ["화이트", "블랙", "네이비"],
@@ -22,7 +22,7 @@
   {
     "productId": "B45678",
     "name": "스트레이트 핏 데님 팬츠",
-    "category": "하의",
+    "category": "베스트",
     "price": 34900,
     "currency": "KRW",
     "colors": ["연청", "진청"],
@@ -41,7 +41,7 @@
   {
     "productId": "C78901",
     "name": "경량 패딩 자켓",
-    "category": "아우터",
+    "category": "베스트",
     "price": 59900,
     "currency": "KRW",
     "colors": ["블랙", "카키"],
@@ -56,5 +56,86 @@
     "brand": "CozyFit",
     "isNew": true,
     "rating": 4.8
+  },
+  {
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://cdn-tgreen.bizhost.kr/files/goods/662589/1709527238_0.jpg",
+    "category": "상의"
+  },
+  {
+    "productId": "T002",
+    "name": "오버핏 맨투맨",
+    "price": 32000,
+    "color": "블랙",
+    "size": ["M", "L", "XL"],
+    "imageUrl": "https://image2.lotteimall.com/goods/48/12/63/1994631248_2.jpg/dims/resizemc/550x550/optimize",
+    "category": "상의"
+  },
+  {
+    "productId": "T004",
+    "name": "스트라이프 니트",
+    "price": 41000,
+    "color": "네이비",
+    "size": ["M", "L"],
+    "imageUrl": "https://static-resource.mlb-korea.com/cdn-cgi/image/q=75,format=auto,fit=scale-down,onerror=redirect/images/goods/ec/M25S3ATSB025350BKS/thnail/A8791682483049DEA371875C1915FF73.jpg",
+    "category": "상의"
+  },
+  {
+    "productId": "T005",
+    "name": "크롭 후드티",
+    "price": 34000,
+    "color": "그레이",
+    "size": ["S", "M", "L"],
+    "imageUrl": "https://image.nbkorea.com/NBRB_Product/20250403/NB20250403110025889001.jpg",
+    "category": "상의"
+  },
+  {
+    "productId": "B001",
+    "name": "스트레이트 핏 청바지",
+    "price": 39000,
+    "color": "진청",
+    "size": ["28", "30", "32", "34"],
+    "imageUrl": "/images/products/jeans1.jpg",
+    "category": "바지"
+  },
+  {
+    "productId": "B002",
+    "name": "슬림핏 슬랙스",
+    "price": 45000,
+    "color": "블랙",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "/images/products/slacks1.jpg",
+    "category": "바지"
+  },
+  {
+    "productId": "B003",
+    "name": "와이드 팬츠",
+    "price": 37000,
+    "color": "베이지",
+    "size": ["M", "L", "XL"],
+    "imageUrl": "/images/products/widepants1.jpg",
+    "category": "바지"
+  },
+  {
+    "productId": "B004",
+    "name": "카고 반바지",
+    "price": 28000,
+    "color": "카키",
+    "size": ["S", "M", "L"],
+    "imageUrl": "/images/products/shorts1.jpg",
+    "category": "바지"
+  },
+  {
+    "productId": "B005",
+    "name": "린넨 밴딩 팬츠",
+    "price": 32000,
+    "color": "아이보리",
+    "size": ["M", "L", "XL"],
+    "imageUrl": "/images/products/linenpants1.jpg",
+    "category": "바지"
   }
 ]

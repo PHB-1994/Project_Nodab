@@ -22,6 +22,8 @@ a > strong {
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
+  float: right;
+  margin: 10px 10px;
 }
 
 /* 네비게이션 바 */
@@ -79,16 +81,17 @@ a > strong {
   color: #a19d9d;
   text-align: center;
   margin: 30px auto;
-  font-size: 20px;
 }
 
 .load strong {
   font-weight: bold;
   margin-top: 50px;
+  font-size: 18px;
 }
 
 .load p {
   margin: 0 auto;
+  font-size: 15px;
 }
 
 .scroll-btn {
@@ -111,36 +114,34 @@ a > strong {
   font-weight: bold;
 }
 /* 리스트 */
+/*
 .list-images {
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
 }
+*/
 
-#imageInfoResult {
+/* .image-info {
   display: flex;
-  gap: 10px;
-  padding: 10px;
-}
-
-.list-image {
-  flex: 0 0 auto;
-  width: 150px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  box-sizing: border-box;
+  justify-content: space-between;
+  gap: 50px;
+} */
+.image-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
 }
 
 .image-info img {
   width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 8px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  aspect-ratio: 1 / 1.2;
+  object-fit: cover;
 }
 
-p {
-  font-size: 12px;
-}
 
 /* 배너 */
 .banner {
@@ -159,4 +160,7 @@ p {
   text-align: center;
   margin-left: 10px;
   padding: 2px;
+}
+.banner p {
+  font-size: 12px;
 }
