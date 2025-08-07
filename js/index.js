@@ -2,6 +2,10 @@ $(function () {
   $("#loginBtn").click(loginFn);
   bestFn();
   shirtFn();
+  pantsFn();
+  sportFn();
+  coatFn();
+  paddingFn();
   // $("#imageInfoResult").click(상의이동);
 
   banner();
@@ -54,12 +58,10 @@ function shirtFn() {
         .map(
           (s) =>
             `
-          <a href="#">
-          <div class="image-info">
-            <img src="${s.imageUrl}" alt="상의"/>
+          <a href="#" class="product-item">
+            <img src="${s.imageUrl}" alt="${s.category}"/>
             <p>${s.name}</p>
             <p>가격 : ${s.price}</p>
-          </div>
           </a>
           `
         )
@@ -68,8 +70,92 @@ function shirtFn() {
   });
 }
 
-function 상의이동() {
-  window.open("product-detail.html", "_blank");
+// 리스트 바지 이미지 페이지
+function pantsFn() {
+  $.get("../json/products.json").done(function (data) {
+    // const ShirtImg = data.slice(0, 7);
+    $("#pantsResult").html(
+      data
+        .filter((p) => p.category === "바지")
+        .map(
+          (p) =>
+            `
+          <a href="#" class="product-item">
+            <img src="${p.imageUrl}" alt="${p.category}"/>
+            <p>${p.name}</p>
+            <p>가격 : ${p.price}</p>
+          </a>
+          `
+        )
+        .join("")
+    );
+  });
+}
+
+// 리스트 운동복 이미지 페이지
+function sportFn() {
+  $.get("../json/products.json").done(function (data) {
+    // const ShirtImg = data.slice(0, 7);
+    $("#sportResult").html(
+      data
+        .filter((s) => s.category === "운동복")
+        .map(
+          (s) =>
+            `
+          <a href="#" class="product-item">
+            <img src="${s.imageUrl}" alt="${s.category}"/>
+            <p>${s.name}</p>
+            <p>가격 : ${s.price}</p>
+          </a>
+          `
+        )
+        .join("")
+    );
+  });
+}
+
+// 리스트 코트 이미지 페이지
+function coatFn() {
+  $.get("../json/products.json").done(function (data) {
+    // const ShirtImg = data.slice(0, 7);
+    $("#coatResult").html(
+      data
+        .filter((c) => c.category === "코트")
+        .map(
+          (c) =>
+            `
+          <a href="#" class="product-item">
+            <img src="${c.imageUrl}" alt="${c.category}"/>
+            <p>${c.name}</p>
+            <p>가격 : ${c.price}</p>
+          </a>
+          `
+        )
+        .join("")
+    );
+  });
+}
+
+// 리스트 패딩 이미지 페이지
+function paddingFn() {
+  $.get("../json/products.json").done(function (data) {
+    // const ShirtImg = data.slice(0, 7);
+    $("#paddingResult").html(
+      data
+        .filter((p) => p.category === "패딩")
+        .map(
+          (p) =>
+            `
+          <a href="#" class="product-item">
+            <img src="${p.imageUrl}" alt="${p.category}"/>
+            <p>${p.name}</p>
+            <p>가격 : ${p.price}</p>
+          </a>
+          `
+        )
+        .join("")
+    );
+  });
 }
 
 function banner() {
