@@ -9,6 +9,14 @@ $(function () {
   // $("#imageInfoResult").click(상의이동);
 
   banner();
+
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() === 0) {
+      $(".clothes-top").hide();
+    } else {
+      $(".clothes-top").show();
+    }
+  });
 });
 
 // 로그인 이동 페이지
