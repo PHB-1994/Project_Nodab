@@ -27,16 +27,16 @@ a > strong {
   margin: 0 10px;
 }
 
+/* 네비게이션 바 */
 .nav-menu {
   display: flex;
+  justify-content: center;
   list-style: none;
   margin-bottom: 0;
 }
 
 .nav-item {
   padding: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 .nav-link {
@@ -48,11 +48,68 @@ a > strong {
 }
 
 .nav-link:hover {
-  background-color: #bdacac;
+  background-color: #868686;
   box-sizing: border-box;
 }
 
-img {
+#bestResult {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.best-list {
+  max-width: 100vh;
+}
+
+.best-list img {
+  display: block;
   width: 200px;
-  height: 200px;
+  height: auto;
+}
+
+.best-btn {
+  padding: 19px 15px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  margin: 20px auto;
+}
+
+.list-images {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+#imageInfoResult {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.list-image {
+  flex: 0 0 auto;
+  width: 150px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-info img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 12px;
 }

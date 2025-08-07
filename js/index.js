@@ -1,6 +1,8 @@
 $(function () {
   $("#loginBtn").click(loginFn);
   bestFn();
+  상의();
+  $("#imageInfoResult").click(상의이동);
 });
 
 function loginFn() {
@@ -21,14 +23,41 @@ function loginFn() {
 }
 
 function bestFn() {
-  $.get("../json/products.json")
-    .done(function (data) {
-      console.log("데이터 가져오기 가능?");
-      $("#bestResult").html(
+  $.get("../json/products.json").done(function (data) {
+    console.log("데이터 가져오기 가능?");
+    $("#bestResult").html(
+      data.map(
+        (bimg) =>
+          `
+          <div class="best-list">
+            <img src="${bimg.imageUrl}"/>
+          </div>
+          `
+      )
+    );
+  });
+}
+
+function 상의() {
+  $.get("../json/products.json").done(function (data) {
+    console.log("데이터 가져왓나?");
+    $("#imageInfoResult").html(
+      data.map(
+        (info) => `
+        <div class="list-image">
+          <div class="image-info">
+          <img src="${info.imageUrl}" alt="상의" />
+          <div>
+          <p>${info.name}</p>
+          <p>가격 : ${info.price}</p>
+        </div>
+
         `
-        <img src="${data.imageUrl}">
-        `
-      );
-    })
-    .fail();
+      )
+    );
+  });
+}
+
+function 상의이동() {
+  window.open("product-detail.html", "_blank");
 }

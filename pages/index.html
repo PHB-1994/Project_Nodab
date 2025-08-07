@@ -17,9 +17,9 @@
     <div class="nav-container">
       <div class="logo">
         <a href="index.html"><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a>
-        <button class="nav-btn" id="loginBtn">로그인</button>
-        <button class="nav-btn" id="signupBtn">회원가입</button>
         <button class="nav-btn" id="questionBtn">문의사항</button>
+        <button class="nav-btn" id="signupBtn">회원가입</button>
+        <button class="nav-btn" id="loginBtn">로그인</button>
       </div>
 
       <ul class="nav-menu">
@@ -44,49 +44,71 @@
       </ul>
     </div>
     <div class="best-img">
-      <div id="bestResult"></div>
-      <!-- <img src="../json/products.json" alt="베스트 상품" /> -->
-      <button class="bestBtn" id="best-btn"><</button>
-      <button class="bestBtn" id="best-btn">></button>
+      <div id="bestResult">
+        <button class="best-btn" id="prevBtn">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="best-btn" id="nextBtn">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
     </div>
 
-    <div class="images">
+    <div class="load">
+      <strong>최고의 상품이 기다리고 있습니다.</strong>
+    </div>
+    <div class="list-images">
       <div>
-        <div class="imageInfo">
-          <strong>상의</strong>
+        <div class="image-Info">
+          <strong>상의를 골라보세요</strong>
         </div>
-        <img src="#" alt="상의" />
-      </div>
-      <div>
-        <div class="imageInfo">
-          <strong>하의</strong>
-        </div>
-        <img src="#" alt="하의" />
-      </div>
-      <div>
-        <div class="imageInfo">
-          <strong>운동복</strong>
-        </div>
-        <img src="#" alt="운동복" />
-      </div>
-      <div>
-        <div class="imageInfo">
-          <strong>코트</strong>
-        </div>
-        <img src="#" alt="코트" />
-      </div>
-      <div>
-        <div class="imageInfo">
-          <strong>패딩</strong>
-        </div>
-        <img src="#" alt="패딩" />
+        <div id="imageInfoResult"></div>
       </div>
     </div>
+    <div class="list-images">
+      <div>
+        <div class="imageInfo">
+          <strong>바지를 골라보세요</strong>
+        </div>
+        <div class="list-image-short"></div>
+      </div>
+    </div>
+    <div class="list-images">
+      <div>
+        <div class="imageInfo">
+          <strong>운동복를 골라보세요</strong>
+        </div>
+        <div class="list-image-short"></div>
+      </div>
+    </div>
+    <div class="list-images">
+      <div>
+        <div class="imageInfo">
+          <strong>코트를 골라보세요</strong>
+        </div>
+        <div class="list-image-short"></div>
+      </div>
+    </div>
+    <div class="list-images">
+      <div>
+        <div class="imageInfo">
+          <strong>패딩를 골라보세요</strong>
+        </div>
+        <div class="list-image-short"></div>
+      </div>
+    </div>
+
+    <a href="#top" class="clothes-top">
+      <i class="fa-solid fa-arrow-up" style="color: #74c0fc"></i>
+    </a>
 
     <div class="banner">
-      <div id="bannerResult">배너위치</div>
-      <button id="bannerBtn">^</button>
+      <div id="bannerResult"></div>
     </div>
     <script src="../js/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2b1cc8e2c0.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
