@@ -3,8 +3,11 @@ $(function () {
   bestFn();
   상의();
   $("#imageInfoResult").click(상의이동);
+
+  banner();
 });
 
+// 로그인 이동 페이지
 function loginFn() {
   const widthPop = "300";
   const heightPop = "300";
@@ -22,6 +25,7 @@ function loginFn() {
   window.open("login.html", "_blank", option);
 }
 
+// 베스트 상품 이미지 페이지
 function bestFn() {
   $.get("../json/products.json").done(function (data) {
     console.log("데이터 가져오기 가능?");
@@ -29,7 +33,7 @@ function bestFn() {
       data.map(
         (bimg) =>
           `
-          <div class="best-list">
+          <div class="best-img">
             <img src="${bimg.imageUrl}"/>
           </div>
           `
@@ -38,6 +42,7 @@ function bestFn() {
   });
 }
 
+// 리스트_상의 이미지 페이지
 function 상의() {
   $.get("../json/products.json").done(function (data) {
     console.log("데이터 가져왓나?");
@@ -58,6 +63,26 @@ function 상의() {
   });
 }
 
+
 function 상의이동() {
   window.open("product-detail.html", "_blank");
+}
+
+function banner() {
+  $.get("../json/banner.json").done(function (data) {
+    console.log("데이터?");
+    $("#bannerResult").html(
+      `
+      <div class="ban-info">
+      <p class="ban-text">© ${data.brand}</p>
+      <p class="ban-text">${data.company}</p>
+      <p class="ban-text">${data.adress}</p>
+      <p class="ban-text">${data.a}</p>
+      <p class="ban-text">${data.b}</p>
+      <p class="ban-text">${data.c}</p>
+      <p class="ban-text">${data.d}</p>
+      </div>
+      `
+    );
+  });
 }

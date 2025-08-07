@@ -17,9 +17,9 @@
     <div class="nav-container">
       <div class="logo">
         <a href="index.html"><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a>
-        <button class="nav-btn" id="questionBtn">문의사항</button>
-        <button class="nav-btn" id="signupBtn">회원가입</button>
         <button class="nav-btn" id="loginBtn">로그인</button>
+        <button class="nav-btn" id="signupBtn">회원가입</button>
+        <button class="nav-btn" id="questionBtn">문의사항</button>
       </div>
 
       <ul class="nav-menu">
@@ -43,68 +43,77 @@
         </li>
       </ul>
     </div>
-    <div class="best-img">
-      <div id="bestResult">
-        <button class="best-btn" id="prevBtn">
-          <i class="fa-solid fa-arrow-left"></i>
-        </button>
-        <button class="best-btn" id="nextBtn">
-          <i class="fa-solid fa-arrow-right"></i>
-        </button>
-      </div>
+
+    <div id="bestResult">
+      <button class="best-btn" id="prevBtn">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <button class="best-btn" id="nextBtn">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
     </div>
 
     <div class="load">
       <strong>최고의 상품이 기다리고 있습니다.</strong>
+      <p>어디서나 볼 수 없는 옷들이 가득!!!</p>
+      <p>마음껏 구경하세요📢</p>
+    </div>
+
+    <div class="scroll-btn">
+      <button class="scr-btn">
+        <a href="#shirtResult" class="scroll">상의</a>
+      </button>
+      <button class="scr-btn">
+        <a href="#pantsResult" class="scroll">하의</a>
+      </button>
+      <button class="scr-btn">
+        <a href="#sportResult" class="scroll">운동복</a>
+      </button>
+      <button class="scr-btn">
+        <a href="#coatResult" class="scroll">코트</a>
+      </button>
+      <button class="scr-btn">
+        <a href="#paddingResult" class="scroll">패딩</a>
+      </button>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="list-images">
+      <div class="image-Info">
+        <strong>상의를 골라보세요</strong>
+        <p>더보기</p>
+      </div>
+      <div id="shirtResult"></div>
     </div>
     <div class="list-images">
-      <div>
-        <div class="image-Info">
-          <strong>상의를 골라보세요</strong>
-        </div>
-        <div id="imageInfoResult"></div>
+      <div class="image-Info">
+        <strong>바지를 골라보세요</strong>
       </div>
+      <div id="pantsResult"></div>
     </div>
     <div class="list-images">
-      <div>
-        <div class="imageInfo">
-          <strong>바지를 골라보세요</strong>
-        </div>
-        <div class="list-image-short"></div>
+      <div class="image-Info">
+        <strong>운동복를 골라보세요</strong>
       </div>
+      <div id="sportResult"></div>
     </div>
     <div class="list-images">
-      <div>
-        <div class="imageInfo">
-          <strong>운동복를 골라보세요</strong>
-        </div>
-        <div class="list-image-short"></div>
+      <div class="image-Info">
+        <strong>코트를 골라보세요</strong>
       </div>
+      <div id="coatResult"></div>
     </div>
     <div class="list-images">
-      <div>
-        <div class="imageInfo">
-          <strong>코트를 골라보세요</strong>
-        </div>
-        <div class="list-image-short"></div>
+      <div class="image-Info">
+        <strong>패딩를 골라보세요</strong>
       </div>
-    </div>
-    <div class="list-images">
-      <div>
-        <div class="imageInfo">
-          <strong>패딩를 골라보세요</strong>
-        </div>
-        <div class="list-image-short"></div>
-      </div>
+      <div id="paddingResult"></div>
     </div>
 
     <a href="#top" class="clothes-top">
       <i class="fa-solid fa-arrow-up" style="color: #74c0fc"></i>
     </a>
 
-    <div class="banner">
-      <div id="bannerResult"></div>
-    </div>
+    <div class="banner" id="bannerResult"></div>
     <script src="../js/index.js"></script>
     <script
       src="https://kit.fontawesome.com/2b1cc8e2c0.js"

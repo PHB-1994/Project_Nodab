@@ -1,20 +1,18 @@
+/* 로고 */
 .nav-container {
   background-color: #201d1d;
-  max-width: 100%;
-  height: 100px;
+  height: 100%;
 }
 
 .logo > a {
   text-decoration: none;
   color: white;
-  padding: 10px;
-  margin: 10px 5px;
-  font-style: italic;
+  font-style: italic; /* 기울이기 */
+  margin: 0 20px; /* 왜 안 띄워지는가?? */
 }
 
 a > strong {
   font-size: 25px;
-  margin-right: 10px;
 }
 
 .nav-btn {
@@ -24,7 +22,6 @@ a > strong {
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
-  margin: 0 10px;
 }
 
 /* 네비게이션 바 */
@@ -32,11 +29,7 @@ a > strong {
   display: flex;
   justify-content: center;
   list-style: none;
-  margin-bottom: 0;
-}
-
-.nav-item {
-  padding: 10px;
+  margin: 0;
 }
 
 .nav-link {
@@ -52,20 +45,23 @@ a > strong {
   box-sizing: border-box;
 }
 
+/* 베스트 옷들 */
 #bestResult {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0;
   cursor: pointer;
 }
 
-.best-list {
-  max-width: 100vh;
+.best-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
-.best-list img {
-  display: block;
-  width: 200px;
-  height: auto;
+.best-img img {
+  width: 100%;
+  z-index: 10;
 }
 
 .best-btn {
@@ -74,15 +70,47 @@ a > strong {
   border-radius: 50%;
   background-color: white;
   cursor: pointer;
+  z-index: 30;
 }
 
+/* 스크롤 버튼 */
 .load {
+  display: block;
+  color: #a19d9d;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 20px;
+}
+
+.load strong {
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.load p {
+  margin: 0 auto;
+}
+
+.scroll-btn {
   display: flex;
   justify-content: center;
-  padding: 10px 10px;
-  margin: 20px auto;
+  gap: 30px;
 }
 
+.scr-btn {
+  border: 1px solid #c5c5c5;
+  border-radius: 20px;
+  background-color: #eee;
+  padding: 10px 30px;
+  font-size: 15px;
+}
+
+.scroll {
+  color: rgb(58, 55, 55);
+  text-decoration: none;
+  font-weight: bold;
+}
+/* 리스트 */
 .list-images {
   display: flex;
   flex-wrap: wrap;
@@ -112,4 +140,23 @@ a > strong {
 
 p {
   font-size: 12px;
+}
+
+/* 배너 */
+.banner {
+  background-color: #e2e2e2;
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ban-info {
+  margin: 10px auto;
+}
+
+.ban-text {
+  text-align: center;
+  margin-left: 10px;
+  padding: 2px;
 }
