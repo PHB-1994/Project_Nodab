@@ -1,5 +1,6 @@
 $(function () {
-  $("#login").click(loginFn);
+  $("#loginBtn").click(loginFn);
+  bestFn();
 });
 
 function loginFn() {
@@ -19,3 +20,15 @@ function loginFn() {
   window.open("login.html", "_blank", option);
 }
 
+function bestFn() {
+  $.get("../json/products.json")
+    .done(function (data) {
+      console.log("데이터 가져오기 가능?");
+      $("#bestResult").html(
+        `
+        <img src="${data.imageUrl}">
+        `
+      );
+    })
+    .fail();
+}

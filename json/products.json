@@ -1,8 +1,20 @@
 {
-  "clothes": [
-    {
-      "title": "best",
-      "url": "https://cafe24img.poxo.com/barrelslee/web/product/medium/202504/0dbd42ba4b3f99dca333634561d5fd68.jpg"
-    }
-  ]
+  "productId": "A12345",
+  "name": "오버사이즈 반팔 티셔츠",
+  "category": "상의",
+  "price": 19900,
+  "currency": "KRW",
+  "colors": ["화이트", "블랙", "네이비"],
+  "sizes": ["S", "M", "L", "XL"],
+  "stock": {
+    "화이트": { "S": 12, "M": 5, "L": 0, "XL": 7 },
+    "블랙": { "S": 3, "M": 8, "L": 4, "XL": 0 },
+    "네이비": { "S": 6, "M": 2, "L": 9, "XL": 1 }
+  },
+  "material": "면 100%",
+  "description": "부드러운 코튼 소재의 오버사이즈 반팔 티셔츠입니다. 데일리룩에 잘 어울리는 기본 아이템.",
+  "imageUrl": "https://sitem.ssgcdn.com/33/12/62/item/1000540621233_i1_750.jpg",
+  "brand": "SimpleWear",
+  "isNew": true,
+  "rating": 4.5
 }
