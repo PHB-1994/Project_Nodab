@@ -32,19 +32,17 @@
 
 .shirt-content {
   display: none;
+
   text-align: center;
 }
-
 .shirt-content.active {
   display: block;
 }
-
 .shirt {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-
 .shirt-img img {
   width: 100%;
   aspect-ratio: 1 / 1.2;

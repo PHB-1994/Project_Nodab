@@ -14,25 +14,21 @@ $(function () {
 // 시작 화면
 function shirtList() {
   const targetTap = $(this).data("tab");
-
   $(".shirt-btn").removeClass("active");
   $("#" + targetTap).addClass("active");
 
   $(".shirt-content").removeClass("active");
   $("#" + targetTap).addClass("active");
-
   const categoryMap = {
     tab1: "반팔티",
     tab2: "긴팔티",
     tab3: "셔츠",
   };
-
   const category = categoryMap[targetTap];
-
   $.get("../json/products.json").done(function (data) {
     console.log("찾기 가능?");
-    const filted = data.filter((p) => p.category === category);
-    const shirtHtml = filted
+    const filteredProducts = data.filter((p) => p.category === category);
+    const shirtHtml = filteredProducts
       .map(
         (s1) =>
           `
