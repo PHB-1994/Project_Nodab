@@ -1,6 +1,9 @@
 $(function () {
   $("#loginBtn").click(loginFn);
   bestFn();
+  // $("#prevBtn").click(prevFn);
+  // $("#nextBtn").click(nextFn);
+
   shirtFn();
   pantsFn();
   sportFn();
@@ -57,10 +60,12 @@ function bestFn() {
   });
 }
 
+// 페이지네이션 버튼
+
 // 리스트_상의 이미지 페이지
 function shirtFn() {
   $.get("../json/products.json").done(function (data) {
-    // const ShirtImg = data.slice(0, 7);
+    const ShirtImg = data.slice(0, 7);
     $("#shirtResult").html(
       data
         .filter((s) => s.category === "상의")

@@ -7,3 +7,53 @@ a {
   text-decoration: none;
   color: black;
 }
+
+/* 로고 */
+.nav-container {
+  background-color: #201d1d;
+  height: 100%;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: white;
+  font-style: italic; /* 기울이기 */
+  margin: 0 20px; /* 왜 안 띄워지는가?? */
+}
+
+a > strong {
+  font-size: 25px;
+}
+
+.nav-btn {
+  border: none;
+  background-color: #201d1d;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  float: right;
+  margin: 10px 10px;
+}
+
+/* 네비게이션 바 */
+.nav-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.nav-link:hover {
+  background-color: #868686;
+  box-sizing: border-box;
+}

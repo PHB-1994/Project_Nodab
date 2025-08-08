@@ -14,7 +14,7 @@
     "price": 15000,
     "color": "화이트",
     "size": ["S", "M", "L", "XL"],
-    "imageUrl": "https://common.image.cf.marpple.co/files/u_193535/2022/4/original/0abc4abf04a80b4e9109500a16c6b5f487f6172b1.png?q=92&w=1480&f=jpeg&bg=f6f6f6",
+    "imageUrl": "https://pimg.mk.co.kr/news/cms/202402/08/news-p.v1.20240208.7a4ea6fcf9e3430bbecc85f3222033c6_P1.png",
     "category": "베스트"
   },
   {
@@ -41,7 +41,7 @@
     "price": 15000,
     "color": "화이트",
     "size": ["S", "M", "L", "XL"],
-    "imageUrl": "https://pimg.mk.co.kr/news/cms/202402/08/news-p.v1.20240208.7a4ea6fcf9e3430bbecc85f3222033c6_P1.png",
+    "imageUrl": "https://common.image.cf.marpple.co/files/u_193535/2022/4/original/0abc4abf04a80b4e9109500a16c6b5f487f6172b1.png?q=92&w=1480&f=jpeg&bg=f6f6f6",
     "category": "베스트"
   },
   {
@@ -80,7 +80,6 @@
     "imageUrl": "https://xen-api.linkareer.com/attachments/65832",
     "category": "베스트"
   },
-
   {
     "productId": "T001",
     "name": "베이직 반팔 티셔츠",
