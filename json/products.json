@@ -1,62 +1,86 @@
 [
   {
-    "productId": "A12345",
-    "name": "오버사이즈 반팔 티셔츠",
-    "category": "베스트",
-    "price": 19900,
-    "currency": "KRW",
-    "colors": ["화이트", "블랙", "네이비"],
-    "sizes": ["S", "M", "L", "XL"],
-    "stock": {
-      "화이트": { "S": 12, "M": 5, "L": 0, "XL": 7 },
-      "블랙": { "S": 3, "M": 8, "L": 4, "XL": 0 },
-      "네이비": { "S": 6, "M": 2, "L": 9, "XL": 1 }
-    },
-    "material": "면 100%",
-    "description": "부드러운 코튼 소재의 오버사이즈 반팔 티셔츠입니다. 데일리룩에 잘 어울리는 기본 아이템.",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
     "imageUrl": "https://sitem.ssgcdn.com/33/12/62/item/1000540621233_i1_750.jpg",
-    "brand": "SimpleWear",
-    "isNew": true,
-    "rating": 4.5
+    "category": "베스트"
   },
   {
-    "productId": "B45678",
-    "name": "스트레이트 핏 데님 팬츠",
-    "category": "베스트",
-    "price": 34900,
-    "currency": "KRW",
-    "colors": ["연청", "진청"],
-    "sizes": ["28", "30", "32", "34", "36"],
-    "stock": {
-      "연청": { "28": 4, "30": 6, "32": 8, "34": 5, "36": 2 },
-      "진청": { "28": 3, "30": 2, "32": 7, "34": 4, "36": 1 }
-    },
-    "material": "면 98%, 폴리우레탄 2%",
-    "description": "편안한 착용감과 깔끔한 라인의 스트레이트 핏 데님 팬츠입니다.",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
     "imageUrl": "https://common.image.cf.marpple.co/files/u_193535/2022/4/original/0abc4abf04a80b4e9109500a16c6b5f487f6172b1.png?q=92&w=1480&f=jpeg&bg=f6f6f6",
-    "brand": "UrbanDenim",
-    "isNew": false,
-    "rating": 4.2
+    "category": "베스트"
   },
   {
-    "productId": "C78901",
-    "name": "경량 패딩 자켓",
-    "category": "베스트",
-    "price": 59900,
-    "currency": "KRW",
-    "colors": ["블랙", "카키"],
-    "sizes": ["M", "L", "XL", "XXL"],
-    "stock": {
-      "블랙": { "M": 10, "L": 5, "XL": 0, "XXL": 3 },
-      "카키": { "M": 2, "L": 1, "XL": 4, "XXL": 0 }
-    },
-    "material": "폴리에스터 100%",
-    "description": "가볍고 따뜻한 경량 패딩 자켓으로 간절기 및 겨울철에 착용하기 좋습니다.",
-    "imageUrl": "https://common.image.cf.marpple.co/files/u_193535/2022/4/original/d0b1c1213ee8e4feb8a01ea961cba0d08247cd1a1.png?q=92&w=1480&f=jpeg&bg=f6f6f6",
-    "brand": "CozyFit",
-    "isNew": true,
-    "rating": 4.8
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/1458/4c1f1134687e4c8559f374e8d2c1deb8a93bea009166df43929dc98385f1.jpg",
+    "category": "베스트"
   },
+  {
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/03/1000_linda2.jpg",
+    "category": "베스트"
+  },
+  {
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://pimg.mk.co.kr/news/cms/202402/08/news-p.v1.20240208.7a4ea6fcf9e3430bbecc85f3222033c6_P1.png",
+    "category": "베스트"
+  },
+  {
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/08/1000_bb.jpg",
+    "category": "베스트"
+  },
+  {
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://dimg.donga.com/wps/NEWS/IMAGE/2022/03/28/112570601.2.png",
+    "category": "베스트"
+  },
+  {
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://img.etoday.co.kr/pto_db/2021/09/600/20210901174122_1661828_1200_911.jpg",
+    "category": "베스트"
+  },
+  {
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://xen-api.linkareer.com/attachments/65832",
+    "category": "베스트"
+  },
+
   {
     "productId": "T001",
     "name": "베이직 반팔 티셔츠",

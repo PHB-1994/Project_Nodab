@@ -48,10 +48,11 @@ function bestFn() {
           (bimg) =>
             `
           <div class="best-img">
-            <img src="${bimg.imageUrl}"/>
+            <img src="${bimg.imageUrl}" alt="${bimg.category}"/>
           </div>
           `
         )
+        .join("")
     );
   });
 }
