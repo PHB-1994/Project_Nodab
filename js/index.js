@@ -96,8 +96,7 @@ function pantsFn() {
             `
           <a href="#" class="product-item">
             <img src="${p.imageUrl}" alt="${p.category}"/>
-            <p>${p.name}</p>
-            <p>가격 : ${p.price}</p>
+
           </a>
           `
         )

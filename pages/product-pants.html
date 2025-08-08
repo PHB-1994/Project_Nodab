@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>상의페이지</title>
+    <title></title>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/global.css" />
-    <link rel="stylesheet" href="../css/product-shirt.css" />
+    <link rel="stylesheet" href="../css/product-pants.css" />
     <link rel="icon" type="image/png" href="../image/25.png" />
   </head>
   <body>
@@ -44,19 +44,18 @@
       </ul>
     </div>
 
-    <div class="shirt-list">
-      <button class="shirt-btn active" data-tab="tab1">반팔티</button>
-      <button class="shirt-btn" data-tab="tab2">긴발티</button>
-      <button class="shirt-btn" data-tab="tab3">셔츠</button>
+    <div class="pants-list">
+      <button class="pants-btn active" data-tab="tab1">반바지</button>
+      <button class="pants-btn" data-tab="tab2">긴바지</button>
     </div>
-    <div class="shirt-content active" id="tab1">
-      <div id="shirtResult1" class="shirt"></div>
-    </div>
-    <div class="shirt-content" id="tab1">
-      <div id="shirtResult2" class="shirt"></div>
+    <div class="pants-content active" id="tab1">
+      <div id="pantsResult1" class="pants"></div>
     </div>
     <div class="shirt-content" id="tab1">
-      <div id="shirtResult3" class="shirt"></div>
+      <div id="pantsResult2" class="pants"></div>
+    </div>
+    <div class="shirt-content" id="tab1">
+      <div id="pantsResult3" class="pants"></div>
     </div>
     <div class="page">
       <button class="page-btn" id="prevBtn">이전</button>
@@ -69,7 +68,6 @@
     </a>
 
     <div class="banner" id="bannerResult"></div>
-
-    <script src="../js/product-shirt.js"></script>
+    <script src="../js/product-pants.js"></script>
   </body>
 </html>

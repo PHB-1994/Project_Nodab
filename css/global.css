@@ -58,6 +58,31 @@ a > strong {
   box-sizing: border-box;
 }
 
+/* 페이지 네이션 버튼 */
+.page {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.page-btn {
+  width: 70px;
+  height: 30px;
+  margin: 0 20px;
+  background-color: #c4cad1;
+  border: none;
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.page span {
+  font-size: 18px;
+}
+
 /* 배너 */
 .banner {
   background-color: #e2e2e2;

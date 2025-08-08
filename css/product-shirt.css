@@ -1,9 +1,3 @@
-.list-menu {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
 .shirt-btn {
   border: 1px solid #c5c5c5;
   border-radius: 20px;
@@ -38,7 +32,7 @@
 
 .shirt-content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   text-align: center;
 }
@@ -46,4 +40,13 @@
   width: 100%;
   aspect-ratio: 1 / 1.2;
   object-fit: cover;
+}
+
+.shirt-img strong {
+  font-size: 15px;
+}
+
+.shirt-img p {
+  margin: 0 auto;
+  font-size: 13px;
 }
