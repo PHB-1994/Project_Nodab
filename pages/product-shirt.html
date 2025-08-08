@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/global.css" />
-    <link rel="stylesheet" href="../css/product-list.css" />
+    <link rel="stylesheet" href="../css/product-shirt.css" />
     <link rel="icon" type="image/png" href="../image/25.png" />
   </head>
   <body>
@@ -44,24 +44,27 @@
       </ul>
     </div>
 
-    <div class="list-menu">
-      <button class="shirt-btn">
-        <a href="#shirtResult" class="scroll">상의</a>
-      </button>
-      <button class="shirt-btn">
-        <a href="#pantsResult" class="scroll">하의</a>
-      </button>
-      <button class="shirt-btn">
-        <a href="#sportResult" class="scroll">운동복</a>
-      </button>
-      <button class="shirt-btn">
-        <a href="#coatResult" class="scroll">코트</a>
-      </button>
-      <button class="shirt-btn">
-        <a href="#paddingResult" class="scroll">패딩</a>
-      </button>
+    <div class="shirt-list">
+      <button class="shirt-btn active" data-tab="tab1">반팔티</button>
+      <button class="shirt-btn" data-tab="tab2">긴발티</button>
+      <button class="shirt-btn" data-tab="tab3">셔츠</button>
+    </div>
+    <div class="shirt-content active" id="tab1">
+      <div id="shirtResult1" class="shirt"></div>
+    </div>
+    <div class="shirt-content" id="tab1">
+      <div id="shirtResult2" class="shirt"></div>
+    </div>
+    <div class="shirt-content" id="tab1">
+      <div id="shirtResult3" class="shirt"></div>
     </div>
 
-    <script src="../js/product-list.js"></script>
+    <a href="#top" class="clothes-top">
+      <i class="fa-solid fa-angle-up" style="color: black"></i>
+    </a>
+
+    <div class="banner" id="bannerResult"></div>
+
+    <script src="../js/product-shirt.js"></script>
   </body>
 </html>

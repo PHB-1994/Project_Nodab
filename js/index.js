@@ -42,7 +42,7 @@ function loginFn() {
 
 // 베스트 상품 이미지 페이지
 function bestFn() {
-  $.get("../json/products.json").done(function (data) {
+  $.get("../json/contents.json").done(function (data) {
     const bestImg = data.slice(0, 3);
     $("#bestResult").html(
       bestImg
@@ -64,7 +64,7 @@ function bestFn() {
 
 // 리스트_상의 이미지 페이지
 function shirtFn() {
-  $.get("../json/products.json").done(function (data) {
+  $.get("../json/contents.json").done(function (data) {
     const ShirtImg = data.slice(0, 7);
     $("#shirtResult").html(
       data
@@ -86,7 +86,7 @@ function shirtFn() {
 
 // 리스트 바지 이미지 페이지
 function pantsFn() {
-  $.get("../json/products.json").done(function (data) {
+  $.get("../json/contents.json").done(function (data) {
     // const ShirtImg = data.slice(0, 7);
     $("#pantsResult").html(
       data
@@ -108,7 +108,7 @@ function pantsFn() {
 
 // 리스트 운동복 이미지 페이지
 function sportFn() {
-  $.get("../json/products.json").done(function (data) {
+  $.get("../json/contents.json").done(function (data) {
     // const ShirtImg = data.slice(0, 7);
     $("#sportResult").html(
       data
@@ -130,7 +130,7 @@ function sportFn() {
 
 // 리스트 코트 이미지 페이지
 function coatFn() {
-  $.get("../json/products.json").done(function (data) {
+  $.get("../json/contents.json").done(function (data) {
     // const ShirtImg = data.slice(0, 7);
     $("#coatResult").html(
       data
@@ -152,7 +152,7 @@ function coatFn() {
 
 // 리스트 패딩 이미지 페이지
 function paddingFn() {
-  $.get("../json/products.json").done(function (data) {
+  $.get("../json/contents.json").done(function (data) {
     // const ShirtImg = data.slice(0, 7);
     $("#paddingResult").html(
       data
@@ -172,6 +172,7 @@ function paddingFn() {
   });
 }
 
+// 베너
 function banner() {
   $.get("../json/banner.json").done(function (data) {
     console.log("데이터?");

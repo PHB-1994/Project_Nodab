@@ -147,24 +147,3 @@
   justify-content: center;
 }
 
-/* 배너 */
-.banner {
-  background-color: #e2e2e2;
-  position: bottom;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-.ban-info {
-  margin: 10px auto;
-}
-
-.ban-text {
-  text-align: center;
-  margin-left: 10px;
-  padding: 2px;
-}
-.banner p {
-  font-size: 12px;
-}
