@@ -31,17 +31,17 @@ function shirtList() {
 
   $.get("../json/products.json").done(function (data) {
     console.log("찾기 가능?");
-    const filted = data.filter((p) => p.category === category);
+    const filted = data.filter((s) => s.category === category);
     const shirtHtml = filted
       .map(
-        (s1) =>
+        (s) =>
           `
           <a href="#" class="shirt-img">
-            <img src="${s1.imageUrl}" alt="${s1.category}"/>
-            <strong>${s1.name}</strong>
-            <p>${s1.description}</p>
-            <p>색상 : ${s1.color}</p>
-            <p>가격 : ${s1.price}</p>
+            <img src="${s.imageUrl}" alt="${s.category}"/>
+            <strong>${s.name}</strong>
+            <p>${s.description}</p>
+            <p>색상 : ${s.color}</p>
+            <p>가격 : ${s.price}</p>
           </a>
           `
       )

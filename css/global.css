@@ -104,3 +104,20 @@ a > strong {
 .banner p {
   font-size: 12px;
 }
+
+/* 항목 이동 버튼 */
+.clothes-top {
+  position: fixed;
+  bottom: 50px;
+  right: 270px;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

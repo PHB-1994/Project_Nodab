@@ -1,30 +1,43 @@
 $(function () {
+  $(".pants-btn").click(pantsList);
+
+  $(".pants-btn[data-tab='tab1']").trigger("click");
+
   banner();
 });
 
 // 시작 화면
 function pantsList() {
   const targetTap = $(this).data("tab");
-  $(".pants-btn").removeClass("active");
-  $(this).addClass("active");
 
-  $(".pants-content").slideUp();
-  $("#" + targetTap).slideDown();
+  $(".pants-btn").removeClass("active");
+  $("#" + targetTap).addClass("active");
+
+  $(".pants-content").removeClass("active");
+  $("#" + targetTap).addClass("active");
+
+  const categoryMap = {
+    tab1: "반바지",
+    tab2: "긴바지",
+  };
+
+  const category = categoryMap[targetTap];
 
   $.get("../json/products.json").done(function (data) {
     console.log("찾기 가능?");
-    const pantsCut = data.slice(0, 12);
-    const pantsHtml = pantsCut
-      .filter((s1) => s1.category === "바지")
+
+    const filted = data.filter((p) => p.category === category);
+
+    const pantsHtml = filted
       .map(
-        (s1) =>
+        (p) =>
           `
           <a href="#" class="shirt-img">
-            <img src="${s1.imageUrl}" alt="${s1.category}"/>
-            <strong>${s1.name}</strong>
-            <p>${s1.description}</p>
-            <p>색상 : ${s1.color}</p>
-            <p>가격 : ${s1.price}</p>
+            <img src="${p.imageUrl}" alt="${p.category}"/>
+            <strong>${p.name}</strong>
+            <p>${p.description}</p>
+            <p>색상 : ${p.color}</p>
+            <p>가격 : ${p.price}</p>
           </a>
           `
       )
