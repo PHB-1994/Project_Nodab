@@ -943,5 +943,205 @@
     "color": "딥 네이비",
     "description": "신축성 좋은 기능성 소재로 제작된 테크 스트레치 팬츠.",
     "category": "긴바지"
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "name": "에어쿨 반팔 트레이닝 세트",
+    "price": 52000,
+    "imageUrl": "",
+    "color": "라이트 그레이",
+    "description": "쿨링 반팔 티셔츠와 경량 반바지 구성의 트레이닝 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "name": "드라이핏 민소매 세트",
+    "price": 49000,
+    "imageUrl": "",
+    "color": "네이비",
+    "description": "민소매 상의와 숏팬츠가 포함된 기능성 운동복 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "name": "메쉬쿨 트레이닝 세트",
+    "price": 55000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "메쉬 소재로 구성된 통기성 좋은 여름 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "name": "UV 차단 스포츠 세트",
+    "price": 58000,
+    "imageUrl": "",
+    "color": "차콜",
+    "description": "자외선 차단 소재가 적용된 반팔+반바지 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "name": "라이트핏 액티브 세트",
+    "price": 51000,
+    "imageUrl": "",
+    "color": "화이트",
+    "description": "가볍고 편안한 착용감의 기능성 여름 운동복 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "name": "쿨 슬리브리스 트레이닝 세트",
+    "price": 47000,
+    "imageUrl": "",
+    "color": "카키",
+    "description": "민소매 상의와 시원한 반바지 구성의 여름 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "name": "에센셜 썸머 세트",
+    "price": 53000,
+    "imageUrl": "",
+    "color": "네이비",
+    "description": "일상과 운동 모두 가능한 베이직 여름 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "name": "2-in-1 하이브리드 여름 세트",
+    "price": 59000,
+    "imageUrl": "",
+    "color": "스카이 블루",
+    "description": "이너 레깅스가 포함된 반바지와 쿨 티셔츠 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "name": "스포츠 라이트 세트",
+    "price": 50000,
+    "imageUrl": "",
+    "color": "민트",
+    "description": "라이트한 무게감의 여름 운동복 상하의 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "name": "드라이탑 숏세트",
+    "price": 46000,
+    "imageUrl": "",
+    "color": "블루그레이",
+    "description": "흡습속건 티셔츠와 트레이닝 숏팬츠 조합.",
+    "category": "여름용"
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "name": "모던 썸머 트레이닝 세트",
+    "price": 54000,
+    "imageUrl": "",
+    "color": "모카",
+    "description": "깔끔한 디자인의 기능성 여름 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "name": "컴포트 드라이 세트",
+    "price": 52000,
+    "imageUrl": "",
+    "color": "라임",
+    "description": "가볍고 편안한 착용감의 드라이 여름 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "name": "울트라 쿨 트레이닝 세트",
+    "price": 60000,
+    "imageUrl": "",
+    "color": "아이보리",
+    "description": "냉감 기능이 극대화된 여름용 운동 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "name": "아이스핏 민소매 세트",
+    "price": 47000,
+    "imageUrl": "",
+    "color": "퍼플",
+    "description": "시원한 민소매 상의와 반바지 구성의 여름 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "name": "에어플로우 메시 세트",
+    "price": 56000,
+    "imageUrl": "",
+    "color": "블랙/화이트",
+    "description": "전면 메쉬 디자인으로 통기성 극대화.",
+    "category": "여름용"
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "name": "서머 플렉스 트레이닝 세트",
+    "price": 54000,
+    "imageUrl": "",
+    "color": "브릭 레드",
+    "description": "신축성과 통기성이 우수한 여름 트레이닝복.",
+    "category": "여름용"
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "name": "썸머 스트레치 숏세트",
+    "price": 48000,
+    "imageUrl": "",
+    "color": "라이트 베이지",
+    "description": "얇고 쫀쫀한 신축소재의 여름 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "name": "액티브 쿨드라이 세트",
+    "price": 59000,
+    "imageUrl": "",
+    "color": "블루",
+    "description": "고기능성 원단을 사용한 여름 스포츠 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "name": "심플 피트니스 세트",
+    "price": 50000,
+    "imageUrl": "",
+    "color": "차콜 그레이",
+    "description": "기본에 충실한 여름용 상하의 운동복 세트.",
+    "category": "여름용"
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "name": "세미 루즈핏 썸머 세트",
+    "price": 53000,
+    "imageUrl": "",
+    "color": "크림",
+    "description": "루즈핏 상의와 밴딩 팬츠가 포함된 세트.",
+    "category": "여름용"
   }
 ]
