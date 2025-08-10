@@ -1743,5 +1743,405 @@
     "color": "탄",
     "description": "무스탕 안감이 포함된 따뜻한 하프코트.",
     "category": "코트 겨울용"
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "name": "베이직 숏패딩",
+    "price": 89000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "간편하게 착용 가능한 베이직한 디자인의 숏패딩.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "name": "오버핏 라이트 숏패딩",
+    "price": 97000,
+    "imageUrl": "",
+    "color": "아이보리",
+    "description": "오버핏으로 스타일리시하고 가벼운 숏패딩.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "name": "하이넥 숏패딩",
+    "price": 99000,
+    "imageUrl": "",
+    "color": "카키",
+    "description": "목을 덮는 하이넥으로 보온성 높은 숏패딩.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "name": "무광 숏패딩",
+    "price": 95000,
+    "imageUrl": "",
+    "color": "그레이",
+    "description": "무광 원단으로 깔끔하고 고급스러운 느낌.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "name": "포켓 디테일 숏패딩",
+    "price": 93000,
+    "imageUrl": "",
+    "color": "베이지",
+    "description": "포켓이 포인트인 실용적인 숏패딩.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "name": "유광 숏패딩",
+    "price": 88000,
+    "imageUrl": "",
+    "color": "실버",
+    "description": "광택감 있는 소재로 개성 있는 스타일 완성.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "name": "웰론 숏패딩",
+    "price": 91000,
+    "imageUrl": "",
+    "color": "화이트",
+    "description": "가볍고 따뜻한 웰론 충전재 사용.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "name": "하이넥 스트링 숏패딩",
+    "price": 96000,
+    "imageUrl": "",
+    "color": "딥 그린",
+    "description": "하이넥에 스트링 디테일을 더한 숏패딩.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "name": "크롭 숏패딩",
+    "price": 87000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "크롭 디자인으로 트렌디한 무드를 연출.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "name": "컬러풀 숏패딩",
+    "price": 89000,
+    "imageUrl": "",
+    "color": "레드",
+    "description": "강렬한 컬러감으로 포인트 주기 좋은 아이템.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "name": "셔링 숏패딩",
+    "price": 92000,
+    "imageUrl": "",
+    "color": "브라운",
+    "description": "소매와 밑단에 셔링이 들어간 여성스러운 디자인.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "name": "심플 라인 숏패딩",
+    "price": 89000,
+    "imageUrl": "",
+    "color": "네이비",
+    "description": "군더더기 없이 깔끔한 실루엣.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "name": "패치 포인트 숏패딩",
+    "price": 97000,
+    "imageUrl": "",
+    "color": "차콜",
+    "description": "패치 디테일이 돋보이는 캐주얼 숏패딩.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "name": "경량 숏패딩",
+    "price": 78000,
+    "imageUrl": "",
+    "color": "크림",
+    "description": "경량 소재로 데일리하게 착용 가능.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "name": "퍼카라 숏패딩",
+    "price": 102000,
+    "imageUrl": "",
+    "color": "와인",
+    "description": "퍼카라로 따뜻하고 고급스러운 느낌.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "name": "배색 숏패딩",
+    "price": 92000,
+    "imageUrl": "",
+    "color": "네이비/화이트",
+    "description": "배색 포인트로 유니크한 디자인.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "name": "집업 스타일 숏패딩",
+    "price": 86000,
+    "imageUrl": "",
+    "color": "그레이",
+    "description": "지퍼 클로징이 간편한 숏패딩 스타일.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "name": "카라 숏패딩",
+    "price": 89000,
+    "imageUrl": "",
+    "color": "블루",
+    "description": "기본 카라 스타일로 어디에나 잘 어울림.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "name": "버튼업 숏패딩",
+    "price": 93000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "지퍼 대신 버튼으로 클로징하는 숏패딩.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "name": "울믹스 숏패딩",
+    "price": 109000,
+    "imageUrl": "",
+    "color": "브라운",
+    "description": "울 혼방 소재로 따뜻함을 더한 프리미엄 숏패딩.",
+    "category": "숏패딩"
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "name": "클래식 롱패딩",
+    "price": 139000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "기본에 충실한 디자인으로 데일리하게 입기 좋은 롱패딩.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "name": "하이넥 롱패딩",
+    "price": 149000,
+    "imageUrl": "",
+    "color": "차콜",
+    "description": "하이넥 스타일로 목까지 따뜻하게 감싸줍니다.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "name": "오버핏 롱패딩",
+    "price": 155000,
+    "imageUrl": "",
+    "color": "아이보리",
+    "description": "여유 있는 오버핏으로 스타일과 보온성을 동시에.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "name": "라쿤퍼 롱패딩",
+    "price": 179000,
+    "imageUrl": "",
+    "color": "딥 그린",
+    "description": "라쿤 퍼 후드가 포함된 고급스러운 롱패딩.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "name": "경량 롱패딩",
+    "price": 129000,
+    "imageUrl": "",
+    "color": "네이비",
+    "description": "가볍고 따뜻한 착용감의 경량 패딩.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "name": "퍼카라 롱패딩",
+    "price": 169000,
+    "imageUrl": "",
+    "color": "브라운",
+    "description": "탈부착 가능한 퍼카라로 다양한 스타일 연출 가능.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "name": "양면 롱패딩",
+    "price": 189000,
+    "imageUrl": "",
+    "color": "블랙/그레이",
+    "description": "양면으로 활용 가능한 실용적인 롱패딩.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "name": "패치 디테일 롱패딩",
+    "price": 142000,
+    "imageUrl": "",
+    "color": "카키",
+    "description": "팔 부분 패치가 포인트인 밀리터리 무드 패딩.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "name": "벨티드 롱패딩",
+    "price": 159000,
+    "imageUrl": "",
+    "color": "베이지",
+    "description": "허리 벨트가 포함되어 슬림한 라인을 연출합니다.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "name": "유광 롱패딩",
+    "price": 135000,
+    "imageUrl": "",
+    "color": "실버",
+    "description": "광택감 있는 소재로 트렌디한 룩 연출.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "name": "무광 롱패딩",
+    "price": 138000,
+    "imageUrl": "",
+    "color": "다크 브라운",
+    "description": "은은한 무광 원단으로 고급스럽고 깔끔한 스타일.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "name": "스트링 롱패딩",
+    "price": 145000,
+    "imageUrl": "",
+    "color": "라이트 그레이",
+    "description": "허리 스트링으로 실루엣 조절이 가능한 롱패딩.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "name": "심플 라인 롱패딩",
+    "price": 131000,
+    "imageUrl": "",
+    "color": "블루그레이",
+    "description": "깔끔한 절개선과 군더더기 없는 디자인.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "name": "다운 롱패딩",
+    "price": 189000,
+    "imageUrl": "",
+    "color": "화이트",
+    "description": "다운 충전재로 보온성이 뛰어난 겨울 필수템.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "name": "울믹스 롱패딩",
+    "price": 178000,
+    "imageUrl": "",
+    "color": "차콜",
+    "description": "울 혼방 원단으로 제작된 프리미엄 롱패딩.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "name": "사이드슬릿 롱패딩",
+    "price": 134000,
+    "imageUrl": "",
+    "color": "네이비",
+    "description": "사이드 슬릿 디테일로 활동성이 뛰어난 디자인.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "name": "후드 롱패딩",
+    "price": 143000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "넉넉한 후드가 포함되어 바람 차단에 효과적.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "name": "버튼업 롱패딩",
+    "price": 139000,
+    "imageUrl": "",
+    "color": "그레이",
+    "description": "지퍼 없이 버튼으로 여미는 감성적인 디자인.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "name": "카라 롱패딩",
+    "price": 132000,
+    "imageUrl": "",
+    "color": "크림",
+    "description": "기본 카라 디자인으로 포멀한 스타일에도 잘 어울림.",
+    "category": "롱패딩"
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "name": "하프집업 롱패딩",
+    "price": 127000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "하프 집업 클로징으로 유니크한 스타일 완성.",
+    "category": "롱패딩"
   }
 ]
