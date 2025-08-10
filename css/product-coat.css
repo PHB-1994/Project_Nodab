@@ -1,0 +1,62 @@
+.coat-btn {
+  border: 1px solid #c5c5c5;
+  border-radius: 20px;
+  background-color: #eee;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.coat-btn.active {
+  background: #c4cad1;
+  color: black;
+  border-bottom-color: #c4cad1;
+}
+
+.coat-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.coat-btn:active {
+  transform: translateY(0);
+}
+
+/* 리스트 */
+.coat-list {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 30px;
+}
+
+.coat-content {
+  display: none;
+  text-align: center;
+}
+
+.coat-content.active {
+  display: block;
+}
+
+.coat {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.coat-img img {
+  width: 100%;
+  aspect-ratio: 1 / 1.2;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+
+.coat-img strong {
+  font-size: 15px;
+}
+
+.coat-img p {
+  margin: 0 auto;
+  font-size: 13px;
+}

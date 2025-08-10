@@ -1343,5 +1343,405 @@
     "color": "그린 블랙",
     "description": "극한의 추위에도 견디는 방한 전용 트레이닝 세트.",
     "category": "겨울용"
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "name": "라이트 린넨 싱글 코트",
+    "price": 79000,
+    "imageUrl": "",
+    "color": "라이트 베이지",
+    "description": "시원한 린넨 소재의 여름용 싱글 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "name": "썸머 코튼 오버코트",
+    "price": 85000,
+    "imageUrl": "",
+    "color": "라이트 그레이",
+    "description": "얇고 통기성 좋은 코튼 소재의 오버핏 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "name": "린넨 블렌드 트렌치코트",
+    "price": 89000,
+    "imageUrl": "",
+    "color": "크림",
+    "description": "린넨과 코튼 혼방 소재로 시원한 착용감 제공.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "name": "썸머 숄카라 코트",
+    "price": 87000,
+    "imageUrl": "",
+    "color": "샌드 브라운",
+    "description": "얇은 숄카라 디자인의 가벼운 여름용 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "name": "썸머 테일러드 코트",
+    "price": 91000,
+    "imageUrl": "",
+    "color": "카키 베이지",
+    "description": "얇은 테일러드 핏의 여름 아우터로 활용도 높음.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "name": "코튼 트윌 라이트코트",
+    "price": 82000,
+    "imageUrl": "",
+    "color": "올리브",
+    "description": "트윌 조직으로 내구성과 통기성을 높인 여름 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "name": "크롭 경량 코트",
+    "price": 76000,
+    "imageUrl": "",
+    "color": "라이트 블루",
+    "description": "경량소재로 제작된 크롭핏 썸머 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "name": "썸머 헨리넥 코트",
+    "price": 80000,
+    "imageUrl": "",
+    "color": "네추럴",
+    "description": "헨리넥 스타일로 간결한 느낌을 주는 얇은 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "name": "에어리 롱코트",
+    "price": 93000,
+    "imageUrl": "",
+    "color": "라이트 옐로우",
+    "description": "통풍이 잘 되는 구조로 설계된 시원한 롱코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "name": "라이트 후디 롱코트",
+    "price": 84000,
+    "imageUrl": "",
+    "color": "라벤더 그레이",
+    "description": "후드 포함된 경량 롱코트, 봄여름 간절기용.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "name": "썸머 싱글 브레스티드 코트",
+    "price": 79000,
+    "imageUrl": "",
+    "color": "민트",
+    "description": "싱글 버튼 디자인의 산뜻한 여름용 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "name": "쿨링 셋업 코트",
+    "price": 97000,
+    "imageUrl": "",
+    "color": "페일 블루",
+    "description": "쿨링 기능성 원단으로 제작된 셋업형 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "name": "얇은 코튼 바람막이 코트",
+    "price": 75000,
+    "imageUrl": "",
+    "color": "스카이블루",
+    "description": "바람막이 기능을 갖춘 코튼 경량 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "name": "썸머 오픈카라 코트",
+    "price": 88000,
+    "imageUrl": "",
+    "color": "라이트 핑크",
+    "description": "오픈카라 디자인으로 가볍게 착용 가능한 여름 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "name": "루즈핏 썸머 셔츠 코트",
+    "price": 79000,
+    "imageUrl": "",
+    "color": "화이트",
+    "description": "셔츠처럼 입을 수 있는 루즈핏 코트 스타일.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "name": "썸머 데님코트",
+    "price": 87000,
+    "imageUrl": "",
+    "color": "라이트 데님",
+    "description": "얇은 데님 소재로 제작된 트렌디한 썸머 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "name": "리넨 카라 코트",
+    "price": 83000,
+    "imageUrl": "",
+    "color": "내추럴 브라운",
+    "description": "린넨 소재의 내추럴한 디자인의 여름용 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "name": "썸머 박시핏 코트",
+    "price": 86000,
+    "imageUrl": "",
+    "color": "애쉬 블루",
+    "description": "박시한 실루엣으로 활동성이 뛰어난 여름 코트.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "name": "라이트 박시 트렌치",
+    "price": 95000,
+    "imageUrl": "",
+    "color": "라이트 카키",
+    "description": "트렌치 디자인을 라이트하게 풀어낸 여름 아우터.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "name": "하프 슬리브 코트",
+    "price": 77000,
+    "imageUrl": "",
+    "color": "라임 그레이",
+    "description": "소매가 짧아 여름철에도 쾌적한 착용감 제공.",
+    "category": "코트 여름용"
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "name": "클래식 울 더블코트",
+    "price": 139000,
+    "imageUrl": "",
+    "color": "차콜 그레이",
+    "description": "정통 더블브레스트 스타일의 클래식 울 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "name": "오버핏 캐시미어 코트",
+    "price": 169000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "고급 캐시미어 혼방 소재의 오버핏 롱코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "name": "벨티드 싱글 코트",
+    "price": 125000,
+    "imageUrl": "",
+    "color": "베이지",
+    "description": "허리 벨트로 실루엣 조절이 가능한 싱글 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "name": "핸드메이드 싱글 코트",
+    "price": 189000,
+    "imageUrl": "",
+    "color": "브라운",
+    "description": "핸드메이드로 제작된 고급 울 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "name": "더플 체크 코트",
+    "price": 129000,
+    "imageUrl": "",
+    "color": "그레이 체크",
+    "description": "클래식한 체크 패턴이 돋보이는 더플코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "name": "울 트위드 코트",
+    "price": 158000,
+    "imageUrl": "",
+    "color": "트위드 그레이",
+    "description": "빈티지한 텍스처의 트위드 롱코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "name": "카라리스 울 코트",
+    "price": 132000,
+    "imageUrl": "",
+    "color": "라이트 브라운",
+    "description": "카라 없는 디자인으로 유니크한 분위기를 연출.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "name": "하이넥 울 코트",
+    "price": 149000,
+    "imageUrl": "",
+    "color": "딥 그린",
+    "description": "하이넥 디테일이 포인트인 울 롱코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "name": "클래식 더플코트",
+    "price": 149000,
+    "imageUrl": "",
+    "color": "버건디",
+    "description": "우드 토글과 넉넉한 핏이 돋보이는 더플코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "name": "무광 울 하프코트",
+    "price": 99000,
+    "imageUrl": "",
+    "color": "다크 네이비",
+    "description": "무광 울 원단으로 차분하고 따뜻한 하프코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "name": "패딩 안감 울 코트",
+    "price": 178000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "내부에 패딩 안감으로 보온성을 극대화한 울 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "name": "후드 울 롱코트",
+    "price": 154000,
+    "imageUrl": "",
+    "color": "그레이",
+    "description": "후드가 달린 실용적인 울 롱코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "name": "퍼 트리밍 울 코트",
+    "price": 195000,
+    "imageUrl": "",
+    "color": "베이지",
+    "description": "카라와 소매에 퍼 트리밍이 돋보이는 럭셔리 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "name": "더블 버튼 울 코트",
+    "price": 135000,
+    "imageUrl": "",
+    "color": "네이비",
+    "description": "더블 버튼 디자인의 클래식 울 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "name": "체크 패턴 울 코트",
+    "price": 147000,
+    "imageUrl": "",
+    "color": "브라운 체크",
+    "description": "따뜻한 체크 패턴이 인상적인 울 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "name": "벨티드 울 롱코트",
+    "price": 165000,
+    "imageUrl": "",
+    "color": "다크 카멜",
+    "description": "벨트로 라인을 잡아주는 울 롱코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "name": "울 혼방 카라 코트",
+    "price": 128000,
+    "imageUrl": "",
+    "color": "그레이 블루",
+    "description": "울 혼방 소재로 제작된 세련된 카라 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "name": "핸드메이드 더블 울 코트",
+    "price": 185000,
+    "imageUrl": "",
+    "color": "다크 브라운",
+    "description": "고급 핸드메이드 울 원단 사용, 더블 브레스티드 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "name": "패딩 레이어드 울 코트",
+    "price": 175000,
+    "imageUrl": "",
+    "color": "블랙",
+    "description": "패딩 레이어드 디자인으로 보온성을 더한 울 코트.",
+    "category": "코트 겨울용"
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "name": "하프 무스탕 코트",
+    "price": 192000,
+    "imageUrl": "",
+    "color": "탄",
+    "description": "무스탕 안감이 포함된 따뜻한 하프코트.",
+    "category": "코트 겨울용"
   }
 ]
