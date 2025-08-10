@@ -32,7 +32,7 @@ function pantsList() {
       .map(
         (p) =>
           `
-          <a href="#" class="shirt-img">
+          <a href="#" class="pants-img">
             <img src="${p.imageUrl}" alt="${p.category}"/>
             <strong>${p.name}</strong>
             <p>${p.description}</p>
@@ -42,7 +42,8 @@ function pantsList() {
           `
       )
       .join("");
-    $("#" + targetTap).html(pantsHtml);
+    const tabNumber = targetTap.replace("tab", "");
+    $("#pantsResult" + tabNumber).html(pantsHtml);
   });
 }
 

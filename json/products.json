@@ -568,7 +568,7 @@
     "id": 1,
     "name": "베이직 코튼 반바지",
     "price": 29000,
-    "imageUrl": "",
+    "imageUrl": "https://m.hotcodeshop.com/web/product/big/202205/f07300a46992fa823f00394e6960494d.jpg",
     "color": "베이지",
     "description": "데일리로 입기 좋은 기본 디자인의 코튼 반바지입니다.",
     "category": "반바지"
@@ -577,7 +577,7 @@
     "id": 2,
     "name": "스트레치 데님 반바지",
     "price": 35000,
-    "imageUrl": "",
+    "imageUrl": "https://sitem.ssgcdn.com/01/10/89/item/1000576891001_i1_750.jpg",
     "color": "진청",
     "description": "신축성이 좋은 데님 소재로 편안한 착용감을 제공합니다.",
     "category": "반바지"
@@ -586,143 +586,160 @@
     "id": 3,
     "name": "린넨 밴딩 반바지",
     "price": 32000,
-    "imageUrl": "",
+    "imageUrl": "https://thumbnail.10x10.co.kr/webimage/image/basic600/461/B004616383.jpg?cmd=thumb&w=400&h=400&fit=true&ws=false",
     "color": "라이트 그레이",
     "description": "시원한 린넨 소재와 허리 밴딩으로 여름에 최적화된 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 4,
     "name": "카고 포켓 반바지",
     "price": 37000,
-    "imageUrl": "https://example.com/images/cargo-pocket-shorts.jpg",
+    "imageUrl": "https://missylook.com/shopimages/missylook/mobile/9/1099519_represent?1682401368",
     "color": "카키",
     "description": "실용적인 포켓 디테일이 특징인 캐주얼 카고 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 5,
     "name": "슬림핏 트레이닝 반바지",
     "price": 27000,
-    "imageUrl": "https://example.com/images/slimfit-training-shorts.jpg",
+    "imageUrl": "https://cdn.011st.com/11dims/resize/1000x1000/quality/75/11src/product/150206247/B.jpg?521070608",
     "color": "블랙",
     "description": "운동과 일상 모두 활용 가능한 슬림핏 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 6,
     "name": "하이웨이스트 데님 반바지",
     "price": 39000,
-    "imageUrl": "https://example.com/images/highwaist-denim-shorts.jpg",
+    "imageUrl": "",
     "color": "연청",
     "description": "다리가 길어 보이는 하이웨이스트 스타일의 데님 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 7,
     "name": "워싱 코튼 반바지",
     "price": 31000,
-    "imageUrl": "https://example.com/images/washing-cotton-shorts.jpg",
+    "imageUrl": "",
     "color": "올리브",
     "description": "워싱 처리된 내추럴한 무드의 코튼 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 8,
     "name": "핀턱 린넨 반바지",
     "price": 33000,
-    "imageUrl": "https://example.com/images/pintuck-linen-shorts.jpg",
+    "imageUrl": "",
     "color": "크림",
     "description": "핀턱 디테일로 깔끔한 실루엣을 연출하는 린넨 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 9,
     "name": "유틸리티 스트랩 반바지",
     "price": 36000,
-    "imageUrl": "https://example.com/images/utility-strap-shorts.jpg",
+    "imageUrl": "",
     "color": "차콜",
     "description": "스트랩 디테일로 유니크한 분위기를 더한 유틸리티 반바지.",
     "category": "반바지"
   },
   {
+    "id": 10,
     "name": "스포티 메시 반바지",
     "price": 25000,
-    "imageUrl": "https://example.com/images/sporty-mesh-shorts.jpg",
+    "imageUrl": "",
     "color": "네이비",
     "description": "통기성이 좋은 메시 소재의 활동적인 스포츠 반바지.",
     "category": "반바지"
   },
   {
+    "id": 11,
     "name": "프린트 코튼 반바지",
     "price": 34000,
-    "imageUrl": "https://example.com/images/print-cotton-shorts.jpg",
+    "imageUrl": "",
     "color": "화이트/블루 프린트",
     "description": "감각적인 프린트로 포인트를 준 코튼 반바지.",
     "category": "반바지"
   },
   {
+    "id": 12,
     "name": "드로스트링 반바지",
     "price": 28000,
-    "imageUrl": "https://example.com/images/drawstring-shorts.jpg",
+    "imageUrl": "",
     "color": "스톤",
     "description": "허리끈으로 사이즈 조절이 가능한 드로스트링 스타일.",
     "category": "반바지"
   },
   {
+    "id": 13,
     "name": "빈티지 워싱 반바지",
     "price": 36000,
-    "imageUrl": "https://example.com/images/vintage-wash-shorts.jpg",
+    "imageUrl": "",
     "color": "브라운",
     "description": "빈티지한 워싱 느낌의 감성적인 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 14,
     "name": "테크웨어 카고 반바지",
     "price": 42000,
-    "imageUrl": "https://example.com/images/techwear-cargo-shorts.jpg",
+    "imageUrl": "",
     "color": "그레이",
     "description": "미니멀하면서도 기능적인 테크웨어 무드의 반바지.",
     "category": "반바지"
   },
   {
+    "id": 15,
     "name": "레트로 스트라이프 반바지",
     "price": 30000,
-    "imageUrl": "https://example.com/images/retro-stripe-shorts.jpg",
+    "imageUrl": "",
     "color": "레드 스트라이프",
     "description": "레트로 무드의 스트라이프 패턴이 인상적인 반바지.",
     "category": "반바지"
   },
   {
+    "id": 16,
     "name": "버뮤다 슬랙스 반바지",
     "price": 41000,
-    "imageUrl": "https://example.com/images/bermuda-slacks-shorts.jpg",
+    "imageUrl": "",
     "color": "블랙",
     "description": "슬랙스 느낌의 포멀한 버뮤다 스타일 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 17,
     "name": "클래식 데님 반바지",
     "price": 37000,
-    "imageUrl": "https://example.com/images/classic-denim-shorts.jpg",
+    "imageUrl": "",
     "color": "중청",
     "description": "유행을 타지 않는 클래식한 데님 반바지입니다.",
     "category": "반바지"
   },
   {
+    "id": 18,
     "name": "버튼 디테일 반바지",
     "price": 33000,
-    "imageUrl": "https://example.com/images/button-detail-shorts.jpg",
+    "imageUrl": "",
     "color": "모카",
     "description": "버튼 포인트로 스타일리시한 디테일을 더한 반바지.",
     "category": "반바지"
   },
   {
+    "id": 19,
     "name": "페이즐리 패턴 반바지",
     "price": 35000,
-    "imageUrl": "https://example.com/images/paisley-pattern-shorts.jpg",
+    "imageUrl": "",
     "color": "블랙/화이트",
     "description": "트렌디한 페이즐리 패턴으로 눈길을 끄는 아이템.",
     "category": "반바지"
   },
   {
+    "id": 20,
     "name": "와이드핏 이지 반바지",
     "price": 29000,
-    "imageUrl": "https://example.com/images/widefit-easy-shorts.jpg",
+    "imageUrl": "",
     "color": "라이트 베이지",
     "description": "넉넉한 와이드핏으로 편안한 착용감을 제공하는 이지 반바지.",
     "category": "반바지"
