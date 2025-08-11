@@ -37,7 +37,7 @@ function loginFn() {
     top=${top},
   `;
 
-  window.open("login.html", "_blank", option);
+  window.open("login.html", option);
 }
 
 // 베스트 상품 이미지 페이지

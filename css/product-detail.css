@@ -154,5 +154,23 @@
 }
 
 .box {
+  border: 1px solid rgb(224 224 224);
   margin: 0 20px;
+  height: 0;
+}
+
+.service {
+  margin: 10px 20px;
+}
+
+.service p {
+  font-size: 12px;
+  margin: 0;
+  color: black;
+}
+
+.service span {
+  font-size: 12px;
+  margin: 0;
+  color: rgb(141, 141, 141);
 }

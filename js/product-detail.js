@@ -13,14 +13,14 @@ function loadDetail(id) {
     const product = data.find((item) => Number(item.id) === Number(id)); // 숫자로 변환
 
     if (product) {
-      제품상세보기(product);
+      productDetail(product);
     } else {
       console.log("해당 id에 맞는 상품이 없습니다.");
     }
   });
 }
 
-function 제품상세보기(product) {
+function productDetail(product) {
   $("#productPoster").attr("src", product.imageUrl);
   $("#productName").text(product.name);
   $("#productCategory").text(product.category);
