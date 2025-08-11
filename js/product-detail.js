@@ -26,8 +26,6 @@ function 제품상세보기(product) {
   $("#productCategory").text(product.category);
   $("#infoDescription").text(product.description);
   $("#infoPrice").text(product.price);
-  $("#infoSize").text(product.size);
-  $("#infoColor").text(product.color);
 }
 
 // 베너

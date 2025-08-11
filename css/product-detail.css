@@ -33,30 +33,31 @@
   font-weight: bold;
 }
 
-.love {
+.logo .love {
   background-color: white;
   border: 1px solid rgb(224 224 224);
   border-radius: 5px;
   font-weight: bold;
+  font-size: 11px;
 }
 
 .info-category {
   color: rgb(141, 141, 141);
   margin-left: 20px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .product-info h1 {
   margin-top: 5px;
   margin-left: 20px;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Monospace;
 }
 
 .info-description {
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   font-style: italic;
 }
@@ -64,7 +65,7 @@
 .info-row {
   margin-left: 20px;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 12px;
   color: rgb(141, 141, 141);
 }
 
@@ -78,24 +79,80 @@
   padding: 10px;
   margin: 0 20px;
   margin-top: 20px;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(235, 235, 235);
   color: rgb(36 94 255);
   text-align: left;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .sale {
   color: red;
   font-weight: bold;
+  font-size: 15px;
+}
+
+.aa {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 4px;
+  margin: 0 20px;
+  margin-top: 20px;
+}
+
+.bb {
+  background-color: white;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.cc {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.info-size,
+.info-color {
+  margin: 10px 20px;
+}
+
+.info-size select,
+.info-color select {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  color: rgb(141, 141, 141);
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.coice-btn {
+  margin: 30px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.add-btn {
+  border: 1px solid rgb(224 224 224);
+  border-radius: 4px;
+  background-color: white;
   font-size: 16px;
+  width: 150px;
+  padding: 10px;
 }
 
-.info-label {
-  margin-top: 100px;
+.mis-btn {
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  width: 150px;
 }
 
-.product-btn {
-  margin-left: 20px;
+.box {
+  margin: 0 20px;
 }
