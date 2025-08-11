@@ -36,19 +36,23 @@ function shirtList() {
       .map(
         (s) =>
           `
-          <a href="#" class="shirt-img">
+          <div class="shirt-img" onclick="goToDetail(${s.id})" >
             <img src="${s.imageUrl}" alt="${s.category}"/>
             <strong>${s.name}</strong>
             <p>${s.description}</p>
             <p>색상 : ${s.color}</p>
             <p>가격 : ${s.price}</p>
-          </a>
+          </div>
           `
       )
       .join("");
     const tabNumber = targetTap.replace("tab", "");
     $("#shirtResult" + tabNumber).html(shirtHtml);
   });
+}
+
+function goToDetail(shirtId) {
+  window.location.href = `product-detail.html?id=${shirtId}`;
 }
 
 // 페이지 네이션 처리 방법??
