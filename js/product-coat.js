@@ -1,4 +1,5 @@
 $(function () {
+  $("#loginBtn").click(loginFn);
   $(".coat-btn").click(coatList);
 
   $(".coat-btn[data-tab='tab1']").trigger("click");
@@ -13,6 +14,11 @@ $(function () {
     }
   });
 });
+
+// 로그인 이동 페이지
+function loginFn() {
+  window.location.href = "login.html";
+}
 
 function coatList() {
   const targetTab = $(this).data("tab");

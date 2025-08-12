@@ -1,4 +1,5 @@
 $(function () {
+  $("#loginBtn").click(loginFn);
   const 전달받은id확인 = new URLSearchParams(window.location.search).get("id");
   console.log("id 값 : ", 전달받은id확인);
 
@@ -7,9 +8,14 @@ $(function () {
   } else {
     productLoad(전달받은id확인);
   }
-kk
+  kk;
   banner();
 });
+
+// 로그인 이동 페이지
+function loginFn() {
+  window.location.href = "login.html";
+}
 
 // index 페이지에 있는 항목을 선택했을 때
 function indexLoad(id) {

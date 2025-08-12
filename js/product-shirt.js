@@ -1,6 +1,7 @@
 // let page = 1;
 
 $(function () {
+  $("#loginBtn").click(loginFn);
   $(".shirt-btn").click(shirtList);
 
   $(".shirt-btn[data-tab='tab1']").trigger("click"); // 뭐가 뭔지 모르겠음
@@ -17,6 +18,11 @@ $(function () {
     }
   });
 });
+
+// 로그인 이동 페이지
+function loginFn() {
+  window.location.href = "login.html";
+}
 
 // 시작 화면
 function shirtList() {

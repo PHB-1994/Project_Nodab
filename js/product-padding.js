@@ -1,4 +1,5 @@
 $(function () {
+  $("#loginBtn").click(loginFn);
   $(".padding-btn").click(paddingList);
 
   $(".padding-btn[data-tab='tab1']").trigger("click"); // 뭐가 뭔지 모르겠음
@@ -12,6 +13,11 @@ $(function () {
     }
   });
 });
+
+// 로그인 이동 페이지
+function loginFn() {
+  window.location.href = "login.html";
+}
 
 // 시작 화면
 function paddingList() {

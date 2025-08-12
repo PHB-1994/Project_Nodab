@@ -1,4 +1,5 @@
 $(function () {
+  $("#loginBtn").click(loginFn);
   $(".sport-btn").click(sportList);
 
   $(".sport-btn[data-tab='tab1']").trigger("click");
@@ -11,6 +12,11 @@ $(function () {
     }
   });
 });
+
+// 로그인 이동 페이지
+function loginFn() {
+  window.location.href = "login.html";
+}
 
 function sportList() {
   const targetTab = $(this).data("tab");

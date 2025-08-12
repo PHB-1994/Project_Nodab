@@ -1,5 +1,6 @@
 $(function () {
   $("#loginBtn").click(loginFn);
+  $("#signupBtn").click(signupFn);
   bestFn();
   // $("#prevBtn").click(prevFn);
   // $("#nextBtn").click(nextFn);
@@ -24,6 +25,11 @@ $(function () {
 // 로그인 이동 페이지
 function loginFn() {
   window.location.href = "login.html";
+}
+
+// 회원가입 이동 페이지
+function signupFn() {
+  window.location.href = "signup.html";
 }
 
 // 베스트 상품 이미지 페이지
