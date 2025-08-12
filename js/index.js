@@ -2,8 +2,6 @@ $(function () {
   $("#loginBtn").click(loginFn);
   $("#signupBtn").click(signupFn);
   bestFn();
-  // $("#prevBtn").click(prevFn);
-  // $("#nextBtn").click(nextFn);
 
   shirtFn();
   pantsFn();
@@ -40,10 +38,10 @@ function bestFn() {
       bestImg
         .filter((b) => b.category === "베스트")
         .map(
-          (bimg) =>
+          (item) =>
             `
-          <div class="best-img" onclick="goToDetail(${bimg.id})">
-            <img src="${bimg.imageUrl}" alt="${bimg.category}"/>
+          <div class="best-img" onclick="goToDetail(${item.id})">
+            <img src="${item.imageUrl}" alt="${item.category}"/>
           </div>
           `
         )
@@ -52,7 +50,7 @@ function bestFn() {
   });
 }
 
-// 페이지네이션 버튼
+// 페이지네이션
 
 // 리스트_상의 이미지 페이지
 function shirtFn() {

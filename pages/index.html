@@ -14,110 +14,119 @@
     <link rel="icon" type="image/png" href="../image/25.png" />
   </head>
   <body>
-    <div class="nav-container">
-      <div class="logo">
-        <a href="index.html"><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a>
-        <button class="nav-btn" id="questionBtn">문의사항</button>
-        <button class="nav-btn" id="signupBtn">회원가입</button>
-        <button class="nav-btn" id="loginBtn">로그인</button>
+    <div class="main-container">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html"
+            ><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a
+          >
+          <div class="nav-btn">
+            <button type="button" id="loginBtn">로그인 / 회원가입</button>
+            <!-- <button type="button" id="signupBtn">회원가입</button> -->
+            <button type="button" id="questionBtn">문의사항</button>
+          </div>
+        </div>
+
+        <div class="search-box">
+          <input type="text" id="searchInput" />
+        </div>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link h">홈</a>
+          </li>
+          <li class="nav-item">
+            <a href="product-shirt.html" class="nav-link">상의</a>
+          </li>
+          <li class="nav-item">
+            <a href="product-pants.html" class="nav-link">하의</a>
+          </li>
+          <li class="nav-item">
+            <a href="product-sport.html" class="nav-link">운동복</a>
+          </li>
+          <li class="nav-item">
+            <a href="product-coat.html" class="nav-link">코트</a>
+          </li>
+          <li class="nav-item">
+            <a href="product-padding.html" class="nav-link">패딩</a>
+          </li>
+        </ul>
       </div>
 
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">메인</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-shirt.html" class="nav-link">상의</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-pants.html" class="nav-link">하의</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-sport.html" class="nav-link">운동복</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-coat.html" class="nav-link">코트</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-padding.html" class="nav-link">패딩</a>
-        </li>
-      </ul>
-    </div>
+      <div class="bestResultContainer">
+        <div id="bestResult"></div>
+        <button type="button" class="best-btn" id="prevBtn">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <button type="button" class="best-btn" id="nextBtn">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
 
-    <div class="bestResultContainer">
-      <div id="bestResult"></div>
-      <button type="button" class="best-btn" id="prevBtn">
-        <i class="fa-solid fa-angle-left"></i>
-      </button>
-      <button type="button" class="best-btn" id="nextBtn">
-        <i class="fa-solid fa-angle-right"></i>
-      </button>
-    </div>
-
-    <div class="load">
+      <!-- <div class="load">
       <strong>최고의 상품이 기다리고 있습니다.</strong>
       <p>어디서나 볼 수 없는 옷들이 가득!!!</p>
       <p>마음껏 구경하세요📢</p>
-    </div>
+    </div> -->
 
-    <div class="scroll-btn">
-      <button class="scr-btn">
-        <a href="#shirtResult" class="scroll">상의</a>
-      </button>
-      <button class="scr-btn">
-        <a href="#pantsResult" class="scroll">하의</a>
-      </button>
-      <button class="scr-btn">
-        <a href="#sportResult" class="scroll">운동복</a>
-      </button>
-      <button class="scr-btn">
-        <a href="#coatResult" class="scroll">코트</a>
-      </button>
-      <button class="scr-btn">
-        <a href="#paddingResult" class="scroll">패딩</a>
-      </button>
-    </div>
+      <div class="scroll-btn">
+        <button class="scr-btn">
+          <a href="#shirtResult" class="scroll">상의</a>
+        </button>
+        <button class="scr-btn">
+          <a href="#pantsResult" class="scroll">하의</a>
+        </button>
+        <button class="scr-btn">
+          <a href="#sportResult" class="scroll">운동복</a>
+        </button>
+        <button class="scr-btn">
+          <a href="#coatResult" class="scroll">코트</a>
+        </button>
+        <button class="scr-btn">
+          <a href="#paddingResult" class="scroll">패딩</a>
+        </button>
+      </div>
 
-    <div>
-      <div class="list-images">
-        <strong>상의를 골라보세요</strong>
-        <div class="right"><a href="product-shirt.html">더보기</a></div>
+      <div>
+        <div class="list-images">
+          <strong>지금 무신사 카테고리 트렌드 셔츠 추천</strong>
+          <div class="right"><a href="product-shirt.html">더보기</a></div>
+        </div>
+        <div id="shirtResult" class="image-info"></div>
       </div>
-      <div id="shirtResult" class="image-info"></div>
-    </div>
-    <div>
-      <div class="list-images">
-        <strong>바지를 골라보세요</strong>
-        <div class="right"><a href="product-pants.html">더보기</a></div>
+      <div>
+        <div class="list-images">
+          <strong>미니멀 스타일 브랜드의 바지 아이템 추천</strong>
+          <div class="right"><a href="product-pants.html">더보기</a></div>
+        </div>
+        <div id="pantsResult" class="image-info"></div>
       </div>
-      <div id="pantsResult" class="image-info"></div>
-    </div>
-    <div>
-      <div class="list-images">
-        <strong>운동복를 골라보세요</strong>
-        <div class="right"><a href="product-sport.html">더보기</a></div>
+      <div>
+        <div class="list-images">
+          <strong>스포츠 종목 아이템 추천 피트니스</strong>
+          <div class="right"><a href="product-sport.html">더보기</a></div>
+        </div>
+        <div id="sportResult" class="image-info"></div>
       </div>
-      <div id="sportResult" class="image-info"></div>
-    </div>
-    <div>
-      <div class="list-images">
-        <strong>코트를 골라보세요</strong>
-        <div class="right"><a href="product-coat.html">더보기</a></div>
+      <div>
+        <div class="list-images">
+          <strong>눈에 띄는 신규 입점 브랜드 코트 상품</strong>
+          <div class="right"><a href="product-coat.html">더보기</a></div>
+        </div>
+        <div id="coatResult" class="image-info"></div>
       </div>
-      <div id="coatResult" class="image-info"></div>
-    </div>
-    <div>
-      <div class="list-images">
-        <strong>패딩를 골라보세요</strong>
-        <div class="right"><a href="product-padding.html">더보기</a></div>
+      <div>
+        <div class="list-images">
+          <strong>많이 찾는 깔끔한 패딩 스타일</strong>
+          <div class="right"><a href="product-padding.html">더보기</a></div>
+        </div>
+        <div id="paddingResult" class="image-info"></div>
       </div>
-      <div id="paddingResult" class="image-info"></div>
-    </div>
 
-    <a href="#top" class="clothes-top">
-      <i class="fa-solid fa-angle-up" style="color: black"></i>
-    </a>
-
+      <a href="#top" class="clothes-top">
+        <i class="fa-solid fa-angle-up" style="color: black"></i>
+      </a>
+    </div>
     <div class="banner" id="bannerResult"></div>
     <script src="../js/index.js"></script>
     <script

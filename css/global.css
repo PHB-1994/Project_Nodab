@@ -1,12 +1,11 @@
 body {
-  margin: 0 250px;
+  width: 75%;
+  margin: 0 auto;
   padding: 0;
-  background-color: #f5f5f5;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.main-container {
+  background-color: #f2f2f2;
 }
 
 /* 로고 */
@@ -15,11 +14,18 @@ a {
   height: 100%;
 }
 
+.logo {
+  margin: 0px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo > a {
+  margin-top: 10px;
   text-decoration: none;
   color: white;
-  font-style: italic; /* 기울이기 */
-  margin: 0 20px; /* 왜 안 띄워지는가?? */
+  font-style: italic;
 }
 
 a > strong {
@@ -27,36 +33,44 @@ a > strong {
 }
 
 .nav-btn {
-  border: none;
+  margin-top: 10px;
+}
+
+.nav-btn button {
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
   background-color: #201d1d;
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
+  color: rgb(204, 204, 204);
+  font-size: 13px;
   cursor: pointer;
-  float: right;
-  margin: 10px 10px;
+}
+
+/* 검색 */
+.search-box {
+}
+
+#searchInput {
+  width: 100%;
 }
 
 /* 네비게이션 바 */
 .nav-menu {
-  width: 100%;
   display: flex;
-  justify-content: center;
   list-style: none;
   margin: 0;
+  gap: 10px;
 }
 
 .nav-link {
   display: block;
-  color: white;
+  color: rgb(155, 155, 155);
   text-decoration: none;
-  padding: 10px 20px;
-  margin-top: 10px;
+  padding: 8px 4px;
 }
 
-.nav-link:hover {
-  background-color: #868686;
-  box-sizing: border-box;
+.nav-link.h {
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 /* 페이지 네이션 버튼 */
