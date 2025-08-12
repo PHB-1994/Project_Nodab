@@ -2,12 +2,29 @@ $(function () {
   const 전달받은id확인 = new URLSearchParams(window.location.search).get("id");
   console.log("id 값 : ", 전달받은id확인);
 
-  loadDetail(전달받은id확인);
-
+  if (전달받은id확인 > 100) {
+    indexLoad(전달받은id확인);
+  } else {
+    productLoad(전달받은id확인);
+  }
+kk
   banner();
 });
 
-function loadDetail(id) {
+// index 페이지에 있는 항목을 선택했을 때
+function indexLoad(id) {
+  $.get("../json/contents.json").done(function (data) {
+    const product = data.find((item) => Number(item.id) === Number(id));
+    if (product) {
+      productDetail(product);
+    } else {
+      console.log("해당하는 상품이 없습니다.");
+    }
+  });
+}
+
+// product 페이지에 있는 항목을 선택했을 때
+function productLoad(id) {
   $.get("../json/products.json").done(function (data) {
     // id에 맞는 상품 찾기
     const product = data.find((item) => Number(item.id) === Number(id)); // 숫자로 변환
@@ -15,7 +32,7 @@ function loadDetail(id) {
     if (product) {
       productDetail(product);
     } else {
-      console.log("해당 id에 맞는 상품이 없습니다.");
+      console.log("해당하는 상품이 없습니다.");
     }
   });
 }

@@ -89,3 +89,36 @@
   color: #666;
   font-size: 14px;
 }
+
+.kakao-btn {
+  display: block;
+  border: none;
+  border-radius: 4px;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: #fee500;
+  color: black;
+  width: 92%;
+  font-weight: 500;
+}
+
+.apple-btn {
+  display: block;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  width: 92%;
+  font-weight: 500;
+}
+
+.kakao-btn i {
+  font-size: 14px;
+}
+
+.apple-btn i {
+  font-size: 18px;
+  align-items: center;
+}

@@ -9,7 +9,6 @@ $(function () {
   sportFn();
   coatFn();
   paddingFn();
-  // $("#imageInfoResult").click(상의이동);
 
   banner();
 
@@ -24,20 +23,7 @@ $(function () {
 
 // 로그인 이동 페이지
 function loginFn() {
-  const widthPop = "300";
-  const heightPop = "300";
-
-  const left = (window.screen.width - widthPop) / 2;
-  const top = (window.screen.height - heightPop) / 2;
-
-  const option = `
-    width=${widthPop},
-    height=${heightPop},
-    left=${left},
-    top=${top},
-  `;
-
-  window.open("login.html", option);
+  window.location.href = "login.html";
 }
 
 // 베스트 상품 이미지 페이지
@@ -50,7 +36,7 @@ function bestFn() {
         .map(
           (bimg) =>
             `
-          <div class="best-img">
+          <div class="best-img" onclick="goToDetail(${bimg.id})">
             <img src="${bimg.imageUrl}" alt="${bimg.category}"/>
           </div>
           `
@@ -169,6 +155,11 @@ function paddingFn() {
         .join("")
     );
   });
+}
+
+// detail 페이지 이동
+function goToDetail(id) {
+  window.location.href = `product-detail.html?id=${id}`;
 }
 
 // 베너
