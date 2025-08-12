@@ -4,23 +4,31 @@ $(function () {
   $(".coat-btn[data-tab='tab1']").trigger("click");
 
   banner();
+
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() === 0) {
+      $(".clothes-top").hide();
+    } else {
+      $(".clothes-top").show();
+    }
+  });
 });
 
 function coatList() {
-  const targetTap = $(this).data("tab");
+  const targetTab = $(this).data("tab");
 
   $(".coat-btn").removeClass("active");
-  $("#" + targetTap).addClass("active");
+  $("#" + targetTab).addClass("active");
 
   $(".coat-content").removeClass("active");
-  $("#" + targetTap).addClass("active");
+  $("#" + targetTab).addClass("active");
 
   const categoryMap = {
     tab1: "코트 여름용",
     tab2: "코트 겨울용",
   };
 
-  const category = categoryMap[targetTap];
+  const category = categoryMap[targetTab];
 
   $.get("../json/products.json").done(function (data) {
     console.log("데이터 가져왔습니까?");
@@ -41,7 +49,7 @@ function coatList() {
           `
       )
       .join("");
-    const tabNumber = targetTap.replace("tab", "");
+    const tabNumber = targetTab.replace("tab", "");
     $("#coatResult" + tabNumber).html(coatHTML);
   });
 }

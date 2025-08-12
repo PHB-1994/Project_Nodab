@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>상의페이지</title>
+    <title></title>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/global.css" />
-    <link rel="stylesheet" href="../css/product-shirt.css" />
+    <link rel="stylesheet" href="../css/product-padding.css" />
     <link rel="icon" type="image/png" href="../image/25.png" />
   </head>
   <body>
@@ -44,20 +44,17 @@
       </ul>
     </div>
 
-    <div class="shirt-list">
-      <button class="shirt-btn active" data-tab="tab1">반팔티</button>
-      <button class="shirt-btn" data-tab="tab2">긴팔티</button>
-      <button class="shirt-btn" data-tab="tab3">셔츠</button>
+    <div class="padding-list">
+      <button class="padding-btn active" data-tab="tab1">숏패딩</button>
+      <button class="padding-btn" data-tab="tab2">롱패딩</button>
     </div>
-    <div class="shirt-content active" id="tab1">
-      <div id="shirtResult1" class="shirt"></div>
+    <div class="padding-content active" id="tab1">
+      <div id="paddingResult1" class="padding"></div>
     </div>
-    <div class="shirt-content" id="tab2">
-      <div id="shirtResult2" class="shirt"></div>
+    <div class="padding-content" id="tab2">
+      <div id="paddingResult2" class="padding"></div>
     </div>
-    <div class="shirt-content" id="tab3">
-      <div id="shirtResult3" class="shirt"></div>
-    </div>
+
     <div class="page">
       <button class="page-btn" id="prevBtn">이전</button>
       <span id="pageInfo">페이지 1</span>
@@ -70,6 +67,6 @@
 
     <div class="banner" id="bannerResult"></div>
 
-    <script src="../js/product-shirt.js"></script>
+    <script src="../js/product-padding.js"></script>
   </body>
 </html>

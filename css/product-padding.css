@@ -1,0 +1,62 @@
+.padding-btn {
+  border: 1px solid #c5c5c5;
+  border-radius: 20px;
+  background-color: #eee;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.padding-btn.active {
+  background: #c4cad1;
+  color: black;
+  border-bottom-color: #c4cad1;
+}
+
+.padding-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.padding-btn:active {
+  transform: translateY(0);
+}
+
+/* 리스트 */
+.padding-list {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 30px;
+}
+
+.padding-content {
+  display: none;
+  text-align: center;
+}
+
+.padding-content.active {
+  display: block;
+}
+
+.padding {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  cursor: pointer;
+}
+
+.padding-img img {
+  width: 100%;
+  aspect-ratio: 1 / 1.2;
+  object-fit: cover;
+}
+
+.padding-img strong {
+  font-size: 15px;
+}
+
+.padding-img p {
+  margin: 0 auto;
+  font-size: 13px;
+}

@@ -9,17 +9,24 @@ $(function () {
   // $("#nextBtn").click(nextBtnFn);
 
   banner();
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() === 0) {
+      $(".clothes-top").hide();
+    } else {
+      $(".clothes-top").show();
+    }
+  });
 });
 
 // 시작 화면
 function shirtList() {
-  const targetTap = $(this).data("tab");
+  const targetTab = $(this).data("tab");
 
   $(".shirt-btn").removeClass("active");
-  $("#" + targetTap).addClass("active");
+  $("#" + targetTab).addClass("active");
 
   $(".shirt-content").removeClass("active");
-  $("#" + targetTap).addClass("active");
+  $("#" + targetTab).addClass("active");
 
   const categoryMap = {
     tab1: "반팔티",
@@ -27,7 +34,7 @@ function shirtList() {
     tab3: "셔츠",
   };
 
-  const category = categoryMap[targetTap];
+  const category = categoryMap[targetTab];
 
   $.get("../json/products.json").done(function (data) {
     console.log("찾기 가능?");
@@ -46,7 +53,7 @@ function shirtList() {
           `
       )
       .join("");
-    const tabNumber = targetTap.replace("tab", "");
+    const tabNumber = targetTab.replace("tab", "");
     $("#shirtResult" + tabNumber).html(shirtHtml);
   });
 }

@@ -4,24 +4,31 @@ $(function () {
   $(".pants-btn[data-tab='tab1']").trigger("click");
 
   banner();
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() === 0) {
+      $(".clothes-top").hide();
+    } else {
+      $(".clothes-top").show();
+    }
+  });
 });
 
 // 시작 화면
 function pantsList() {
-  const targetTap = $(this).data("tab");
+  const targetTab = $(this).data("tab");
 
   $(".pants-btn").removeClass("active");
-  $("#" + targetTap).addClass("active");
+  $("#" + targetTab).addClass("active");
 
   $(".pants-content").removeClass("active");
-  $("#" + targetTap).addClass("active");
+  $("#" + targetTab).addClass("active");
 
   const categoryMap = {
     tab1: "반바지",
     tab2: "긴바지",
   };
 
-  const category = categoryMap[targetTap];
+  const category = categoryMap[targetTab];
 
   $.get("../json/products.json").done(function (data) {
     console.log("찾기 가능?");
@@ -42,7 +49,7 @@ function pantsList() {
           `
       )
       .join("");
-    const tabNumber = targetTap.replace("tab", "");
+    const tabNumber = targetTab.replace("tab", "");
     $("#pantsResult" + tabNumber).html(pantsHtml);
   });
 }

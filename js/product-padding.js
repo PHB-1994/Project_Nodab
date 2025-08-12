@@ -1,7 +1,8 @@
 $(function () {
-  $(".sport-btn").click(sportList);
+  $(".padding-btn").click(paddingList);
 
-  $(".sport-btn[data-tab='tab1']").trigger("click");
+  $(".padding-btn[data-tab='tab1']").trigger("click"); // 뭐가 뭔지 모르겠음
+
   banner();
   $(window).on("scroll", function () {
     if ($(window).scrollTop() === 0) {
@@ -12,43 +13,41 @@ $(function () {
   });
 });
 
-function sportList() {
+// 시작 화면
+function paddingList() {
   const targetTab = $(this).data("tab");
 
-  $("sport-btn").removeClass("active");
+  $(".padding-btn").removeClass("active");
   $("#" + targetTab).addClass("active");
 
-  $(".sport-content").removeClass("active");
+  $(".padding-content").removeClass("active");
   $("#" + targetTab).addClass("active");
 
   const categoryMap = {
-    tab1: "여름용",
-    tab2: "겨울용",
+    tab1: "숏패딩",
+    tab2: "롱패딩",
   };
 
   const category = categoryMap[targetTab];
 
   $.get("../json/products.json").done(function (data) {
-    console.log("데이터 가져오기 완료");
-
-    const filted = data.filter((s) => s.category === category);
-
-    const sportHTML = filted
+    const filted = data.filter((p) => p.category === category);
+    const paddingHtml = filted
       .map(
-        (s) =>
+        (p) =>
           `
-          <a href="#" class="sport-img">
-            <img src="${s.imageUrl}" alt="${s.category}"/>
-            <strong>${s.name}</strong>
-            <p>${s.description}</p>
-            <p>색상 : ${s.color}</p>
-            <p>가격 : ${s.price}</p>
-          </a>
+          <div class="shirt-img" onclick="goToDetail(${p.id})" >
+            <img src="${p.imageUrl}" alt="${p.category}"/>
+            <strong>${p.name}</strong>
+            <p>${p.description}</p>
+            <p>색상 : ${p.color}</p>
+            <p>가격 : ${p.price}</p>
+          </div>
           `
       )
       .join("");
     const tabNumber = targetTab.replace("tab", "");
-    $("#sportResult" + tabNumber).html(sportHTML);
+    $("#paddingResult" + tabNumber).html(paddingHtml);
   });
 }
 
