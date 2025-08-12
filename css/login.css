@@ -1,5 +1,5 @@
 .login-form {
-  width: 50%;
+  width: 45%;
   height: 100vh;
   margin: 0 auto;
   background-color: white;
@@ -18,11 +18,12 @@
 }
 
 .input-info {
-  display: flex;
+  display: block;
   justify-content: center;
 }
-#inputId {
-  margin: 20px auto;
+
+#username {
+  margin: 20px 20px 5px;
   width: 90%;
   height: 15px;
   border: 1px solid rgb(225, 225, 225);
@@ -30,14 +31,19 @@
   padding: 8px;
 }
 
-#inputId:focus {
-  /* outline: 1px solid rgb(215, 215, 215); */
+#username:focus {
+  /* outline: 1px solid rgb(215, 215, 215); 이건 왜 안될까..? */
   border: 1px solid rgb(136, 136, 136);
   outline: none;
 }
 
-#inputPw {
-  margin: 0 auto;
+.input-info p {
+  margin: 0 20px;
+  font-size: 12px;
+}
+
+#password {
+  margin: 3px 20px;
   width: 90%;
   height: 15px;
   border: 1px solid rgb(225, 225, 225);
@@ -45,7 +51,7 @@
   padding: 8px;
 }
 
-#inputPw:focus {
+#password:focus {
   border: 1px solid rgb(136, 136, 136);
   outline: none;
 }
@@ -54,12 +60,13 @@
   display: block;
   border: none;
   border-radius: 4px;
-  margin: 15px auto;
+  margin: 15px 20px;
   padding: 10px;
   background-color: black;
   color: white;
   font-weight: bold;
-  width: 92%;
+  width: 93%;
+  cursor: pointer;
 }
 
 .check-list {
@@ -69,49 +76,53 @@
 }
 
 .check1 {
-  text-align: left;
-  margin: auto 25px;
+  display: flex;
+  align-items: center;
   color: #666;
-  font-size: 14px;
+  font-size: 12px;
+  margin: auto 20px;
+  gap: 6px;
 }
 
-.check-checkbox {
-  display: block;
-  width: 16px;
-  height: 16px;
+.check1 input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  margin: 0; /* 기본 마진 없애기 */
   border-color: #666;
-  margin: auto;
 }
 
 .check2 {
   text-align: right;
   margin: auto 25px;
   color: #666;
-  font-size: 14px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .kakao-btn {
   display: block;
   border: none;
   border-radius: 4px;
-  margin: 15px auto;
+  margin: 15px 20px;
   padding: 10px;
   background-color: #fee500;
   color: black;
-  width: 92%;
+  width: 93%;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .apple-btn {
   display: block;
   border: 1px solid #e0e0e0;
   border-radius: 4px;
-  margin: 15px auto;
+  margin: 15px 20px;
   padding: 10px;
   background-color: white;
   color: black;
-  width: 92%;
+  width: 93%;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .kakao-btn i {
@@ -121,4 +132,28 @@
 .apple-btn i {
   font-size: 18px;
   align-items: center;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.register-btn {
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.error {
+  margin: 2px;
+  font-size: 11px;
+  color: red;
 }

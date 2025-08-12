@@ -51,21 +51,37 @@
       <div class="login-top">
         <div class="login-top-name">로그인 / 회원가입</div>
       </div>
-      <div class="input-info">
-        <input type="text" id="inputId" name="inputId" placeholder="아이디" />
-      </div>
-      <div class="input-info">
-        <input
-          type="password"
-          id="inputPw"
-          name="inputPw"
-          placeholder="비밀번호"
-        />
-      </div>
-      <button class="login-btn" id="loginBtn">로그인</button>
+      <form>
+        <div class="input-info">
+          <div class="name">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="아이디"
+              autocomplete="username"
+            />
+            <p id="nameResult"></p>
+          </div>
+        </div>
+        <div class="input-info">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="비밀번호"
+            autocomplete="username"
+          />
+          <p id="pwResult"></p>
+        </div>
+        <button class="login-btn" id="loginBtn2">로그인</button>
+      </form>
 
       <div class="check-list">
-        <div class="check1"><input type="checkbox" />자동 로그인</div>
+        <label class="check1">
+          <input type="checkbox" />
+          자동 로그인
+        </label>
         <div class="check2">
           <p>아이디 찾기 | 비밀번호 찾기</p>
         </div>
@@ -77,6 +93,10 @@
       <button class="apple-btn" id="appleBtn">
         <i class="fa-brands fa-apple"></i> Apple 로그인
       </button>
+
+      <div class="register">
+        가입만 해도 즉시 20% 할인 <button class="register-btn">회원가입</button>
+      </div>
     </div>
 
     <script src="../js/login.js"></script>
