@@ -1,3 +1,7 @@
+.login-container {
+  background-color: #fafafa;
+}
+
 .login-form {
   width: 45%;
   height: 100vh;
@@ -21,7 +25,7 @@
   justify-content: center;
 }
 
-#username {
+#userId {
   margin: 20px 20px 5px;
   width: 90%;
   height: 15px;
@@ -30,7 +34,7 @@
   padding: 8px;
 }
 
-#username:focus {
+#userId:focus {
   outline: 1px solid rgb(136, 136, 136);
   border: none;
 }
@@ -40,7 +44,7 @@
   font-size: 12px;
 }
 
-#password {
+#userPw {
   margin: 3px 20px;
   width: 90%;
   height: 15px;
@@ -49,7 +53,7 @@
   padding: 8px;
 }
 
-#password:focus {
+#userPw:focus {
   border: 1px solid rgb(136, 136, 136);
   outline: none;
 }

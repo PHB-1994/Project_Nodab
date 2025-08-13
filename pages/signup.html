@@ -44,6 +44,55 @@
       </ul>
     </div>
 
+    <div class="signup-container">
+      <div class="signup-form">
+        <div class="signup-top">
+          <div class="signup-top-name">회원가입</div>
+        </div>
+
+        <form>
+          <div class="signup-info">
+            <p>아이디</p>
+            <input
+              type="text"
+              id="inputId"
+              autocomplete="new-id"
+              placeholder="아이디 입력"
+              readonly
+            />
+            <!-- autocomplete 이걸 꼭 작성해야하나...? -->
+            <button class="idCheck">중복 확인</button>
+          </div>
+          <div class="signup-info">
+            <p>비밀번호</p>
+            <input
+              type="password"
+              id="inputPw"
+              autocomplete="new-password"
+              placeholder="비밀번호 입력"
+            />
+          </div>
+          <div class="signup-info">
+            <p>비밀번호 확인</p>
+            <input
+              type="password"
+              id="inputPwCheck"
+              autocomplete="new-passwordCheck"
+              placeholder="비밀번호 확인"
+            />
+          </div>
+          <div class="signup-info">
+            <p>이메일</p>
+            <input type="email" id="inputEmail" placeholder="이메일 입력" />
+          </div>
+          <div class="signup-info">
+            <p>연락처</p>
+            <input type="number" id="inputPhone" placeholder="010-0000-0000" />
+          </div>
+        </form>
+        <button class="signup-btn" id="signupBtn">회원 가입</button>
+      </div>
+    </div>
     <script src="../js/signup.js"></script>
   </body>
 </html>

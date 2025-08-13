@@ -4,17 +4,17 @@ $(function () {
 
 function loginFn(e) {
   e.preventDefault();
-  const username = $("#username").val().trim();
-  const password = $("#password").val().trim();
+  const userId = $("#userId").val().trim();
+  const userPw = $("#userPw").val().trim();
 
-  if (username.length == 0 && password.length == 0) {
+  if (userId.length == 0 && userPw.length == 0) {
     $("#nameResult").html(`<div class="error">아이디를 입력해주세요.</div>`);
     $("#pwResult").html(`<div class="error">비밀번호를 입력해주세요.</div>`);
     $("#username").focus();
-  } else if (username.length == 0) {
+  } else if (userId.length == 0) {
     $("#nameResult").html(`<div class="error">아이디를 입력해주세요.</div>`);
     $("#username").focus();
-  } else if (password.length == 0) {
+  } else if (userPw.length == 0) {
     $("#pwResult").html(`<div class="error">비밀번호를 입력해주세요.</div>`);
     $("#password").focus();
     return;
@@ -25,6 +25,8 @@ function loginFn(e) {
 
 function loginCheck(e) {
   e.preventDefault();
+
+  const userInfo = localStorage.getItem("userInfo");
 }
 
 //   if (username.length > 0) {

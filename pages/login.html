@@ -50,55 +50,58 @@
         </li>
       </ul>
     </div>
-    <div class="login-form">
-      <div class="login-top">
-        <div class="login-top-name">로그인 / 회원가입</div>
-      </div>
-      <form>
-        <div class="input-info">
-          <div class="name">
+    <div class="login-container">
+      <div class="login-form">
+        <div class="login-top">
+          <div class="login-top-name">로그인 / 회원가입</div>
+        </div>
+        <form>
+          <div class="input-info">
+            <div class="user-id">
+              <input
+                type="text"
+                id="userId"
+                name="userid"
+                placeholder="아이디"
+                autocomplete="username"
+              />
+              <p id="nameResult"></p>
+            </div>
+          </div>
+          <div class="input-info">
             <input
-              type="text"
-              id="username"
-              name="username"
-              placeholder="아이디"
+              type="password"
+              id="userPw"
+              name="password"
+              placeholder="비밀번호"
               autocomplete="username"
             />
-            <p id="nameResult"></p>
+            <p id="pwResult"></p>
+          </div>
+          <button class="login-btn" id="loginBtn2">로그인</button>
+        </form>
+
+        <div class="check-list">
+          <label class="check1">
+            <input type="checkbox" />
+            자동 로그인
+          </label>
+          <div class="check2">
+            <p>아이디 찾기 | 비밀번호 찾기</p>
           </div>
         </div>
-        <div class="input-info">
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="비밀번호"
-            autocomplete="username"
-          />
-          <p id="pwResult"></p>
+
+        <button class="kakao-btn" id="kakaoBtn">
+          <i class="fa-solid fa-comment"></i> 카카오 로그인
+        </button>
+        <button class="apple-btn" id="appleBtn">
+          <i class="fa-brands fa-apple"></i> Apple 로그인
+        </button>
+
+        <div class="register">
+          가입만 해도 즉시 20% 할인
+          <button class="register-btn">회원가입</button>
         </div>
-        <button class="login-btn" id="loginBtn2">로그인</button>
-      </form>
-
-      <div class="check-list">
-        <label class="check1">
-          <input type="checkbox" />
-          자동 로그인
-        </label>
-        <div class="check2">
-          <p>아이디 찾기 | 비밀번호 찾기</p>
-        </div>
-      </div>
-
-      <button class="kakao-btn" id="kakaoBtn">
-        <i class="fa-solid fa-comment"></i> 카카오 로그인
-      </button>
-      <button class="apple-btn" id="appleBtn">
-        <i class="fa-brands fa-apple"></i> Apple 로그인
-      </button>
-
-      <div class="register">
-        가입만 해도 즉시 20% 할인 <button class="register-btn">회원가입</button>
       </div>
     </div>
 
