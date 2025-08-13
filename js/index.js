@@ -55,7 +55,6 @@ function bestFn() {
 // 리스트_상의 이미지 페이지
 function shirtFn() {
   $.get("../json/contents.json").done(function (data) {
-    const ShirtImg = data.slice(0, 7);
     $("#shirtResult").html(
       data
         .filter((s) => s.category === "상의")
@@ -64,8 +63,13 @@ function shirtFn() {
             `
           <a href="#" class="product-item">
             <img src="${s.imageUrl}" alt="${s.category}"/>
-            <p>${s.name}</p>
-            <p>가격 : ${s.price}</p>
+            <div class="product-item-text">
+            <strong>${s.name}</strong>
+            <p>${s.description}</p>
+            <strong><span>30%</span> ${Number(
+              s.price
+            ).toLocaleString()}원</strong>
+            </div>
           </a>
           `
         )
@@ -86,7 +90,13 @@ function pantsFn() {
             `
           <a href="#" class="product-item">
             <img src="${p.imageUrl}" alt="${p.category}"/>
-
+            <div class="product-item-text">
+            <strong>${p.name}</strong>
+            <p>${p.description}</p>
+            <strong><span>30%</span> ${Number(
+              p.price
+            ).toLocaleString()}원</strong>
+            </div>
           </a>
           `
         )
@@ -107,8 +117,13 @@ function sportFn() {
             `
           <a href="#" class="product-item">
             <img src="${s.imageUrl}" alt="${s.category}"/>
-            <p>${s.name}</p>
-            <p>가격 : ${s.price}</p>
+            <div class="product-item-text">
+            <strong>${s.name}</strong>
+            <p>${s.description}</p>
+            <strong><span>30%</span> ${Number(
+              s.price
+            ).toLocaleString()}원</strong>
+            </div>
           </a>
           `
         )
@@ -129,8 +144,13 @@ function coatFn() {
             `
           <a href="#" class="product-item">
             <img src="${c.imageUrl}" alt="${c.category}"/>
-            <p>${c.name}</p>
-            <p>가격 : ${c.price}</p>
+            <div class="product-item-text">
+            <strong>${c.name}</strong>
+            <p>${c.description}</p>
+            <strong><span>30%</span> ${Number(
+              c.price
+            ).toLocaleString()}원</strong>
+            </div>
           </a>
           `
         )
@@ -151,8 +171,13 @@ function paddingFn() {
             `
           <a href="#" class="product-item">
             <img src="${p.imageUrl}" alt="${p.category}"/>
-            <p>${p.name}</p>
-            <p>가격 : ${p.price}</p>
+            <div class="product-item-text">
+            <strong>${p.name}</strong>
+            <p>${p.description}</p>
+            <strong><span>30%</span> ${Number(
+              p.price
+            ).toLocaleString()}원</strong>
+            </div>
           </a>
           `
         )

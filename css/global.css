@@ -47,30 +47,38 @@ a > strong {
 
 /* 검색 */
 .search-box {
-  margin: 0 20px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
 }
 
 #searchInput {
+  width: 100%;
+  height: 25px;
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
 }
 
 /* 네비게이션 바 */
 .nav-menu {
   display: flex;
   list-style: none;
-  margin: 0;
   gap: 10px;
+  margin-bottom: 0;
 }
 
 .nav-link {
   display: block;
   color: rgb(155, 155, 155);
   text-decoration: none;
-  padding: 8px 4px;
+  padding: 8px 0;
+  font-size: 14px;
 }
 
-.nav-link.h {
+.nav-link.home {
   color: white;
   border-bottom: 2px solid white;
+  font-weight: bold;
 }
 
 /* 페이지 네이션 버튼 */
@@ -135,4 +143,5 @@ a > strong {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }

@@ -215,7 +215,6 @@
     "description": "넉넉한 핏으로 편안한 스타일링",
     "category": ""
   },
-
   {
     "id": 1,
     "name": "베이직 화이트 티셔츠",
@@ -1797,7 +1796,7 @@
     "number": 1,
     "name": "베이직 숏패딩",
     "price": 89000,
-    "imageUrl": "",
+    "imageUrl": "https://images.kolonmall.com/Prod_Img/10003435/2022/LM1/K1674624919690070BK01_LM1.jpg",
     "color": "블랙",
     "description": "간편하게 착용 가능한 베이직한 디자인의 숏패딩.",
     "category": "숏패딩"
@@ -1807,7 +1806,7 @@
     "number": 2,
     "name": "오버핏 라이트 숏패딩",
     "price": 97000,
-    "imageUrl": "",
+    "imageUrl": "https://sitem.ssgcdn.com/27/02/45/item/1000563450227_i1_750.jpg",
     "color": "아이보리",
     "description": "오버핏으로 스타일리시하고 가벼운 숏패딩.",
     "category": "숏패딩"
@@ -1817,7 +1816,7 @@
     "number": 3,
     "name": "하이넥 숏패딩",
     "price": 99000,
-    "imageUrl": "",
+    "imageUrl": "https://cafe24img.poxo.com/meetkmi0/web/product/big/202211/25a9c3eb1db590f719cefe572901591c.gif",
     "color": "카키",
     "description": "목을 덮는 하이넥으로 보온성 높은 숏패딩.",
     "category": "숏패딩"
@@ -1997,7 +1996,7 @@
     "number": 1,
     "name": "클래식 롱패딩",
     "price": 139000,
-    "imageUrl": "",
+    "imageUrl": "https://godomall.speedycdn.net/1ddda6d054d0e3f9b799c56cff09cf86/goods/10564/image/detail/10564_detail_024.jpg",
     "color": "블랙",
     "description": "기본에 충실한 디자인으로 데일리하게 입기 좋은 롱패딩.",
     "category": "롱패딩"
@@ -2007,7 +2006,7 @@
     "number": 2,
     "name": "하이넥 롱패딩",
     "price": 149000,
-    "imageUrl": "",
+    "imageUrl": "https://m.ddmstyle.com/web/product/big/202011/6bfcec6fab2a6fbefb0ca44252835af8.jpg",
     "color": "차콜",
     "description": "하이넥 스타일로 목까지 따뜻하게 감싸줍니다.",
     "category": "롱패딩"
@@ -2017,7 +2016,7 @@
     "number": 3,
     "name": "오버핏 롱패딩",
     "price": 155000,
-    "imageUrl": "",
+    "imageUrl": "https://thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/cfdf/da03cfa1f501e0ccb19c1f7f3d0438b30cf8b47f07d31ce6d5bcd6efa167.jpg",
     "color": "아이보리",
     "description": "여유 있는 오버핏으로 스타일과 보온성을 동시에.",
     "category": "롱패딩"

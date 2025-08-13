@@ -8,7 +8,7 @@ $(function () {
   } else {
     productLoad(전달받은id확인);
   }
-  kk;
+
   banner();
 });
 
