@@ -29,7 +29,7 @@ function shirtList() {
   const targetTab = $(this).data("tab");
 
   $(".shirt-btn").removeClass("active");
-  $("#" + targetTab).addClass("active");
+  $(this).addClass("active");
 
   $(".shirt-content").removeClass("active");
   $("#" + targetTab).addClass("active");
@@ -54,7 +54,7 @@ function shirtList() {
             <strong>${s.name}</strong>
             <p>${s.description}</p>
             <p>색상 : ${s.color}</p>
-            <p>가격 : ${s.price}</p>
+            <p><span>10%</span> ${Number(s.price).toLocaleString()}원</p>
           </div>
           `
       )

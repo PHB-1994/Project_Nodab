@@ -24,7 +24,7 @@ function pantsList() {
   const targetTab = $(this).data("tab");
 
   $(".pants-btn").removeClass("active");
-  $("#" + targetTab).addClass("active");
+  $(this).addClass("active");
 
   $(".pants-content").removeClass("active");
   $("#" + targetTab).addClass("active");
@@ -45,19 +45,23 @@ function pantsList() {
       .map(
         (p) =>
           `
-          <a href="#" class="pants-img">
+          <div class="pants-img" onclick="goToDetail(${p.id})">
             <img src="${p.imageUrl}" alt="${p.category}"/>
             <strong>${p.name}</strong>
             <p>${p.description}</p>
             <p>색상 : ${p.color}</p>
-            <p>가격 : ${p.price}</p>
-          </a>
+            <p><span>10%</span> ${Number(p.price).toLocaleString()}원</p>
+          </div>
           `
       )
       .join("");
     const tabNumber = targetTab.replace("tab", "");
     $("#pantsResult" + tabNumber).html(pantsHtml);
   });
+}
+
+function goToDetail(pantsId) {
+  window.location.href = `product-datail.html?id=${pantsId}`;
 }
 
 // 베너

@@ -11,6 +11,10 @@
     ></script>
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/product-shirt.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="icon" type="image/png" href="../image/25.png" />
   </head>
   <body>
@@ -27,13 +31,13 @@
         <input
           type="text"
           id="searchInput"
-          placeholder="모든 제품 50% 할인!!!"
+          placeholder=" 모든 제품 50% 할인!!!"
         />
       </div>
 
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="index.html" class="nav-link">홈</a>
+          <a href="index.html" class="nav-link">추천</a>
         </li>
         <li class="nav-item">
           <a href="product-shirt.html" class="nav-link home">상의</a>
@@ -53,26 +57,27 @@
       </ul>
     </div>
 
-    <div class="shirt-list">
-      <button class="shirt-btn active" data-tab="tab1">반팔티</button>
-      <button class="shirt-btn" data-tab="tab2">긴팔티</button>
-      <button class="shirt-btn" data-tab="tab3">셔츠</button>
+    <div class="shirt-container">
+      <div class="shirt-list">
+        <button class="shirt-btn active" data-tab="tab1">반팔티</button>
+        <button class="shirt-btn" data-tab="tab2">긴팔티</button>
+        <button class="shirt-btn" data-tab="tab3">셔츠</button>
+      </div>
+      <div class="shirt-content active" id="tab1">
+        <div id="shirtResult1" class="shirt"></div>
+      </div>
+      <div class="shirt-content" id="tab2">
+        <div id="shirtResult2" class="shirt"></div>
+      </div>
+      <div class="shirt-content" id="tab3">
+        <div id="shirtResult3" class="shirt"></div>
+      </div>
+      <div class="page">
+        <button class="page-btn" id="prevBtn">이전</button>
+        <span id="pageInfo">페이지 1</span>
+        <button class="page-btn" id="nextBtn">다음</button>
+      </div>
     </div>
-    <div class="shirt-content active" id="tab1">
-      <div id="shirtResult1" class="shirt"></div>
-    </div>
-    <div class="shirt-content" id="tab2">
-      <div id="shirtResult2" class="shirt"></div>
-    </div>
-    <div class="shirt-content" id="tab3">
-      <div id="shirtResult3" class="shirt"></div>
-    </div>
-    <div class="page">
-      <button class="page-btn" id="prevBtn">이전</button>
-      <span id="pageInfo">페이지 1</span>
-      <button class="page-btn" id="nextBtn">다음</button>
-    </div>
-
     <a href="#top" class="clothes-top">
       <i class="fa-solid fa-angle-up" style="color: black"></i>
     </a>

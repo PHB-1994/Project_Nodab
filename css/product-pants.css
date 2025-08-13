@@ -1,16 +1,23 @@
+.pants-container {
+  background-color: #f2f2f2;
+}
+
 .pants-btn {
-  border: 1px solid #c5c5c5;
-  border-radius: 20px;
-  background-color: #eee;
-  padding: 10px 30px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 4px;
+  background-color: white;
   font-size: 15px;
-  margin-top: 50px;
+  font-weight: 500;
+  padding: 5px 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pants-btn.active {
-  background: #c4cad1;
-  color: black;
-  border-bottom-color: #c4cad1;
+  color: white;
+  background-color: #201d1d;
 }
 
 .pants-btn:hover {
@@ -27,12 +34,13 @@
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
-  gap: 30px;
+  gap: 50px;
 }
 
 .pants-content {
   display: none;
   text-align: center;
+  padding: 0 20px;
 }
 
 .pants-content.active {
@@ -43,6 +51,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  cursor: pointer;
 }
 
 .pants-img img {
@@ -53,9 +62,16 @@
 
 .pants-img strong {
   font-size: 15px;
+  margin-left: 20px;
 }
 
 .pants-img p {
   margin: 0 auto;
   font-size: 13px;
+  margin-left: 20px;
+}
+
+.pants p span {
+  color: red;
+  font-weight: 500;
 }

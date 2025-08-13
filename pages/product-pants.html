@@ -11,6 +11,10 @@
     ></script>
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/product-pants.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="icon" type="image/png" href="../image/25.png" />
   </head>
   <body>
@@ -27,13 +31,13 @@
         <input
           type="text"
           id="searchInput"
-          placeholder="모든 제품 50% 할인!!!"
+          placeholder=" 모든 제품 50% 할인!!!"
         />
       </div>
 
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="index.html" class="nav-link">홈</a>
+          <a href="index.html" class="nav-link">추천</a>
         </li>
         <li class="nav-item">
           <a href="product-shirt.html" class="nav-link">상의</a>
@@ -52,22 +56,23 @@
         </li>
       </ul>
     </div>
+    <div class="pants-container">
+      <div class="pants-list">
+        <button class="pants-btn active" data-tab="tab1">반바지</button>
+        <button class="pants-btn" data-tab="tab2">긴바지</button>
+      </div>
+      <div class="pants-content active" id="tab1">
+        <div id="pantsResult1" class="pants"></div>
+      </div>
+      <div class="pants-content" id="tab2">
+        <div id="pantsResult2" class="pants"></div>
+      </div>
 
-    <div class="pants-list">
-      <button class="pants-btn active" data-tab="tab1">반바지</button>
-      <button class="pants-btn" data-tab="tab2">긴바지</button>
-    </div>
-    <div class="pants-content active" id="tab1">
-      <div id="pantsResult1" class="pants"></div>
-    </div>
-    <div class="pants-content" id="tab2">
-      <div id="pantsResult2" class="pants"></div>
-    </div>
-
-    <div class="page">
-      <button class="page-btn" id="prevBtn">이전</button>
-      <span id="pageInfo">페이지 1</span>
-      <button class="page-btn" id="nextBtn">다음</button>
+      <div class="page">
+        <button class="page-btn" id="prevBtn">이전</button>
+        <span id="pageInfo">페이지 1</span>
+        <button class="page-btn" id="nextBtn">다음</button>
+      </div>
     </div>
 
     <a href="#top" class="clothes-top">
