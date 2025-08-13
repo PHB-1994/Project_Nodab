@@ -22,7 +22,7 @@ $(function () {
 
 // 로그인 이동 페이지
 function loginFn() {
-  window.location.href = "login.html";
+  window.location.href = "pages/login.html";
 }
 
 // 회원가입 이동 페이지
@@ -32,7 +32,7 @@ function signupFn() {
 
 // 베스트 상품 이미지 페이지
 function bestFn() {
-  $.get("../json/contents.json").done(function (data) {
+  $.get("json/contents.json").done(function (data) {
     const bestImg = data.slice(0, 3);
     $("#bestResult").html(
       bestImg
@@ -54,7 +54,7 @@ function bestFn() {
 
 // 리스트_상의 이미지 페이지
 function shirtFn() {
-  $.get("../json/contents.json").done(function (data) {
+  $.get("json/contents.json").done(function (data) {
     $("#shirtResult").html(
       data
         .filter((s) => s.category === "상의")
@@ -80,7 +80,7 @@ function shirtFn() {
 
 // 리스트 바지 이미지 페이지
 function pantsFn() {
-  $.get("../json/contents.json").done(function (data) {
+  $.get("json/contents.json").done(function (data) {
     // const ShirtImg = data.slice(0, 7);
     $("#pantsResult").html(
       data
@@ -107,7 +107,7 @@ function pantsFn() {
 
 // 리스트 운동복 이미지 페이지
 function sportFn() {
-  $.get("../json/contents.json").done(function (data) {
+  $.get("json/contents.json").done(function (data) {
     // const ShirtImg = data.slice(0, 7);
     $("#sportResult").html(
       data
@@ -134,7 +134,7 @@ function sportFn() {
 
 // 리스트 코트 이미지 페이지
 function coatFn() {
-  $.get("../json/contents.json").done(function (data) {
+  $.get("json/contents.json").done(function (data) {
     // const ShirtImg = data.slice(0, 7);
     $("#coatResult").html(
       data
@@ -161,7 +161,7 @@ function coatFn() {
 
 // 리스트 패딩 이미지 페이지
 function paddingFn() {
-  $.get("../json/contents.json").done(function (data) {
+  $.get("json/contents.json").done(function (data) {
     // const ShirtImg = data.slice(0, 7);
     $("#paddingResult").html(
       data
@@ -193,7 +193,7 @@ function goToDetail(id) {
 
 // 베너
 function banner() {
-  $.get("../json/banner.json").done(function (data) {
+  $.get("json/banner.json").done(function (data) {
     console.log("데이터?");
     $("#bannerResult").html(
       `

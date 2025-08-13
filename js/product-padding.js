@@ -24,7 +24,7 @@ function paddingList() {
   const targetTab = $(this).data("tab");
 
   $(".padding-btn").removeClass("active");
-  $("#" + targetTab).addClass("active");
+  $(this).addClass("active");
 
   $(".padding-content").removeClass("active");
   $("#" + targetTab).addClass("active");
@@ -42,12 +42,12 @@ function paddingList() {
       .map(
         (p) =>
           `
-          <div class="shirt-img" onclick="goToDetail(${p.id})" >
+          <div class="padding-img" onclick="goToDetail(${p.id})" >
             <img src="${p.imageUrl}" alt="${p.category}"/>
             <strong>${p.name}</strong>
             <p>${p.description}</p>
             <p>색상 : ${p.color}</p>
-            <p>가격 : ${p.price}</p>
+            <p><span>10%</span> ${Number(p.price).toLocaleString()}원</p>
           </div>
           `
       )
@@ -55,6 +55,10 @@ function paddingList() {
     const tabNumber = targetTab.replace("tab", "");
     $("#paddingResult" + tabNumber).html(paddingHtml);
   });
+}
+
+function goToDetail(paddingId) {
+  window.location.href = `product-detail.html?id=${paddingId}`;
 }
 
 // 베너

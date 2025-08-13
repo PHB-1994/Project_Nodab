@@ -3,7 +3,7 @@ $(function () {
   const 전달받은id확인 = new URLSearchParams(window.location.search).get("id");
   console.log("id 값 : ", 전달받은id확인);
 
-  if (전달받은id확인 > 100) {
+  if (전달받은id확인 > 1000) {
     indexLoad(전달받은id확인);
   } else {
     productLoad(전달받은id확인);

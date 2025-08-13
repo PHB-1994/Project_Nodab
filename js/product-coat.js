@@ -24,7 +24,7 @@ function coatList() {
   const targetTab = $(this).data("tab");
 
   $(".coat-btn").removeClass("active");
-  $("#" + targetTab).addClass("active");
+  $(this).addClass("active");
 
   $(".coat-content").removeClass("active");
   $("#" + targetTab).addClass("active");
@@ -45,19 +45,23 @@ function coatList() {
       .map(
         (c) =>
           `
-          <a href="#" class="coat-img">
+          <div class="coat-img" onclick="goToDetail(${c.id})">
             <img src="${c.imageUrl}" alt="${c.category}"/>
             <strong>${c.name}</strong>
             <p>${c.description}</p>
             <p>색상 : ${c.color}</p>
-            <p>가격 : ${c.price}</p>
-          </a>
+            <p><span>10%</span> ${Number(c.price).toLocaleString()}원</p>
+          </div>
           `
       )
       .join("");
     const tabNumber = targetTab.replace("tab", "");
     $("#coatResult" + tabNumber).html(coatHTML);
   });
+}
+
+function goToDetail(coatId) {
+  window.location.href = `product-datail.html?id=${coatId}`;
 }
 
 // 베너

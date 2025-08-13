@@ -4,6 +4,7 @@ $(function () {
 
   $(".sport-btn[data-tab='tab1']").trigger("click");
   banner();
+
   $(window).on("scroll", function () {
     if ($(window).scrollTop() === 0) {
       $(".clothes-top").hide();
@@ -21,8 +22,8 @@ function loginFn() {
 function sportList() {
   const targetTab = $(this).data("tab");
 
-  $("sport-btn").removeClass("active");
-  $("#" + targetTab).addClass("active");
+  $(".sport-btn").removeClass("active");
+  $(this).addClass("active");
 
   $(".sport-content").removeClass("active");
   $("#" + targetTab).addClass("active");
@@ -43,19 +44,23 @@ function sportList() {
       .map(
         (s) =>
           `
-          <a href="#" class="sport-img">
+          <div class="sport-img" onclick="goToDetail(${s.id})">
             <img src="${s.imageUrl}" alt="${s.category}"/>
             <strong>${s.name}</strong>
             <p>${s.description}</p>
             <p>색상 : ${s.color}</p>
-            <p>가격 : ${s.price}</p>
-          </a>
+            <p><span>10%</span> ${Number(s.price).toLocaleString()}원</p>
+          </div>
           `
       )
       .join("");
     const tabNumber = targetTab.replace("tab", "");
     $("#sportResult" + tabNumber).html(sportHTML);
   });
+}
+
+function goToDetail(sportId) {
+  window.location.href = `product-detail.html?id=${sportId}`;
 }
 
 // 베너
