@@ -61,7 +61,7 @@ function shirtFn() {
         .map(
           (s) =>
             `
-          <a href="#" class="product-item">
+          <div class="product-item" onclick="goToDetail(${s.id})">
             <img src="${s.imageUrl}" alt="${s.category}"/>
             <div class="product-item-text">
             <strong>${s.name}</strong>
@@ -70,7 +70,7 @@ function shirtFn() {
               s.price
             ).toLocaleString()}원</strong>
             </div>
-          </a>
+          </div>
           `
         )
         .join("")
@@ -88,7 +88,7 @@ function pantsFn() {
         .map(
           (p) =>
             `
-          <a href="#" class="product-item">
+          <div class="product-item" onclick="goToDetail(${p.id})">
             <img src="${p.imageUrl}" alt="${p.category}"/>
             <div class="product-item-text">
             <strong>${p.name}</strong>
@@ -97,7 +97,7 @@ function pantsFn() {
               p.price
             ).toLocaleString()}원</strong>
             </div>
-          </a>
+          </div>
           `
         )
         .join("")
@@ -115,7 +115,7 @@ function sportFn() {
         .map(
           (s) =>
             `
-          <a href="#" class="product-item">
+          <div class="product-item" onclick="goToDetail(${s.id})">
             <img src="${s.imageUrl}" alt="${s.category}"/>
             <div class="product-item-text">
             <strong>${s.name}</strong>
@@ -124,7 +124,7 @@ function sportFn() {
               s.price
             ).toLocaleString()}원</strong>
             </div>
-          </a>
+          </div>
           `
         )
         .join("")
@@ -142,7 +142,7 @@ function coatFn() {
         .map(
           (c) =>
             `
-          <a href="#" class="product-item">
+          <div class="product-item" onclick="goToDetail(${c.id})">
             <img src="${c.imageUrl}" alt="${c.category}"/>
             <div class="product-item-text">
             <strong>${c.name}</strong>
@@ -151,7 +151,7 @@ function coatFn() {
               c.price
             ).toLocaleString()}원</strong>
             </div>
-          </a>
+          </div>
           `
         )
         .join("")
@@ -169,7 +169,7 @@ function paddingFn() {
         .map(
           (p) =>
             `
-          <a href="#" class="product-item">
+          <div class="product-item" onclick="goToDetail(${p.id})">
             <img src="${p.imageUrl}" alt="${p.category}"/>
             <div class="product-item-text">
             <strong>${p.name}</strong>
@@ -178,7 +178,7 @@ function paddingFn() {
               p.price
             ).toLocaleString()}원</strong>
             </div>
-          </a>
+          </div>
           `
         )
         .join("")

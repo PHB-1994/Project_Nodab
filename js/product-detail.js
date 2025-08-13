@@ -32,7 +32,6 @@ function indexLoad(id) {
 // product 페이지에 있는 항목을 선택했을 때
 function productLoad(id) {
   $.get("../json/products.json").done(function (data) {
-    // id에 맞는 상품 찾기
     const product = data.find((item) => Number(item.id) === Number(id)); // 숫자로 변환
 
     if (product) {
