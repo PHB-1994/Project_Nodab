@@ -1,5 +1,6 @@
 body {
-  width: 75%;
+  min-width: 1000px;
+  width: 1450px;
   margin: 0 auto;
   padding: 0;
 }
@@ -11,7 +12,6 @@ body {
 /* 로고 */
 .nav-container {
   background-color: #201d1d;
-  height: 100%;
 }
 
 .logo {
@@ -47,10 +47,10 @@ a > strong {
 
 /* 검색 */
 .search-box {
+  margin: 0 20px;
 }
 
 #searchInput {
-  width: 100%;
 }
 
 /* 네비게이션 바 */
