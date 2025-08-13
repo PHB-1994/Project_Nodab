@@ -68,3 +68,13 @@
   width: 72%;
   cursor: pointer;
 }
+
+.input-result.check {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.input-result.error {
+  color: #e74c3c;
+  font-weight: 600;
+}

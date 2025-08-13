@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>회원가입 페이지</title>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -61,6 +61,7 @@
               readonly
             />
             <!-- autocomplete 이걸 꼭 작성해야하나...? -->
+            <span class="input-result" id="idResult"></span>
             <button class="idCheck">중복 확인</button>
           </div>
           <div class="signup-info">
@@ -90,7 +91,7 @@
             <input type="number" id="inputPhone" placeholder="010-0000-0000" />
           </div>
         </form>
-        <button class="signup-btn" id="signupBtn">회원 가입</button>
+        <button class="signup-btn" id="signupResult">회원 가입</button>
       </div>
     </div>
     <script src="../js/signup.js"></script>
