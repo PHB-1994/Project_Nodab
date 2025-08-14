@@ -1,7 +1,3 @@
-const userList = sessionStorage.getItem("userList");
-let a = JSON.parse(userList);
-console.log("user : ", a[0]);
-
 $(function () {
   $("#loginBtn").click(loginFn);
   $(".register-btn").click(registerFn);
@@ -31,6 +27,10 @@ function loginFn(e) {
     $("#password").focus();
     return;
   }
+
+  const userList = sessionStorage.getItem("userList");
+  let a = JSON.parse(userList);
+  console.log("user : ", a[0]);
 
   // let userCheck = user[i]; 배열 지정해서 아이디에 맞는 인덱스 값 찾아야함... 필터 사용해보자
 

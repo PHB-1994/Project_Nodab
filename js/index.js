@@ -63,29 +63,12 @@ function nextFn() {
 function prevFn() {
   const width = $(".best-img").outerWidth(true) * 3; // 한 페이지당 3개씩
 
-  $.get("json/contents.json").done(function (data) {
-    const filted = data.filter((b) => b.category === "베스트");
-
-    let 이미지총개수 = Math.ceil(filted.length / 3);
-
-    if (현재페이지 > 0) {
-      현재페이지--;
-      $(".best-img").animate({ left: width * 현재페이지 }, 500);
-    } else {
-      alert("처음");
-    }
-  });
-
-  // let filted = data.filter((b) => b.category === "베스트");
-
-  // let 이미지수 = filted.length;
-
-  // $.get("json/contents.json").done(function (data) {
-  //   if (현재페이지 > 이미지수) {
-  //     현재페이지--;
-  //     $("#bestResult").css("transform", `translateX(-${width * 현재페이지}px)`);
-  //   }
-  // });
+  if (현재페이지 > 0) {
+    현재페이지--;
+    $(".best-img").animate({ left: width * 현재페이지 }, 500);
+  } else {
+    alert("처음");
+  }
 }
 
 // 리스트_상의 이미지 페이지
