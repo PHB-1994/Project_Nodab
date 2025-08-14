@@ -33,6 +33,7 @@ a > strong {
 
 .nav-btn {
   margin-top: 10px;
+  padding: 0 10px;
 }
 
 .nav-btn button {
@@ -42,6 +43,7 @@ a > strong {
   color: rgb(204, 204, 204);
   font-size: 13px;
   cursor: pointer;
+  margin-left: 5px;
 }
 
 /* 검색 */

@@ -3,7 +3,6 @@ $(function () {
   $(".sport-btn").click(sportList);
 
   $(".sport-btn[data-tab='tab1']").trigger("click");
-  banner();
 
   $(window).on("scroll", function () {
     if ($(window).scrollTop() === 0) {
@@ -61,24 +60,4 @@ function sportList() {
 
 function goToDetail(sportId) {
   window.location.href = `product-detail.html?id=${sportId}`;
-}
-
-// 베너
-function banner() {
-  $.get("../json/banner.json").done(function (data) {
-    console.log("데이터?");
-    $("#bannerResult").html(
-      `
-      <div class="ban-info">
-      <p class="ban-text">© ${data.brand}</p>
-      <p class="ban-text">${data.company}</p>
-      <p class="ban-text">${data.adress}</p>
-      <p class="ban-text">${data.a}</p>
-      <p class="ban-text">${data.b}</p>
-      <p class="ban-text">${data.c}</p>
-      <p class="ban-text">${data.d}</p>
-      </div>
-      `
-    );
-  });
 }

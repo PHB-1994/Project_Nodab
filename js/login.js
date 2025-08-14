@@ -1,8 +1,11 @@
 $(function () {
-  $("#loginBtn2").click(loginFn);
+  $("#loginBtn").click(loginFn);
   $(".register-btn").click(registerFn);
+  $("#kakaoBtn").click(kakaoFn);
+  $("#appleBtn").click(appleFn);
 });
 
+// 로그인 정보 가져와서 정보 입력
 function loginFn(e) {
   e.preventDefault();
   const userId = $("#userId").val();
@@ -55,4 +58,44 @@ function loginFn(e) {
 // 회원가입 페이지로 이동
 function registerFn() {
   window.location.href = "signup.html";
+}
+
+// 카카오 로그인 페이지 이동
+function kakaoFn() {
+  const width = 600;
+  const height = 700;
+  const left = (window.screen.width - width) / 2;
+  const top = (window.screen.height - height) / 2;
+  const options = `
+            width=${width},
+            height=${height},
+            left=${left},
+            top=${top},
+            `;
+
+  window.open(
+    "https://accounts.kakao.com/login/?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount#login",
+    "_blank",
+    options
+  );
+}
+
+// 애플 로그인 페이지 이동
+function appleFn() {
+  const width = 600;
+  const height = 700;
+  const left = (window.screen.width - width) / 2;
+  const top = (window.screen.height - height) / 2;
+  const options = `
+            width=${width},
+            height=${height},
+            left=${left},
+            top=${top},
+            `;
+
+  window.open(
+    "https://iforgot.apple.com/password/verify/appleid",
+    "_blank",
+    options
+  );
 }

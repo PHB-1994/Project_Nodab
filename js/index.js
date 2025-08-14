@@ -1,15 +1,10 @@
 $(function () {
-  $("#loginBtn").click(loginFn);
-  $("#signupBtn").click(signupFn);
   bestFn();
-
   shirtFn();
   pantsFn();
   sportFn();
   coatFn();
   paddingFn();
-
-  banner();
 
   $(window).on("scroll", function () {
     if ($(window).scrollTop() === 0) {
@@ -19,16 +14,6 @@ $(function () {
     }
   });
 });
-
-// 로그인 이동 페이지
-function loginFn() {
-  window.location.href = "pages/login.html";
-}
-
-// 회원가입 이동 페이지
-function signupFn() {
-  window.location.href = "signup.html";
-}
 
 // 베스트 상품 이미지 페이지
 function bestFn() {
@@ -162,7 +147,6 @@ function coatFn() {
 // 리스트 패딩 이미지 페이지
 function paddingFn() {
   $.get("json/contents.json").done(function (data) {
-    // const ShirtImg = data.slice(0, 7);
     $("#paddingResult").html(
       data
         .filter((p) => p.category === "패딩")
@@ -188,25 +172,5 @@ function paddingFn() {
 
 // detail 페이지 이동
 function goToDetail(id) {
-  window.location.href = `product-detail.html?id=${id}`;
-}
-
-// 베너
-function banner() {
-  $.get("json/banner.json").done(function (data) {
-    console.log("데이터?");
-    $("#bannerResult").html(
-      `
-      <div class="ban-info">
-      <p class="ban-text">© ${data.brand}</p>
-      <p class="ban-text">${data.company}</p>
-      <p class="ban-text">${data.adress}</p>
-      <p class="ban-text">${data.a}</p>
-      <p class="ban-text">${data.b}</p>
-      <p class="ban-text">${data.c}</p>
-      <p class="ban-text">${data.d}</p>
-      </div>
-      `
-    );
-  });
+  window.location.href = `pages/product-detail.html?id=${id}`;
 }

@@ -25,7 +25,11 @@
         >
         <div class="nav-btn">
           <button type="button" id="navLoginBtn">로그인 / 회원가입</button>
-          <button type="button" id="questionBtn">문의사항</button>
+          <button type="button" id="navQuestionBtn">문의사항</button>
+          <p id="userInfo" style="display: none"></p>
+          <button type="button" id="navLogoutBtn" style="display: none">
+            로그아웃
+          </button>
         </div>
       </div>
 
@@ -78,7 +82,7 @@
             />
             <p id="pwResult"></p>
           </div>
-          <button class="login-btn" id="loginBtn2">로그인</button>
+          <button class="login-btn" id="loginBtn">로그인</button>
         </form>
 
         <div class="check-list">
@@ -104,7 +108,7 @@
         </div>
       </div>
     </div>
-
+    <script src="../js/common.js"></script>
     <script src="../js/login.js"></script>
   </body>
 </html>
