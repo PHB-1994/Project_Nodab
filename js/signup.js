@@ -175,8 +175,9 @@ function signupFn(e) {
     let userList = JSON.parse(localStorage.getItem("userList") || "[]");
 
     const newUser = {
-      id: "inputId",
-      password: inputPw,
+      id: $("#inputId").val(),
+      password: $("#inputPw").val(),
+      name: $("#inputName").val(),
       createAt: new Date().toLocaleString("ko-KR"),
     };
 

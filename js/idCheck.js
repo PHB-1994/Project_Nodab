@@ -9,7 +9,7 @@ function checkFn(e) {
 
   const userId = $("#userId").val();
 
-  let userList = JSON.parse(localStorage.getItem("users") || "[]");
+  let userList = JSON.parse(localStorage.getItem("userList") || "[]");
 
   const isDup = userList.some((u) => u.id === userId);
 
@@ -27,6 +27,7 @@ function checkFn(e) {
     $("#result").html(
       `<span style="color: red">이미 사용중인 아이디입니다.</span>`
     );
+    return;
   } else {
     $("#result").html(
       `<span style="color: green">사용 가능한 아이디입니다.</span>`
