@@ -14,35 +14,50 @@
     <link rel="icon" type="image/png" href="../image/25.png" />
   </head>
   <body>
-    <div class="nav-container">
-      <div class="logo">
-        <a href="index.html"><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a>
-        <button class="nav-btn" id="questionBtn">문의사항</button>
-        <button class="nav-btn" id="signupBtn">회원가입</button>
-        <button class="nav-btn" id="loginBtn">로그인</button>
-      </div>
+     <div class="main-container">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html"
+            ><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a
+          >
+          <div class="nav-btn">
+            <button type="button" id="loginBtn">로그인 / 회원가입</button>
+            <button type="button" id="questionBtn">문의사항</button>
+            <button type="button" id="logoutBtn" style="display: none">
+              로그아웃
+            </button>
+          </div>
+        </div>
 
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">메인</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-shirt.html" class="nav-link">상의</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-pants.html" class="nav-link">하의</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-sport.html" class="nav-link">운동복</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-coat.html" class="nav-link">코트</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-padding.html" class="nav-link">패딩</a>
-        </li>
-      </ul>
-    </div>
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder=" 모든 제품 50% 할인!!!"
+          />
+        </div>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link home">추천</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/product-shirt.html" class="nav-link">상의</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/product-pants.html" class="nav-link">하의</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/product-sport.html" class="nav-link">운동복</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/product-coat.html" class="nav-link">코트</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/product-padding.html" class="nav-link">패딩</a>
+          </li>
+        </ul>
+      </div>
 
     <div class="signup-container">
       <div class="signup-form">

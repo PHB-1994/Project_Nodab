@@ -1,5 +1,6 @@
 $(function () {
   $("#loginBtn2").click(loginFn);
+  $(".register-btn").click(registerFn);
 });
 
 function loginFn(e) {
@@ -34,3 +35,8 @@ function loginCheck(e) {
 //   } else if (password.length > 0) {
 //     $("#password").removeClass("error").text("");
 //   }
+
+// 회원가입 페이지로 이동
+function registerFn() {
+  window.location.href = "signup.html";
+}
