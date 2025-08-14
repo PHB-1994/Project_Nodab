@@ -1,5 +1,10 @@
+let 현재페이지 = 0;
+
 $(function () {
   bestFn();
+  $("#prevBtn").click(prevFn);
+  $("#nextBtn").click(nextFn);
+
   shirtFn();
   pantsFn();
   sportFn();
@@ -18,15 +23,16 @@ $(function () {
 // 베스트 상품 이미지 페이지
 function bestFn() {
   $.get("json/contents.json").done(function (data) {
-    const bestImg = data.slice(0, 3);
+    const filted = data.filter((b) => b.category === "베스트");
+
     $("#bestResult").html(
-      bestImg
-        .filter((b) => b.category === "베스트")
+      filted
         .map(
           (item) =>
             `
           <div class="best-img" onclick="goToDetail(${item.id})">
             <img src="${item.imageUrl}" alt="${item.category}"/>
+            <p class="image-text">${item.text}</p>
           </div>
           `
         )
@@ -35,7 +41,52 @@ function bestFn() {
   });
 }
 
-// 페이지네이션
+// 다음 페이지 이동
+function nextFn() {
+  const width = $(".best-img").outerWidth(true) * 3; // 한 페이지당 3개씩
+
+  $.get("json/contents.json").done(function (data) {
+    const filted = data.filter((b) => b.category === "베스트");
+
+    let 이미지총개수 = Math.ceil(filted.length / 3);
+
+    if (현재페이지 < 이미지총개수 - 1) {
+      현재페이지++;
+      $(".best-img").animate({ left: -width * 현재페이지 }, 500);
+    } else {
+      alert("마지막");
+    }
+  });
+}
+
+// 이전 페이지 이동
+function prevFn() {
+  const width = $(".best-img").outerWidth(true) * 3; // 한 페이지당 3개씩
+
+  $.get("json/contents.json").done(function (data) {
+    const filted = data.filter((b) => b.category === "베스트");
+
+    let 이미지총개수 = Math.ceil(filted.length / 3);
+
+    if (현재페이지 > 0) {
+      현재페이지--;
+      $(".best-img").animate({ left: width * 현재페이지 }, 500);
+    } else {
+      alert("처음");
+    }
+  });
+
+  // let filted = data.filter((b) => b.category === "베스트");
+
+  // let 이미지수 = filted.length;
+
+  // $.get("json/contents.json").done(function (data) {
+  //   if (현재페이지 > 이미지수) {
+  //     현재페이지--;
+  //     $("#bestResult").css("transform", `translateX(-${width * 현재페이지}px)`);
+  //   }
+  // });
+}
 
 // 리스트_상의 이미지 페이지
 function shirtFn() {
