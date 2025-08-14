@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>아이디 중복 확인 페이지</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/idCheck.css" />
+    <link rel="icon" type="image/png" href="../image/25.png" />
+  </head>
+  <body>
+    <div class="id-container">
+      <div class="id-top">아이디 중복 확인</div>
+      <form>
+        <input
+          type="text"
+          class="user-id"
+          id="userId"
+          placeholder="아이디를 입력하세요"
+        />
+        <p class="result"></p>
+        <button id="idCheckBtn">사용하기</button>
+      </form>
+    </div>
+
+    <script src="../js/idCheck.js"></script>
+  </body>
+</html>

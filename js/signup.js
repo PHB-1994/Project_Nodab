@@ -1,6 +1,7 @@
 $(function () {
   $("#loginBtn").click(loginFn);
   $("#signupResult").click(signupFn);
+  $(".idCheck").click(idCheckFn);
 
   const checkList = {
     inputId: false,
@@ -44,4 +45,23 @@ function signupFn() {
     email: inputEmail,
     phone: inputPhone,
   };
+}
+
+// 아이디 중복 확인 페이지 이동
+function idCheckFn() {
+  const idWidth = "450";
+  const idHeight = "450";
+
+  const left = (window.screen.width - idWidth) / 2;
+  const top = (window.screen.height - idHeight) / 2;
+
+  const options = `
+  width=${idWidth},
+  height=${idHeight},
+  left=${left},
+  top=${top},
+  `;
+
+  window.open("idCheck.html", "_blank", options);
+  console.log("안떠져?");
 }
