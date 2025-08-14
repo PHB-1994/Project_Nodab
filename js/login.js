@@ -27,7 +27,7 @@ function loginFn(e) {
 function loginCheck(e) {
   e.preventDefault();
 
-  const userInfo = localStorage.getItem("userInfo");
+  const users = localStorage.getItem("users");
 }
 
 //   if (username.length > 0) {

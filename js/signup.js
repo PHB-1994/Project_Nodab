@@ -49,8 +49,8 @@ function signupFn() {
 
 // 아이디 중복 확인 페이지 이동
 function idCheckFn() {
-  const idWidth = "450";
-  const idHeight = "450";
+  const idWidth = "400";
+  const idHeight = "400";
 
   const left = (window.screen.width - idWidth) / 2;
   const top = (window.screen.height - idHeight) / 2;
