@@ -5,8 +5,8 @@ $(function () {
 
 function loginFn(e) {
   e.preventDefault();
-  const userId = $("#userId").val().trim();
-  const userPw = $("#userPw").val().trim();
+  const userId = $("#userId").val();
+  const userPw = $("#userPw").val();
 
   if (userId.length == 0 && userPw.length == 0) {
     $("#nameResult").html(`<div class="error">아이디를 입력해주세요.</div>`);
@@ -27,7 +27,15 @@ function loginFn(e) {
 function loginCheck(e) {
   e.preventDefault();
 
-  const users = localStorage.getItem("users");
+  const userList = localStorage.getItem("userList");
+
+  if (!userList) {
+    alert("가입된 사용자 정보가 없습니다. 회원가입을 먼저 진행해주세요.");
+    return;
+  }
+
+  let user = JSON.parse(userList);
+  console.log("user : ", user);
 }
 
 //   if (username.length > 0) {

@@ -38,12 +38,22 @@
 #inputPw,
 #inputPwCheck,
 #inputEmail,
+#inputName,
 #inputPhone {
   width: 100%;
   height: 15px;
   border: 1px solid rgb(225, 225, 225);
   border-radius: 4px;
   padding: 8px;
+}
+#inputId:focus,
+#inputPw:focus,
+#inputPwCheck:focus,
+#inputEmail:focus,
+#inputName:focus,
+#inputPhone:focus {
+  outline: 1px solid rgb(136, 136, 136);
+  border: none;
 }
 
 .idCheck {
@@ -70,12 +80,12 @@
   cursor: pointer;
 }
 
-.input-result.check {
+.input-result.success {
   color: #27ae60;
-  font-weight: 600;
+  font-size: 12px;
 }
 
 .input-result.error {
   color: #e74c3c;
-  font-weight: 600;
+  font-size: 12px;
 }

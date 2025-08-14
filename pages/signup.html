@@ -87,6 +87,7 @@
               autocomplete="new-password"
               placeholder="비밀번호 입력"
             />
+            <span class="input-result" id="pwResult"></span>
           </div>
           <div class="signup-info">
             <p>비밀번호 확인</p>
@@ -96,14 +97,23 @@
               autocomplete="new-passwordCheck"
               placeholder="비밀번호 확인"
             />
+            <span class="input-result" id="pwCheckResult"></span>
           </div>
+
           <div class="signup-info">
             <p>이메일</p>
             <input type="email" id="inputEmail" placeholder="이메일 입력" />
+            <span class="input-result" id="emailResult"></span>
+          </div>
+          <div class="signup-info">
+            <p>이름</p>
+            <input type="name" id="inputName" placeholder="이름 입력" />
+            <span class="input-result" id="namelResult"></span>
           </div>
           <div class="signup-info">
             <p>연락처</p>
-            <input type="number" id="inputPhone" placeholder="010-0000-0000" />
+            <input type="text" id="inputPhone" placeholder="010-0000-0000" />
+            <span class="input-result" id="phonelResult"></span>
           </div>
         </form>
         <button class="signup-btn" id="signupResult">회원 가입</button>
