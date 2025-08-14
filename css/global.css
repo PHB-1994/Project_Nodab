@@ -9,10 +9,48 @@ body {
   background-color: #fafafa;
 }
 
-/* 로고 */
+/* 헤더 */
 .nav-container {
   background-color: #201d1d;
 }
+
+.nav-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 15px 20px;
+}
+
+.menu-btn {
+  margin: 0 10px 0 0;
+}
+
+.nav-head p {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 16px;
+  background-color: #fff6;
+  margin: 0 5px;
+}
+
+.nav-head span {
+  height: 100%;
+  color: rgb(190, 190, 190);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
 .logo {
   margin: 0px 20px 20px;
   display: flex;
@@ -21,7 +59,6 @@ body {
 }
 
 .logo > a {
-  margin-top: 10px;
   text-decoration: none;
   color: white;
   font-style: italic;

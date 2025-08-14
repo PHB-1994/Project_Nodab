@@ -18,11 +18,6 @@ $(function () {
   $("#inputPhone").on("input", inputPhoneFn);
 });
 
-// 로그인 페이지 이동
-function loginFn() {
-  window.location.href = "login.html";
-}
-
 // 비밀번호 입력 설정
 function inputPwFn(e) {
   e.preventDefault();
@@ -43,8 +38,6 @@ function inputPwFn(e) {
     checkList["inputPw"] = false;
   }
 }
-
-// 아이디 설정
 
 // 비밀번호 확인 설정
 function inputPwCheckFn(e) {
@@ -172,7 +165,7 @@ function signupFn(e) {
   }
 
   if (checkList) {
-    let userList = JSON.parse(localStorage.getItem("userList") || "[]");
+    let userList = JSON.parse(sessionStorage.getItem("userList") || "[]");
 
     const newUser = {
       id: $("#inputId").val(),
@@ -183,7 +176,7 @@ function signupFn(e) {
 
     userList.push(newUser);
 
-    localStorage.setItem("userList", JSON.stringify(userList));
+    sessionStorage.setItem("userList", JSON.stringify(userList));
     alert("회원가입이 완료되었습니다.");
 
     window.location.href = "login.html";

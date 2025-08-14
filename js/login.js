@@ -1,3 +1,7 @@
+const userList = sessionStorage.getItem("userList");
+let a = JSON.parse(userList);
+console.log("user : ", a[0]);
+
 $(function () {
   $("#loginBtn").click(loginFn);
   $(".register-btn").click(registerFn);
@@ -28,22 +32,19 @@ function loginFn(e) {
     return;
   }
 
-  const userList = localStorage.getItem("userList");
+  // let userCheck = user[i]; 배열 지정해서 아이디에 맞는 인덱스 값 찾아야함... 필터 사용해보자
 
-  let user = JSON.parse(userList);
-  console.log("user : ", user);
-
-  if (user[0].id === userId && user[0].password === userPw) {
+  if (a[0].id === userId && a[0].password === userPw) {
     $("#nameResult").html("");
     $("#pwResult").html("");
     alert(
       `
       로그인에 성공하였습니다.
-      반갑습니다. ${user[0].name}님
+      반갑습니다. ${a[0].name}님
       `
     );
     window.open("../index.html");
-  } else if (user[0].id === userId) {
+  } else if (a[0].id === userId) {
     alert("아이디 또는 비밀번호가 일치하지 않습니다.");
     $("#nameResult").html("");
     $("#pwResult").html("");
