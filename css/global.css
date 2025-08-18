@@ -51,22 +51,22 @@ body {
   cursor: pointer;
 }
 
+#userInfo {
+  color: white;
+}
+
 .nav-btn {
-  margin-top: 10px;
+  margin-right: 10px;
   padding: 0px 5px;
   display: flex;
   align-items: center;
-}
-
-#userInfo {
-  color: white;
 }
 
 .nav-btn button {
   border: 1px solid rgb(204, 204, 204);
   border-radius: 4px;
   background-color: #201d1d;
-  color: white;
+  color: rgb(204, 204, 204);
   font-size: 13px;
   cursor: pointer;
   margin-left: 5px;

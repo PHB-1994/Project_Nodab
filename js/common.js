@@ -1,11 +1,13 @@
-const user = sessionStorage.getItem("userList");
+let currentUser = JSON.parse(sessionStorage.getItem("currentUser") || "[]");
 
 $(function () {
   $("#menuBtn").click(menuBtnFn);
 
   $("#navLoginBtn").click(loginFn);
 
-  currentFn();
+  if (currentUser) {
+    currentFn();
+  }
 
   $("#navLogoutBtn").click(navLogoutBtnFn);
 
@@ -28,7 +30,8 @@ $(function () {
 
 // 메뉴 버튼 클릭 시
 function menuBtnFn() {
-  alert("업데이트를 기대해주세요.");
+  alert("업데이트를 기대해주세요~");
+  console.log("menuLink 클릭됨");
   return;
 }
 
@@ -48,10 +51,14 @@ function loginFn() {
 }
 
 // 로그인 시 데이터 가져와서 정보 입력
-function currentFn() {
-  let currentUser = JSON.parse(sessionStorage.getItem("currentUser") || "[]");
+// function currentFn() {
+//   $("#userInfo").text(`${currentUser[0].id}님 환영합니다.`);
+//   $("#navLogoutBtn").show();
+//   $("#navLoginBtn").hide();
 
-  if (currentUser) {
+// }
+function currentFn() {
+  if (Array.isArray(currentUser) && currentUser.length > 0) {
     $("#userInfo").text(`${currentUser[0].id}님 환영합니다.`);
     $("#navLogoutBtn").show();
     $("#navLoginBtn").hide();

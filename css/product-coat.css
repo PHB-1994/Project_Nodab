@@ -2,13 +2,23 @@
   background-color: #f2f2f2;
 }
 
+/* 리스트 */
+.coat-list {
+  max-width: 100%;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  gap: 5px;
+}
+
 .coat-btn {
   border: 1px solid rgb(102 102 102);
   border-radius: 4px;
   font-size: 12px;
   font-weight: 500;
   padding: 5px 10px;
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,15 +37,6 @@
 }
 .coat-btn:active {
   transform: translateY(0);
-}
-
-/* 리스트 */
-.coat-list {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  gap: 50px;
 }
 
 .coat-content {
