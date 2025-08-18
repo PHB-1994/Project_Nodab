@@ -53,6 +53,8 @@ function nextFn() {
     if (현재페이지 < 이미지총개수 - 1) {
       현재페이지++;
       $(".best-img").animate({ left: -width * 현재페이지 }, 500);
+    } else {
+      alert("마지막 페이지입니다.");
     }
   });
 }
@@ -66,7 +68,7 @@ function prevFn() {
     현재페이지--;
     $(".best-img").animate({ left: -width * 현재페이지 }, 500);
   } else {
-    alert("처음");
+    alert("첫 번째 페이지입니다.");
   }
 }
 

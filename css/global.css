@@ -53,7 +53,13 @@ body {
 
 .nav-btn {
   margin-top: 10px;
-  padding: 0 10px;
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+}
+
+#userInfo {
+  color: white;
 }
 
 .nav-btn button {
@@ -64,6 +70,7 @@ body {
   font-size: 13px;
   cursor: pointer;
   margin-left: 5px;
+  height: 22px;
 }
 
 .nav-head p {
@@ -144,71 +151,6 @@ a > strong {
   font-weight: bold;
 }
 
-/* 페이지 네이션 버튼 */
-.page {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
-.page-btn {
-  width: 70px;
-  height: 30px;
-  margin: 0 20px;
-  background-color: #c4cad1;
-  border: none;
-  font-size: 16px;
-  color: black;
-  border-radius: 5px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.page span {
-  font-size: 18px;
-}
-
-/* 배너 */
-.banner {
-  background-color: #e2e2e2;
-  position: bottom;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-.ban-info {
-  margin: 10px auto;
-}
-
-.ban-text {
-  text-align: center;
-  margin-left: 10px;
-  padding: 2px;
-}
-.banner p {
-  font-size: 12px;
-}
-
-/* 항목 이동 버튼 */
-.clothes-top {
-  position: fixed;
-  bottom: 50px;
-  right: 270px;
-  background-color: #fff;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #e0e0e0;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-
 /* 모달 팝업 */
 .modal-overlay {
   position: fixed;
@@ -255,4 +197,89 @@ a > strong {
 
 .modal-content h5 {
   margin: 20px;
+}
+
+/* 페이지 네이션 버튼 */
+/* .page {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.page-btn {
+  width: 70px;
+  height: 30px;
+  margin: 0 20px;
+  background-color: #c4cad1;
+  border: none;
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.page span {
+  font-size: 18px;
+} */
+
+/* 배너 */
+.banner {
+  background-color: #e2e2e2;
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ban-info {
+  margin: 10px auto;
+}
+
+.ban-text {
+  text-align: center;
+  margin-left: 10px;
+  padding: 2px;
+}
+.banner p {
+  font-size: 12px;
+}
+
+/* 항목 이동 버튼 */
+.clothes-top {
+  position: fixed;
+  bottom: 50px;
+  right: 270px;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .body {
+    width: 100%;
+  }
+
+  .main-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-container {
+    width: 100%;
+  }
+
+  .menuLink {
+    font-size: 50px;
+  }
 }

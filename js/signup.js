@@ -165,7 +165,7 @@ function signupFn(e) {
   }
 
   if (checkList) {
-    let userList = JSON.parse(sessionStorage.getItem("userList") || "[]");
+    let userList = JSON.parse(localStorage.getItem("userList") || "[]");
 
     const newUser = {
       id: $("#inputId").val(),
@@ -176,7 +176,7 @@ function signupFn(e) {
 
     userList.push(newUser);
 
-    sessionStorage.setItem("userList", JSON.stringify(userList));
+    localStorage.setItem("userList", JSON.stringify(userList));
     alert("회원가입이 완료되었습니다.");
 
     window.location.href = "login.html";

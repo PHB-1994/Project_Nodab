@@ -28,7 +28,7 @@ function loginFn(e) {
     return;
   }
 
-  const userList = sessionStorage.getItem("userList");
+  const userList = localStorage.getItem("userList");
   let a = JSON.parse(userList);
   console.log("user : ", a[0]);
 
@@ -40,9 +40,21 @@ function loginFn(e) {
     alert(
       `
       로그인에 성공하였습니다.
-      반갑습니다. ${a[0].name}님
+      반갑습니다. ${a[0].id}님
       `
     );
+
+    let currentUser = JSON.parse(sessionStorage.getItem("currentUser")) || [];
+
+    const newUser = {
+      id: $("#userId").val(),
+      password: $("#userPw").val(),
+    };
+
+    currentUser.push(newUser);
+
+    sessionStorage.setItem("currentUser", JSON.stringify(currentUser));
+
     window.open("../index.html");
   } else if (a[0].id === userId) {
     alert("아이디 또는 비밀번호가 일치하지 않습니다.");

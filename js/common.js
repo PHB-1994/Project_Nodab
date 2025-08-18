@@ -1,10 +1,17 @@
+const user = sessionStorage.getItem("userList");
+
 $(function () {
   $("#menuBtn").click(menuBtnFn);
 
   $("#navLoginBtn").click(loginFn);
 
+  currentFn();
+
+  $("#navLogoutBtn").click(navLogoutBtnFn);
+
   $(".search").click(searchFn);
   $("#closeModal").click(closeFn);
+  $("#modalOverlay").click(modalOverlayFn);
 
   banner();
 
@@ -40,6 +47,30 @@ function loginFn() {
   window.location.href = loginUrl;
 }
 
+// 로그인 시 데이터 가져와서 정보 입력
+function currentFn() {
+  let currentUser = JSON.parse(sessionStorage.getItem("currentUser") || "[]");
+
+  if (currentUser) {
+    $("#userInfo").text(`${currentUser[0].id}님 환영합니다.`);
+    $("#navLogoutBtn").show();
+    $("#navLoginBtn").hide();
+  }
+}
+
+// 로그아웃 버튼
+function navLogoutBtnFn() {
+  sessionStorage.removeItem("currentUser");
+  alert("로그아웃이 완료되었습니다.");
+  window.location.href = "index.html";
+
+  const loginUrl = window.location.pathname.includes("../")
+    ? "index.html"
+    : "../index.html";
+
+  window.location.href = loginUrl;
+}
+
 // MODAL
 function searchFn() {
   $("#modalOverlay").fadeIn(100);
@@ -47,6 +78,12 @@ function searchFn() {
 
 function closeFn() {
   $("#modalOverlay").fadeOut(100);
+}
+
+function modalOverlayFn(e) {
+  if (e.target === this) {
+    $("#modalOverlay").fadeOut(100);
+  }
 }
 
 // 베너
