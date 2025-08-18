@@ -57,5 +57,5 @@ function coatList() {
 }
 
 function goToDetail(coatId) {
-  window.location.href = `product-datail.html?id=${coatId}`;
+  window.location.href = `product-detail.html?id=${coatId}`;
 }

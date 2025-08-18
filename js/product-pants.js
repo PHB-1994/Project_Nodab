@@ -55,5 +55,5 @@ function pantsList() {
 }
 
 function goToDetail(pantsId) {
-  window.location.href = `product-datail.html?id=${pantsId}`;
+  window.location.href = `product-detail.html?id=${pantsId}`;
 }

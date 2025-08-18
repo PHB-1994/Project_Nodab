@@ -1,4 +1,6 @@
 $(function () {
+  $("#menuBtn").click(menuBtnFn);
+
   $("#navLoginBtn").click(loginFn);
 
   banner();
@@ -13,6 +15,12 @@ $(function () {
 
   $(".menuLink").click(menuLinkFn);
 });
+
+// 메뉴 버튼 클릭 시
+function menuBtnFn() {
+  alert("업데이트를 기대해주세요.");
+  return;
+}
 
 // 로그인 이동 페이지
 function loginFn() {
