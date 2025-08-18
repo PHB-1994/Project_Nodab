@@ -1,165 +1,219 @@
 [
   {
     "id": 1,
+    "number": 1,
     "name": "베이직 화이트 티셔츠",
     "price": 15000,
     "imageUrl": "https://cdn-tgreen.bizhost.kr/files/goods/662589/1709527238_0.jpg",
     "color": "화이트 / 블랙",
     "description": "깔끔한 디자인의 데일리 필수 아이템",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Nike",
+    "sale": 15
   },
   {
     "id": 2,
+    "number": 2,
     "name": "슬림핏 블랙 티셔츠",
     "price": 17000,
     "imageUrl": "https://static-resource.mlb-korea.com/cdn-cgi/image/q=75,format=auto,fit=scale-down,onerror=redirect/images/goods/ec/M25S3ATSB025350BKS/thnail/A8791682483049DEA371875C1915FF73.jpg",
     "color": "블랙",
     "description": "몸에 핏되며 단정한 스타일 연출",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Adidas",
+    "sale": 22
   },
   {
     "id": 3,
+    "number": 3,
     "name": "오버핏 라운드 티셔츠",
     "price": 18000,
     "imageUrl": "https://image.nbkorea.com/NBRB_Product/20250403/NB20250403110025889001.jpg",
     "color": "화이트 / 네이비",
     "description": "넉넉한 핏으로 편안한 착용감 제공",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "New Balance",
+    "sale": 18
   },
   {
     "id": 4,
+    "number": 4,
     "name": "스트라이프 패턴 반팔티",
     "price": 19000,
     "imageUrl": "https://item.elandrs.com/r/image/item/2023-05-15/171561fd-7518-41f8-b9cd-7b4a0bc24d54.jpg?w=750&h=&q=100",
     "color": "화이트 / 블랙",
     "description": "스트라이프 패턴으로 트렌디한 룩",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Uniqlo",
+    "sale": 12
   },
   {
     "id": 5,
+    "number": 5,
     "name": "코튼 크루넥 반팔티",
     "price": 16000,
     "imageUrl": "https://cafe24img.poxo.com/scenerity/web/product/big/202305/4016e98f0d51e3b203ff0c6974d70035.jpg",
     "color": "검정 / 그레이",
     "description": "부드러운 코튼 소재의 편안한 착용감",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Zara",
+    "sale": 25
   },
   {
     "id": 6,
+    "number": 6,
     "name": "빈티지 워싱 반팔티",
     "price": 20000,
     "imageUrl": "https://img.29cm.co.kr/item/202505/11f032134498898db1709ddfa81ae067.jpg?width=700&format=webp",
     "color": "카키",
     "description": "워싱 처리로 자연스러운 컬러감",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "H&M",
+    "sale": 28
   },
   {
     "id": 7,
+    "number": 7,
     "name": "그래픽 프린팅 반팔티",
     "price": 22000,
     "imageUrl": "https://cafe24.poxo.com/ec01/worksby02/Kz2CAnT6o1ru4a+ciSQRaFy7+qBiIyvSf38z+b8WiHyP9EV1BjCqdpCSbCAa7KrnJBD5kgOkCgdnsd10wnpYIw==/_/web/product/big/202308/f8d98168d65860abf2d90c01d60418d6.jpg",
     "color": "검정",
     "description": "개성 있는 프린팅 디자인",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Stussy",
+    "sale": 19
   },
   {
     "id": 8,
+    "number": 8,
     "name": "무지 루즈핏 반팔티",
     "price": 14000,
     "imageUrl": "https://m.zeross.co.kr/web/product/big/202205/5405836c4fe0ad559ea77bbbb679333d.jpg",
     "color": "화이트 / 아이보리",
     "description": "넉넉하고 여유로운 루즈핏",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "COS",
+    "sale": 14
   },
   {
     "id": 9,
+    "number": 9,
     "name": "브이넥 캐주얼 티셔츠",
     "price": 18000,
     "imageUrl": "https://ecimg.cafe24img.com/pg327b95887124086/aitchbasic/web/product/big/20230522/9403716b6c253db45d3bbe94feaba8b1.jpg",
     "color": "블루",
     "description": "브이넥 디자인으로 깔끔한 스타일",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Gap",
+    "sale": 23
   },
   {
     "id": 10,
+    "number": 10,
     "name": "쿨링 기능성 반팔티",
     "price": 25000,
     "imageUrl": "https://static.lookpin.co.kr/20240708063639-e047/c427f07996f14903a6ae166f887f32ed.jpg",
     "color": "블랙",
     "description": "흡습속건 기능으로 여름에 최적화",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Under Armour",
+    "sale": 30
   },
   {
     "id": 11,
+    "number": 11,
     "name": "그래픽 백프린팅 티셔츠",
     "price": 23000,
     "imageUrl": "https://cafe24.poxo.com/ec01/seonhj12/UVTjSep0dwP4/wX7AtHyXPFZ4Svpzl7qc0tYEITYoE8uoYmAW9hKHjD+XEerAYLNx+tmnJtqWQ5YtX06mU9D3Q==/_/web/product/big/202303/b3b6699b67e02f4f9f97d1a4a6e669d5.jpg",
     "color": "화이트",
     "description": "등 부분에 포인트를 준 디자인",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Supreme",
+    "sale": 20
   },
   {
     "id": 12,
+    "number": 12,
     "name": "오버핏 스트릿 반팔티",
     "price": 27000,
     "imageUrl": "https://images.onthelook.co.kr/pr/60a623a1f5f63dc4e1719a56.jpg",
     "color": "화이트",
     "description": "엠보싱 프린트로 고급스러운 느낌",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Carhartt",
+    "sale": 17
   },
   {
     "id": 13,
+    "number": 13,
     "name": "박시핏 로고 반팔티",
     "price": 21000,
     "imageUrl": "https://cafe24img.poxo.com/lovejeehoo/web/product/big/202203/0dcc2e45d19f8ca87696b464d3d0fa52.jpg",
     "color": "화이트",
     "description": "로고 프린트로 캐주얼한 무드",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Fila",
+    "sale": 11
   },
   {
     "id": 14,
+    "number": 14,
     "name": "슬릿 헴 반팔티",
     "price": 19000,
     "imageUrl": "https://m.ggons.co.kr/web/product/big/202303/c6839390ce621542ac8878d3ef066120.jpg",
     "color": "베이지",
     "description": "밑단 트임으로 활동성 UP",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Mango",
+    "sale": 27
   },
   {
     "id": 15,
+    "number": 15,
     "name": "엠보 프린트 티셔츠",
     "price": 22000,
     "imageUrl": "https://cdn5-aka.makeshop.co.kr/shopimages/girlsje/mobile/5/1000004905_represent?07070341",
     "color": "화이트",
     "description": "엠보싱 프린트로 고급스러운 느낌",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Guess",
+    "sale": 21
   },
   {
     "id": 16,
+    "number": 16,
     "name": "박시핏 로고 반팔티",
     "price": 26000,
     "imageUrl": "https://m.lumbstore.com/web/product/big/202405/96f5c1e670168dba3adab2b1fcee96d6.jpg",
     "color": "블랙",
     "description": "로고 프린트로 캐주얼한 무드",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Champion",
+    "sale": 29
   },
   {
     "id": 17,
+    "number": 17,
     "name": "라운드넥 소프트 티셔츠",
     "price": 15000,
     "imageUrl": "https://image.msscdn.net/images/goods_img/20210423/1917278/1917278_1_500.jpg",
     "color": "스카이 블루",
     "description": "부드러운 촉감의 베이직한 디자인",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "Tommy Hilfiger",
+    "sale": 13
   },
   {
     "id": 18,
+    "number": 18,
     "name": "트위스트 디자인 반팔티",
     "price": 28000,
     "imageUrl": "https://dignolucir.co.kr/web/product/big/202406/f73e586b12cd829bcc0dfe782a37a2d1.jpg",
     "color": "화이트",
     "description": "비틀어진 절개 라인이 포인트",
-    "category": "반팔티"
+    "category": "반팔티",
+    "brand": "A.P.C.",
+    "sale": 26
   },
   {
     "id": 19,
@@ -217,165 +271,219 @@
   },
   {
     "id": 51,
+    "number": 1,
     "name": "베이직 화이트 티셔츠",
     "price": 15000,
     "imageUrl": "https://oasisprodproduct.edge.naverncp.com/97440/detail/0_3551b7f8-ff5b-4c78-a9c3-4544164efad1.jpg",
     "color": "화이트",
     "description": "깔끔한 디자인의 데일리 필수 아이템",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Nike",
+    "sale": 19
   },
   {
     "id": 52,
+    "number": 2,
     "name": "슬림핏 블랙 티셔츠",
     "price": 17000,
     "imageUrl": "https://www.ocokorea.com//upload/images/product/127/127413/Product_1623325330603.jpg",
     "color": "블랙",
     "description": "몸에 핏되며 단정한 스타일 연출",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Adidas",
+    "sale": 25
   },
   {
     "id": 53,
+    "number": 3,
     "name": "오버핏 라운드 티셔츠",
     "price": 18000,
     "imageUrl": "https://cdn-tgreen.bizhost.kr/files/goods/655590/1693969103_0.jpg",
     "color": "네이비",
     "description": "넉넉한 핏으로 편안한 착용감 제공",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "New Balance",
+    "sale": 14
   },
   {
     "id": 54,
+    "number": 4,
     "name": "스트라이프 패턴 반팔티",
     "price": 19000,
     "imageUrl": "https://godomall.speedycdn.net/9b6a1925f166adca31fbc221b55f6731/goods/1366/image/detail/1366_detail_026.jpg",
     "color": "화이트/블랙",
     "description": "스트라이프 패턴으로 트렌디한 룩",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Uniqlo",
+    "sale": 28
   },
   {
     "id": 55,
+    "number": 5,
     "name": "코튼 크루넥 반팔티",
     "price": 16000,
     "imageUrl": "https://m.jaida.co.kr/web/product/big/20200604/a9173b882e3fff3bb14f7ec3c2dd0e1b.jpg",
     "color": "그레이",
     "description": "부드러운 코튼 소재의 편안한 착용감",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Zara",
+    "sale": 13
   },
   {
     "id": 56,
+    "number": 6,
     "name": "빈티지 워싱 반팔티",
     "price": 20000,
     "imageUrl": "https://m.uremind.co.kr/web/product/big/202503/5c6c815adf1d31ff579a318ade12ba21.jpg",
     "color": "카키",
     "description": "워싱 처리로 자연스러운 컬러감",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "H&M",
+    "sale": 21
   },
   {
     "id": 57,
+    "number": 7,
     "name": "그래픽 프린팅 반팔티",
     "price": 22000,
     "imageUrl": "https://cafe24img.poxo.com/meetkmi0/web/product/big/202011/a015f6beaa9aebecb93c29c5438ac375.jpg",
     "color": "블루",
     "description": "개성 있는 프린팅 디자인",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Stussy",
+    "sale": 16
   },
   {
     "id": 58,
+    "number": 8,
     "name": "무지 루즈핏 반팔티",
     "price": 14000,
     "imageUrl": "https://sitem.ssgcdn.com/77/45/66/item/1000672664577_i1_1200.jpg",
     "color": "아이보리",
     "description": "넉넉하고 여유로운 루즈핏",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "COS",
+    "sale": 12
   },
   {
     "id": 59,
+    "number": 9,
     "name": "브이넥 캐주얼 티셔츠",
     "price": 18000,
     "imageUrl": "https://m.gun-go.com/web/product/big/202310/3a93fc7a1b099d7ef322f0dc851e9047.jpg",
     "color": "블랙",
     "description": "브이넥 디자인으로 깔끔한 스타일",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Gap",
+    "sale": 30
   },
   {
     "id": 60,
+    "number": 10,
     "name": "쿨링 기능성 반팔티",
     "price": 25000,
     "imageUrl": "https://m.dark-fandom.com/web/product/big/20200116/9b3348b5454565d8edaf7428702cf02d.jpg",
     "color": "블랙",
     "description": "흡습속건 기능으로 여름에 최적화",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Under Armour",
+    "sale": 20
   },
   {
     "id": 61,
+    "number": 11,
     "name": "그래픽 백프린팅 티셔츠",
     "price": 23000,
     "imageUrl": "https://m.hoontshop.com/web/product/big/202410/2c68574cefbf070a6bf3e11006315670.jpg",
     "color": "화이트",
     "description": "등 부분에 포인트를 준 디자인",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Supreme",
+    "sale": 18
   },
   {
     "id": 62,
+    "number": 12,
     "name": "오버핏 스트릿 반팔티",
     "price": 27000,
     "imageUrl": "https://ecimg.cafe24img.com/pg433b14623848048/manz9999/web/product/big/20241013/4bbca1a9d483513d7393135fa0d34a2e.jpg",
     "color": "네이비",
     "description": "스트릿 감성의 트렌디한 핏",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Carhartt",
+    "sale": 24
   },
   {
     "id": 63,
+    "number": 13,
     "name": "레터링 포인트 티셔츠",
     "price": 21000,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMZIpU1eoNHuvN2CzM5fa4wlhvkr5gKbk_VQ&s",
     "color": "블랙",
     "description": "전면 텍스트로 감각적인 디자인",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Maison Kitsuné",
+    "sale": 22
   },
   {
     "id": 64,
+    "number": 14,
     "name": "슬릿 헴 반팔티",
     "price": 19000,
     "imageUrl": "https://sitem.ssgcdn.com/56/52/67/item/1000672675256_i1_1200.jpg",
     "color": "라이트 블루",
     "description": "밑단 트임으로 활동성 UP",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Mango",
+    "sale": 15
   },
   {
     "id": 65,
+    "number": 15,
     "name": "엠보 프린트 티셔츠",
     "price": 22000,
     "imageUrl": "https://m.zeross.co.kr/web/product/big/202301/f5dfa6535a508246dab1f7a631eb2e40.jpg",
     "color": "화이트",
     "description": "엠보싱 프린트로 고급스러운 느낌",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Guess",
+    "sale": 27
   },
   {
     "id": 66,
+    "number": 16,
     "name": "박시핏 로고 반팔티",
     "price": 26000,
     "imageUrl": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3a2cdb0784a34175b5fb8769231bfdb3_9366/Y-3_Black_JN4880.jpg",
     "color": "블랙",
     "description": "로고 프린트로 캐주얼한 무드",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Adidas Y-3",
+    "sale": 29
   },
   {
     "id": 67,
+    "number": 17,
     "name": "라운드넥 소프트 티셔츠",
     "price": 15000,
     "imageUrl": "https://mrjason.kr/web/product/big/202404/065c716ce56fb0ac25822c16f92b6fab.jpg",
     "color": "화이트 / 블랙",
     "description": "부드러운 촉감의 베이직한 디자인",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "Tommy Hilfiger",
+    "sale": 11
   },
   {
     "id": 68,
+    "number": 18,
     "name": "트위스트 디자인 반팔티",
     "price": 28000,
     "imageUrl": "https://contents.lotteon.com/itemimage/20250411135328/LO/23/69/22/76/05/_2/36/92/27/60/6/LO2369227605_2369227606_1.png/dims/optimize/dims/resizemc/400x400",
     "color": "블랙",
     "description": "비틀어진 절개 라인이 포인트",
-    "category": "긴팔티"
+    "category": "긴팔티",
+    "brand": "A.P.C.",
+    "sale": 26
   },
   {
     "id": 69,
@@ -433,171 +541,225 @@
   },
   {
     "id": 101,
+    "number": 1,
     "name": "클래식 화이트 셔츠",
     "price": 49000,
     "imageUrl": "https://item.elandrs.com/r/image/item/2024-05-29/e865bb23-1867-47d1-8ee5-f21717351232.jpg?w=750&h=&q=100",
     "color": "화이트",
     "description": "깔끔한 디자인의 기본 화이트 셔츠로 다양한 스타일에 매치 가능합니다.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Uniqlo",
+    "sale": 15
   },
   {
     "id": 102,
+    "number": 2,
     "name": "슬림 핏 블루 셔츠",
     "price": 59000,
     "imageUrl": "https://m.byslim.com/web/product/big/202402/57e6df886466ee9197cd3267c4701ee9.jpg",
     "color": "화이트",
     "description": "슬림한 실루엣으로 몸에 잘 맞는 블루 셔츠입니다.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Zara",
+    "sale": 20
   },
   {
     "id": 103,
+    "number": 3,
     "name": "스트라이프 옥스퍼드 셔츠",
     "price": 65000,
     "imageUrl": "https://images.kolonmall.com/Prod_Img/10003306/2022/LZ1/K1666773042734020NO01_LZ1.jpg",
     "color": "라이트 블루",
     "description": "포멀하면서도 캐주얼한 스트라이프 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Ralph Lauren",
+    "sale": 18
   },
   {
     "id": 104,
+    "number": 4,
     "name": "린넨 반팔 셔츠",
     "price": 42000,
     "imageUrl": "https://cf.product-image.s.zigzag.kr/original/d/2024/8/27/41660_202408271740450699_43237.jpeg?width=400&height=400&quality=80&format=webp",
     "color": "라이트 그레이",
     "description": "여름철 시원하게 착용 가능한 린넨 소재 반팔 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "H&M",
+    "sale": 25
   },
   {
     "id": 105,
+    "number": 5,
     "name": "체크 패턴 셔츠",
     "price": 48000,
     "imageUrl": "https://sitem.ssgcdn.com/41/38/90/item/1000549903841_i1_750.jpg",
     "color": "레드 체크",
     "description": "빈티지 무드의 체크 셔츠로 데일리룩에 적합합니다.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Levi's",
+    "sale": 12
   },
   {
     "id": 106,
+    "number": 6,
     "name": "오버사이즈 블랙 셔츠",
     "price": 55000,
     "imageUrl": "https://belivus.co.kr/web/product/big/202402/599194db29218eb5b94f45e68e5ac4de.jpg",
     "color": "블랙",
     "description": "트렌디한 오버사이즈 핏의 블랙 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "COS",
+    "sale": 22
   },
   {
     "id": 107,
+    "number": 7,
     "name": "파스텔 핑크 셔츠",
     "price": 53000,
     "imageUrl": "https://thumbnail.10x10.co.kr/webimage/image/basic600/520/B005204828.jpg?cmd=thumb&w=400&h=400&fit=true&ws=false",
     "color": "파스텔 핑크",
     "description": "부드러운 색감의 셔츠로 포인트 코디에 좋습니다.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Topman",
+    "sale": 17
   },
   {
     "id": 108,
+    "number": 8,
     "name": "헨리넥 코튼 셔츠",
     "price": 47000,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0INJ_6fqrbpu0Oim_0AXBNZCD4xp7zqxtLA&s",
     "color": "베이지",
     "description": "헨리넥 디자인으로 캐주얼하게 연출 가능한 코튼 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Gap",
+    "sale": 14
   },
   {
     "id": 109,
+    "number": 9,
     "name": "차이나 카라 셔츠",
     "price": 60000,
     "imageUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/455957/item/goods_57_455957_3x4.jpg?width=600",
     "color": "차콜",
     "description": "모던한 차이나 카라 스타일의 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Uniqlo",
+    "sale": 19
   },
   {
     "id": 110,
+    "number": 10,
     "name": "데님 셔츠",
     "price": 62000,
     "imageUrl": "https://ecimg.cafe24img.com/pg594b45786751083/dlsjt/web/product/big/20240313/3acebb3cba881f47067c0f1d56973e27.jpg",
     "color": "인디고 블루",
     "description": "빈티지한 느낌을 주는 데님 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Levi's",
+    "sale": 27
   },
   {
     "id": 111,
+    "number": 11,
     "name": "플란넬 셔츠",
     "price": 51000,
     "imageUrl": "https://투게더위드미.shop/web/upload/NNEditor/20230828/mobile/dfbd84ffb4f20947397b619a1d6f45ae_1693211423.jpg",
     "color": "그린 체크",
     "description": "부드러운 플란넬 소재의 따뜻한 셔츠입니다.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Abercrombie",
+    "sale": 23
   },
   {
     "id": 112,
+    "number": 12,
     "name": "마오 칼라 셔츠",
     "price": 54000,
-    "imageUrl": "https://70mens.com/web/product/big/202403/78ffe93839b6c437072c3d54ed21b8a0.jpg",
+    "imageUrl": "https://static.zara.net/assets/public/7c01/8de1/241d468f94ff/97838f6f5cc7/09144304401-a1/09144304401-a1.jpg?ts=1754408709426&w=352&f=auto",
     "color": "올리브",
     "description": "차별화된 마오 칼라가 돋보이는 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Massimo Dutti",
+    "sale": 16
   },
   {
     "id": 113,
+    "number": 13,
     "name": "타탄 체크 셔츠",
     "price": 46000,
     "imageUrl": "https://www.elle.co.kr/resources/online/online_image/2025/08/07/f359cf07-2c03-4cc3-91e0-462b3786f4a6.jpg",
     "color": "블루 스트라이프",
     "description": "선명한 타탄 패턴으로 포인트를 줄 수 있는 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Lacoste",
+    "sale": 11
   },
   {
     "id": 114,
+    "number": 14,
     "name": "리넨 스트라이프 셔츠",
     "price": 57000,
     "imageUrl": "https://m.sensober.com/web/product/extra/big/20240419/6287e39fda145f395c50034fe54177b2.jpg",
     "color": "블루 스트라이프",
     "description": "시원하고 가벼운 린넨 셔츠로 여름에 딱 좋습니다.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Tommy Hilfiger",
+    "sale": 24
   },
   {
     "id": 115,
+    "number": 15,
     "name": "스탠다드 핏 셔츠",
     "price": 49000,
     "imageUrl": "https://nareum.co.kr/web/product/big/202101/ad5d49c3464e7a521bd71ad52862162c.jpg",
     "color": "카키",
     "description": "가장 베이직한 핏의 데일리 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Uniqlo",
+    "sale": 13
   },
   {
     "id": 116,
+    "number": 16,
     "name": "포켓 디테일 셔츠",
     "price": 58000,
     "imageUrl": "https://mrjason.kr/web/product/big/202406/bb793e568c3552bfe6e8f5adf850a873.jpg",
     "color": "크림",
     "description": "포켓 디테일로 실용성을 높인 디자인.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Club Monaco",
+    "sale": 28
   },
   {
     "id": 117,
+    "number": 17,
     "name": "하프 집업 셔츠",
     "price": 61000,
     "imageUrl": "https://webimg.codigallery.com/UploadFolder/202506/25ssMain_BN03_Summerfabric2_250425-3.jpg",
     "color": "네이비",
     "description": "지퍼 디테일로 유니크함을 더한 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "Carhartt",
+    "sale": 19
   },
   {
     "id": 118,
+    "number": 18,
     "name": "베이직 코튼 셔츠",
     "price": 45000,
     "imageUrl": "https://m.jknv.co.kr/web/product/big/202107/3f37fcc1346992dd0ba1579d1ff98f70.jpg",
     "color": "아이보리",
     "description": "부드러운 코튼 소재의 기본 셔츠.",
-    "category": "셔츠"
+    "category": "셔츠",
+    "brand": "H&M",
+    "sale": 21
   },
   {
     "id": 119,
     "name": "투 포켓 셔츠",
     "price": 59000,
-    "imageUrl": "https://static.zara.net/assets/public/7c01/8de1/241d468f94ff/97838f6f5cc7/09144304401-a1/09144304401-a1.jpg?ts=1754408709426&w=352&f=auto",
+    "imageUrl": "",
     "color": "다크 브라운",
     "description": "앞면의 두 개의 포켓이 포인트인 셔츠.",
     "category": ""
@@ -613,165 +775,219 @@
   },
   {
     "id": 151,
+    "number": 1,
     "name": "베이직 코튼 반바지",
     "price": 29000,
     "imageUrl": "https://m.hotcodeshop.com/web/product/big/202205/f07300a46992fa823f00394e6960494d.jpg",
     "color": "베이지",
     "description": "데일리로 입기 좋은 기본 디자인의 코튼 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Uniqlo",
+    "sale": 18
   },
   {
     "id": 152,
+    "number": 2,
     "name": "스트레치 데님 반바지",
     "price": 35000,
     "imageUrl": "https://sitem.ssgcdn.com/01/10/89/item/1000576891001_i1_750.jpg",
     "color": "진청",
     "description": "신축성이 좋은 데님 소재로 편안한 착용감을 제공합니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Levi's",
+    "sale": 22
   },
   {
     "id": 153,
+    "number": 3,
     "name": "린넨 밴딩 반바지",
     "price": 32000,
     "imageUrl": "https://thumbnail.10x10.co.kr/webimage/image/basic600/461/B004616383.jpg?cmd=thumb&w=400&h=400&fit=true&ws=false",
     "color": "라이트 그레이",
     "description": "시원한 린넨 소재와 허리 밴딩으로 여름에 최적화된 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Zara",
+    "sale": 15
   },
   {
     "id": 154,
+    "number": 4,
     "name": "카고 포켓 반바지",
     "price": 37000,
     "imageUrl": "https://missylook.com/shopimages/missylook/mobile/9/1099519_represent?1682401368",
     "color": "카키",
     "description": "실용적인 포켓 디테일이 특징인 캐주얼 카고 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Nike",
+    "sale": 27
   },
   {
     "id": 155,
+    "number": 5,
     "name": "슬림핏 트레이닝 반바지",
     "price": 27000,
     "imageUrl": "https://cdn.011st.com/11dims/resize/1000x1000/quality/75/11src/product/150206247/B.jpg?521070608",
     "color": "블랙",
     "description": "운동과 일상 모두 활용 가능한 슬림핏 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Adidas",
+    "sale": 20
   },
   {
     "id": 156,
+    "number": 6,
     "name": "하이웨이스트 데님 반바지",
     "price": 39000,
     "imageUrl": "https://cdn-tgreen.bizhost.kr/files/goods/666663/1715221096_0.jpg",
     "color": "연청",
     "description": "다리가 길어 보이는 하이웨이스트 스타일의 데님 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "H&M",
+    "sale": 12
   },
   {
     "id": 157,
+    "number": 7,
     "name": "워싱 코튼 반바지",
     "price": 31000,
     "imageUrl": "https://cafe24img.poxo.com/xcustom/web/product/big/202405/c58cb30cebbdddca9ed31e71e7d7f53d.jpg",
     "color": "올리브",
     "description": "워싱 처리된 내추럴한 무드의 코튼 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "COS",
+    "sale": 14
   },
   {
     "id": 158,
+    "number": 8,
     "name": "핀턱 린넨 반바지",
     "price": 33000,
     "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/400x0/gift/pdt/1000/hot1697442434198.jpg",
     "color": "크림",
     "description": "핀턱 디테일로 깔끔한 실루엣을 연출하는 린넨 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Mango",
+    "sale": 23
   },
   {
     "id": 159,
+    "number": 9,
     "name": "유틸리티 스트랩 반바지",
     "price": 36000,
     "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/400x0/gift/pdt/1432/S1710203297437.jpg",
     "color": "차콜",
     "description": "스트랩 디테일로 유니크한 분위기를 더한 유틸리티 반바지.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Stone Island",
+    "sale": 19
   },
   {
     "id": 160,
+    "number": 10,
     "name": "스포티 메시 반바지",
     "price": 25000,
     "imageUrl": "https://sitem.ssgcdn.com/27/44/56/item/1000148564427_i1_750.jpg",
     "color": "네이비",
     "description": "통기성이 좋은 메시 소재의 활동적인 스포츠 반바지.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Under Armour",
+    "sale": 25
   },
   {
     "id": 161,
+    "number": 11,
     "name": "프린트 코튼 반바지",
     "price": 34000,
     "imageUrl": "https://simio.kr/web/product/big/202306/b5ae9511a41dfab3c3363e5c42f0541d.jpg",
     "color": "화이트/블루 프린트",
     "description": "감각적인 프린트로 포인트를 준 코튼 반바지.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Stussy",
+    "sale": 17
   },
   {
     "id": 162,
+    "number": 12,
     "name": "드로스트링 반바지",
     "price": 28000,
     "imageUrl": "https://thumbnail.10x10.co.kr/webimage/image/basic600/550/B005503221.jpg?cmd=thumb&w=400&h=400&fit=true&ws=false",
     "color": "스톤",
     "description": "허리끈으로 사이즈 조절이 가능한 드로스트링 스타일.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Gap",
+    "sale": 13
   },
   {
     "id": 163,
+    "number": 13,
     "name": "빈티지 워싱 반바지",
     "price": 36000,
     "imageUrl": "https://image-cdn.trenbe.com/product-images/1721229087719_57c78e954d8a9c7f76e1ed58f62fbfa5_0.jpeg",
     "color": "브라운",
     "description": "빈티지한 워싱 느낌의 감성적인 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Carhartt",
+    "sale": 21
   },
   {
     "id": 164,
+    "number": 14,
     "name": "테크웨어 카고 반바지",
     "price": 42000,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOPKnBR4ADBgsVnfb_CHpmRMajJKGQqKTglA&s",
     "color": "그레이",
     "description": "미니멀하면서도 기능적인 테크웨어 무드의 반바지.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Acronym",
+    "sale": 28
   },
   {
     "id": 165,
+    "number": 15,
     "name": "레트로 스트라이프 반바지",
     "price": 30000,
     "imageUrl": "https://img01.ztat.net/article/spp-media-p1/45300d3bf1d74561b8bceee4d5660dc0/21a231aa410544398eacee3b00f37cce.jpg?imwidth=1800",
     "color": "블랙",
     "description": "레트로 무드의 스트라이프 패턴이 인상적인 반바지.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Fred Perry",
+    "sale": 16
   },
   {
     "id": 166,
+    "number": 16,
     "name": "버뮤다 슬랙스 반바지",
     "price": 41000,
     "imageUrl": "https://cafe24.poxo.com/ec01/hjhj1103/0jJurf5+JqL2mXn6P+LWO2epGBuk7sbIpjBXyQ2AtxRisn5LZL5aY+aTsmnu09A5sPTh5ynHWlg4p/M3YWz9og==/_/web/product/extra/big/20210812/91c489f360dd84275fd1f9cc74e893e5.jpg",
     "color": "블랙",
     "description": "슬랙스 느낌의 포멀한 버뮤다 스타일 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Theory",
+    "sale": 24
   },
   {
     "id": 167,
+    "number": 17,
     "name": "클래식 데님 반바지",
     "price": 37000,
     "imageUrl": "https://m.fine-thankyou.com/web/product/big/202309/3d33f9f702fc2ede4f22a14669feb55d.gif",
     "color": "중청",
     "description": "유행을 타지 않는 클래식한 데님 반바지입니다.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Levi's",
+    "sale": 22
   },
   {
     "id": 168,
+    "number": 18,
     "name": "버튼 디테일 반바지",
     "price": 33000,
     "imageUrl": "https://www.zaksal.co.kr/shopimages/maeno798/0440030004323.jpg?1493703411",
     "color": "모카",
     "description": "버튼 포인트로 스타일리시한 디테일을 더한 반바지.",
-    "category": "반바지"
+    "category": "반바지",
+    "brand": "Massimo Dutti",
+    "sale": 18
   },
   {
     "id": 169,
@@ -799,7 +1015,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/13/87/38/item/1000623388713_i1_750.jpg",
     "color": "블랙",
     "description": "포멀한 자리에도 잘 어울리는 슬림핏 정장 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Zara",
+    "sale": 18
   },
   {
     "id": 202,
@@ -809,7 +1027,9 @@
     "imageUrl": "https://oasisprodproduct.edge.naverncp.com/11074/detail/0_069e6591-0bcd-43b8-b6c5-bd26c666fe3d.jpg",
     "color": "진청",
     "description": "매일 입기 좋은 클래식한 스트레이트 데님 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Levi's",
+    "sale": 22
   },
   {
     "id": 203,
@@ -819,7 +1039,9 @@
     "imageUrl": "https://cf.product-image.s.zigzag.kr/original/d/2024/8/28/41660_202408281158210913_31999.jpeg?width=400&height=400&quality=80&format=webp",
     "color": "라이트 베이지",
     "description": "시원하고 편안한 착용감의 와이드핏 린넨 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Uniqlo",
+    "sale": 15
   },
   {
     "id": 204,
@@ -829,7 +1051,9 @@
     "imageUrl": "https://shop-phinf.pstatic.net/20230324_270/1679649907453j9hpX_JPEG/FullSizeRender-991414.JPEG",
     "color": "카키",
     "description": "세련된 실루엣의 테이퍼드핏 치노 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "H&M",
+    "sale": 20
   },
   {
     "id": 205,
@@ -839,7 +1063,9 @@
     "imageUrl": "https://thumbnail.10x10.co.kr/webimage/image/basic600/555/B005554882.jpg?cmd=thumb&w=400&h=400&fit=true&ws=false",
     "color": "화이트 / 블랙 /그레이",
     "description": "부드럽고 따뜻한 기모 안감의 겨울용 트레이닝 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Nike",
+    "sale": 25
   },
   {
     "id": 206,
@@ -849,7 +1075,9 @@
     "imageUrl": "https://imagecdn.skstoa.com/goods/988/41035988_g.jpg",
     "color": "차콜",
     "description": "기능성과 스타일을 겸비한 테크웨어 스타일 조거 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Stone Island",
+    "sale": 17
   },
   {
     "id": 207,
@@ -859,7 +1087,9 @@
     "imageUrl": "https://zaksal.co.kr/shopimages/maeno798/0440030001833.jpg",
     "color": "블루 스트라이프",
     "description": "스트라이프 패턴으로 시원한 느낌을 주는 린넨 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Muji",
+    "sale": 14
   },
   {
     "id": 208,
@@ -869,7 +1099,9 @@
     "imageUrl": "https://cdn.imweb.me/thumbnail/20230417/830b8e3b4d1ba.jpg",
     "color": "중청",
     "description": "군더더기 없는 슬림한 실루엣의 데님 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Calvin Klein",
+    "sale": 19
   },
   {
     "id": 209,
@@ -879,7 +1111,9 @@
     "imageUrl": "https://belivus.co.kr/web/product/big/202106/4f6dfca23c57de36b16803572ab1f9b9.jpg",
     "color": "모카 브라운",
     "description": "넉넉한 핏과 실용적인 포켓이 특징인 카고 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Carhartt",
+    "sale": 28
   },
   {
     "id": 210,
@@ -889,7 +1123,9 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsjfF1a2IvjplXSD9o30o0xuHPIbnKLWyCQ&s",
     "color": "네이비",
     "description": "핀턱 디테일이 더해진 고급스러운 와이드 슬랙스.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "COS",
+    "sale": 21
   },
   {
     "id": 211,
@@ -899,7 +1135,9 @@
     "imageUrl": "https://img3.tmon.kr/cdn3/deals/2019/11/19/2722961078/2722961078_front_88882dd0c8.jpg",
     "color": "아이보리",
     "description": "허리 밴딩으로 편안한 착용감을 제공하는 데일리 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "GU",
+    "sale": 16
   },
   {
     "id": 212,
@@ -909,7 +1147,9 @@
     "imageUrl": "https://cdn-tgreen.bizhost.kr/files/goods/672858/1727327150_0.gif",
     "color": "블랙",
     "description": "어디에나 잘 어울리는 기본 블랙 슬랙스.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Hugo Boss",
+    "sale": 20
   },
   {
     "id": 213,
@@ -919,7 +1159,9 @@
     "imageUrl": "https://m.honeynine.com/web/product/big/202303/a91e1576508447856002d8bf4b865dfb.jpg",
     "color": "크림",
     "description": "하이웨이스트로 다리가 길어보이는 와이드 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Mango",
+    "sale": 27
   },
   {
     "id": 214,
@@ -929,7 +1171,9 @@
     "imageUrl": "https://underarmour.scene7.com/is/image/Underarmour/V5-6003974-001_FC?rp=standard-0pad|gridTileDesktop&scl=1&fmt=jpg&qlt=50&resMode=sharp2&cache=on,on&bgc=F0F0F0&wid=512&hei=640&size=512,640",
     "color": "연청",
     "description": "빈티지한 워싱 디테일이 매력적인 데님 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Diesel",
+    "sale": 24
   },
   {
     "id": 215,
@@ -939,7 +1183,9 @@
     "imageUrl": "https://cdn.ownerclan.com/o_NPom87QtyDR8NhHTS6bRMaUWj25R3FZfxIJ4D0NuE/marketize/auto/as/v1.jpg",
     "color": "그린 체크",
     "description": "서스펜더가 포함된 클래식한 체크 패턴 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Paul Smith",
+    "sale": 29
   },
   {
     "id": 216,
@@ -949,7 +1195,9 @@
     "imageUrl": "https://common.image.cf.marpple.co/files/u_4535593/2024/10/original/d6fdc3f35f06ba5447249bfe8a36c180a8fbd2851.png?q=92&w=1480&f=jpeg&bg=f6f6f6",
     "color": "그레이",
     "description": "편안한 데일리룩에 적합한 기본 조거 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Adidas",
+    "sale": 13
   },
   {
     "id": 217,
@@ -959,7 +1207,9 @@
     "imageUrl": "https://daydarling.com/web/product/big/Ddaily_20241022_x001gg.gif",
     "color": "차콜 그레이",
     "description": "깔끔한 실루엣이 돋보이는 테이퍼드 슬랙스.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Banana Republic",
+    "sale": 19
   },
   {
     "id": 218,
@@ -969,7 +1219,9 @@
     "imageUrl": "https://image-cdn.trenbe.com/productmain/1732861825894-89bfcb5e-3922-412d-83c3-983bd61118be.jpeg",
     "color": "네이비",
     "description": "허리 밴딩과 발목 조임으로 활동성이 좋은 팬츠.",
-    "category": "긴바지"
+    "category": "긴바지",
+    "brand": "Puma",
+    "sale": 23
   },
   {
     "id": 219,
@@ -999,7 +1251,9 @@
     "imageUrl": "https://cdn.011st.com/11dims/resize/792x792/quality/75/11src/product/7052334307/B.jpg?362000000",
     "color": "라이트 그레이",
     "description": "쿨링 반팔 티셔츠와 경량 반바지 구성의 트레이닝 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Nike",
+    "sale": 18
   },
   {
     "id": 252,
@@ -1009,7 +1263,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/42/31/11/item/1000595113142_i1_370.jpg",
     "color": "네이비",
     "description": "민소매 상의와 숏팬츠가 포함된 기능성 운동복 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Adidas",
+    "sale": 22
   },
   {
     "id": 253,
@@ -1019,7 +1275,9 @@
     "imageUrl": "https://the-tops.com/web/product/big/202306/77275906c690c734be1f62280e76d879.png",
     "color": "블랙",
     "description": "메쉬 소재로 구성된 통기성 좋은 여름 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Under Armour",
+    "sale": 15
   },
   {
     "id": 254,
@@ -1029,7 +1287,9 @@
     "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/400x0/gift/pdt/1726/S1715060003607.jpg",
     "color": "차콜",
     "description": "자외선 차단 소재가 적용된 반팔+반바지 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "New Balance",
+    "sale": 20
   },
   {
     "id": 255,
@@ -1039,7 +1299,9 @@
     "imageUrl": "https://thumb.mt.co.kr/06/2020/07/2020070709181660301_1.jpg/dims/optimize/",
     "color": "화이트",
     "description": "가볍고 편안한 착용감의 기능성 여름 운동복 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Fila",
+    "sale": 12
   },
   {
     "id": 256,
@@ -1049,7 +1311,9 @@
     "imageUrl": "https://thumbnail.10x10.co.kr/webimage/image/basic600/545/B005450044.jpg?cmd=thumb&w=400&h=400&fit=true&ws=false",
     "color": "카키",
     "description": "민소매 상의와 시원한 반바지 구성의 여름 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Reebok",
+    "sale": 28
   },
   {
     "id": 257,
@@ -1059,7 +1323,9 @@
     "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/8388/cd5120eb755c57c6be21a9f237e391cd761e943eb3d8bddfb66df106e618.jpeg",
     "color": "네이비",
     "description": "일상과 운동 모두 가능한 베이직 여름 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Puma",
+    "sale": 24
   },
   {
     "id": 258,
@@ -1069,7 +1335,9 @@
     "imageUrl": "https://asset.m-gs.kr/prod/1088749023/1/550",
     "color": "스카이 블루",
     "description": "이너 레깅스가 포함된 반바지와 쿨 티셔츠 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Descente",
+    "sale": 17
   },
   {
     "id": 259,
@@ -1079,7 +1347,9 @@
     "imageUrl": "https://media.bunjang.co.kr/product/280386602_1_1721388562_w360.jpg",
     "color": "민트",
     "description": "라이트한 무게감의 여름 운동복 상하의 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Asics",
+    "sale": 11
   },
   {
     "id": 260,
@@ -1089,7 +1359,9 @@
     "imageUrl": "https://gdimg.gmarket.co.kr/3779746873/still/800?ver=175416",
     "color": "블루그레이",
     "description": "흡습속건 티셔츠와 트레이닝 숏팬츠 조합.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Mizuno",
+    "sale": 19
   },
   {
     "id": 261,
@@ -1099,7 +1371,9 @@
     "imageUrl": "https://pyeonan.co.kr/web/product/big/202410/2d61253306b575add384c5d81907c962.jpg",
     "color": "모카",
     "description": "깔끔한 디자인의 기능성 여름 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Nike",
+    "sale": 23
   },
   {
     "id": 262,
@@ -1109,7 +1383,9 @@
     "imageUrl": "https://mblogthumb-phinf.pstatic.net/MjAxNzA2MDFfMjAy/MDAxNDk2MzA3OTQ4NTgx.YTY5YdNfap28k3qvvylS6ja3kjKtaeRTUw6dX_V8tIIg.jGY3jFecPRwdKVEku2R2h7sWupww4pVvkV8oBhpZVZMg.JPEG.eiderfriends/2.JPG?type=w800",
     "color": "라임",
     "description": "가볍고 편안한 착용감의 드라이 여름 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Adidas",
+    "sale": 14
   },
   {
     "id": 263,
@@ -1119,7 +1395,9 @@
     "imageUrl": "https://media.bunjang.co.kr/product/280386602_2_1721388562_w360.jpg",
     "color": "아이보리",
     "description": "냉감 기능이 극대화된 여름용 운동 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Under Armour",
+    "sale": 30
   },
   {
     "id": 264,
@@ -1129,7 +1407,9 @@
     "imageUrl": "https://thum.buzzni.com/unsafe/480x0/http://cdn.image.buzzni.com/2025/06/09/YBU9YDPh.jpg",
     "color": "퍼플",
     "description": "시원한 민소매 상의와 반바지 구성의 여름 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Puma",
+    "sale": 21
   },
   {
     "id": 265,
@@ -1139,7 +1419,9 @@
     "imageUrl": "https://s.alicdn.com/@sc04/kf/Hb437b9458cf24af4ae8b150c6788ff13l.jpg",
     "color": "블랙/화이트",
     "description": "전면 메쉬 디자인으로 통기성 극대화.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Fila",
+    "sale": 26
   },
   {
     "id": 266,
@@ -1149,7 +1431,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/69/84/23/item/1000616238469_i1_1200.jpg",
     "color": "브릭 레드",
     "description": "신축성과 통기성이 우수한 여름 트레이닝복.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Reebok",
+    "sale": 18
   },
   {
     "id": 267,
@@ -1159,7 +1443,9 @@
     "imageUrl": "https://thumbnail9.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/5ee3/f6d534016c60809708c77a1e32b614fccf25ef04fb63e9806780f7328457.jpg",
     "color": "라이트 베이지",
     "description": "얇고 쫀쫀한 신축소재의 여름 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Asics",
+    "sale": 13
   },
   {
     "id": 268,
@@ -1169,7 +1455,9 @@
     "imageUrl": "https://gdimg.gmarket.co.kr/4411871403/still/280?ver=1753661609",
     "color": "블루",
     "description": "고기능성 원단을 사용한 여름 스포츠 세트.",
-    "category": "여름용"
+    "category": "여름용",
+    "brand": "Descente",
+    "sale": 29
   },
   {
     "id": 269,
@@ -1199,7 +1487,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/91/28/01/item/1000633012891_i1_370.jpg",
     "color": "차콜",
     "description": "기모 안감으로 따뜻한 겨울용 상하의 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Nike",
+    "sale": 22
   },
   {
     "id": 302,
@@ -1209,7 +1499,9 @@
     "imageUrl": "https://cdn.011st.com/11dims/resize/600/11src/product/7840694993/B.jpg?973164526",
     "color": "아이보리",
     "description": "보송보송한 후리스 소재로 보온력을 강화한 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Adidas",
+    "sale": 18
   },
   {
     "id": 303,
@@ -1219,7 +1511,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/75/67/57/item/1000529576775_i1_750.jpg",
     "color": "블랙",
     "description": "하이넥 디자인의 보온성과 스타일을 겸비한 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Puma",
+    "sale": 25
   },
   {
     "id": 304,
@@ -1229,7 +1523,9 @@
     "imageUrl": "https://item.elandrs.com/upload/prd/orgimg/918/2109658918_0000001.jpg?w=750&h=&q=100",
     "color": "딥 네이비",
     "description": "조거핏 팬츠와 기모 상의로 구성된 따뜻한 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "New Balance",
+    "sale": 16
   },
   {
     "id": 305,
@@ -1239,7 +1535,9 @@
     "imageUrl": "https://cdn.011st.com/11dims/resize/248/11src/product/7840681445/B.jpg?394645040",
     "color": "카키",
     "description": "내피에 퍼가 들어간 초겨울용 방한 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Reebok",
+    "sale": 20
   },
   {
     "id": 306,
@@ -1249,7 +1547,9 @@
     "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/8c52/721edaf3038d24205040871baaa4cda68711e87bad3f08b04322b2006adc.jpg",
     "color": "올리브 그린",
     "description": "신축성과 보온성을 모두 갖춘 겨울용 상하의.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Fila",
+    "sale": 13
   },
   {
     "id": 307,
@@ -1259,7 +1559,9 @@
     "imageUrl": "https://thumbnail.10x10.co.kr/webimage/image/basic600/678/B006782678.jpg?cmd=thumb&w=400&h=400&fit=true&ws=false",
     "color": "마룬",
     "description": "후드티와 기모 팬츠가 포함된 캐주얼한 겨울 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Under Armour",
+    "sale": 19
   },
   {
     "id": 308,
@@ -1269,7 +1571,9 @@
     "imageUrl": "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4873/d36df6e976eb91ad1aedb5c023d9893da0a5bed8b3e60c1326d9497e7e1c.jpeg",
     "color": "연그레이",
     "description": "일상복으로도 활용 가능한 겨울용 트레이닝복.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Uniqlo",
+    "sale": 14
   },
   {
     "id": 309,
@@ -1279,7 +1583,9 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmvjTe41SqtDY4E-Ko0Z9TMWb3h8mveLqSjg&s",
     "color": "스틸 블루",
     "description": "테크웨어 스타일의 고기능 기모 트레이닝 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Asics",
+    "sale": 28
   },
   {
     "id": 310,
@@ -1289,7 +1595,9 @@
     "imageUrl": "https://thumbnail8.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/08a5/617b0a27401cb49b465140e835a088bc0e06fccfaf16c6bb90b623e8146e.jpg",
     "color": "블랙",
     "description": "겉감 방풍 기능이 탁월한 겨울용 후드 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Descente",
+    "sale": 21
   },
   {
     "id": 311,
@@ -1299,7 +1607,9 @@
     "imageUrl": "https://image.auction.co.kr/itemimage/4c/c1/60/4cc1604ce3.jpg",
     "color": "레드/블랙",
     "description": "겨울 스포츠에 적합한 스트레치 트랙수트 구성.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Kappa",
+    "sale": 17
   },
   {
     "id": 312,
@@ -1309,7 +1619,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/94/28/01/item/1000633012894_i1_336.jpg",
     "color": "다크 브라운",
     "description": "내피 발열 원단으로 제작된 고보온 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "The North Face",
+    "sale": 23
   },
   {
     "id": 313,
@@ -1319,7 +1631,9 @@
     "imageUrl": "https://gdimg.gmarket.co.kr/3789393818/still/280?ver=1733741546",
     "color": "크림 베이지",
     "description": "후리스 상의 + 기모 조거 팬츠 구성의 따뜻한 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Columbia",
+    "sale": 12
   },
   {
     "id": 314,
@@ -1329,7 +1643,9 @@
     "imageUrl": "https://cf.product-image.s.zigzag.kr/original/d/2025/1/12/24435_202501121350320338_24771.jpeg?width=400&height=400&quality=80&format=webp",
     "color": "인디고",
     "description": "집에서도 밖에서도 활용도 높은 겨울 라운지복.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Zara",
+    "sale": 15
   },
   {
     "id": 315,
@@ -1339,7 +1655,9 @@
     "imageUrl": "https://m.올리브아웃도어.com/web/product/big/202409/9cea1c24d572e24664408c0996596ab6.jpg",
     "color": "블루그레이",
     "description": "편안한 착용감의 겨울용 기모 트레이닝 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "H&M",
+    "sale": 20
   },
   {
     "id": 316,
@@ -1349,7 +1667,9 @@
     "imageUrl": "https://img.danawa.com/prod_img/500000/197/883/img/35883197_1.jpg?shrink=360:360&_v=20250505070846",
     "color": "카본 블랙",
     "description": "하이넥 방풍 상의와 기모 팬츠 구성의 방한 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Patagonia",
+    "sale": 26
   },
   {
     "id": 317,
@@ -1359,7 +1679,9 @@
     "imageUrl": "https://image.auction.co.kr/itemimage/4d/88/c1/4d88c11ad7.jpg?ver=1754409589",
     "color": "브라운",
     "description": "루즈핏으로 여유 있고 따뜻한 겨울 트레이닝복.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Gap",
+    "sale": 11
   },
   {
     "id": 318,
@@ -1369,7 +1691,9 @@
     "imageUrl": "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/79da/47dc531be695ba0cce50ec43791b6a0c8cf12f4cac3f4268bca8d4ef1a3a.jpg",
     "color": "네이비",
     "description": "보온성이 우수한 후드 상의와 팬츠 세트.",
-    "category": "겨울용"
+    "category": "겨울용",
+    "brand": "Stussy",
+    "sale": 29
   },
   {
     "id": 319,
@@ -1399,7 +1723,9 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFBjQoXg7CXuN1Hg0ilGWfInoB189aBRYrYA&s",
     "color": "라이트 베이지",
     "description": "시원한 린넨 소재의 여름용 싱글 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Uniqlo",
+    "sale": 15
   },
   {
     "id": 352,
@@ -1409,7 +1735,9 @@
     "imageUrl": "https://asset.m-gs.kr/prod/1008031566/1/550",
     "color": "라이트 그레이",
     "description": "얇고 통기성 좋은 코튼 소재의 오버핏 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Zara",
+    "sale": 18
   },
   {
     "id": 353,
@@ -1419,7 +1747,9 @@
     "imageUrl": "https://img.vogue.co.kr/vogue/2023/07/style_64a3a711ad5a6-960x1440.jpg",
     "color": "크림",
     "description": "린넨과 코튼 혼방 소재로 시원한 착용감 제공.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "H&M",
+    "sale": 22
   },
   {
     "id": 354,
@@ -1429,7 +1759,9 @@
     "imageUrl": "https://cdn.011st.com/11dims/resize/2000x2000/quality/75/11src/product/5664603409/B.png?168000000",
     "color": "샌드 브라운",
     "description": "얇은 숄카라 디자인의 가벼운 여름용 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Mango",
+    "sale": 25
   },
   {
     "id": 355,
@@ -1439,7 +1771,9 @@
     "imageUrl": "https://thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4eb7/bdae62fab5db485319b8e2ac6f7fccbb9f0558b7bb3ac5718448cd609f7c.jpg",
     "color": "카키 베이지",
     "description": "얇은 테일러드 핏의 여름 아우터로 활용도 높음.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "COS",
+    "sale": 20
   },
   {
     "id": 356,
@@ -1449,7 +1783,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/89/79/72/item/1000621727989_i1_336.jpg",
     "color": "올리브",
     "description": "트윌 조직으로 내구성과 통기성을 높인 여름 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Gap",
+    "sale": 17
   },
   {
     "id": 357,
@@ -1459,7 +1795,9 @@
     "imageUrl": "https://asset.m-gs.kr/prod/1084796169/1/550",
     "color": "라이트 블루",
     "description": "경량소재로 제작된 크롭핏 썸머 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Topshop",
+    "sale": 14
   },
   {
     "id": 358,
@@ -1469,7 +1807,9 @@
     "imageUrl": "https://www.sansansunsports.com/uploadfile/2024/11/09/20241109114341p9BFqL.jpg",
     "color": "네추럴",
     "description": "헨리넥 스타일로 간결한 느낌을 주는 얇은 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Massimo Dutti",
+    "sale": 19
   },
   {
     "id": 359,
@@ -1479,7 +1819,9 @@
     "imageUrl": "https://mblogthumb-phinf.pstatic.net/MjAxODA0MjFfMjA0/MDAxNTI0MjgyNjk0MzI1.0m8Fz4u2kV9dC5DzkstsrukqcGtfe2dk0Z35zcfr_kIg.T1LPx8AGbIVCEvWXPydHNSHwF4b-69cQG_XFzO3tchwg.JPEG.nomnice1/%EC%98%A4%EB%B2%84%ED%95%8F%EC%97%AC%EB%A6%84%EC%BD%94%ED%8A%B8.JPG?type=w800",
     "color": "라이트 옐로우",
     "description": "통풍이 잘 되는 구조로 설계된 시원한 롱코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Banana Republic",
+    "sale": 24
   },
   {
     "id": 360,
@@ -1489,7 +1831,9 @@
     "imageUrl": "https://thumbnail.10x10.co.kr/webimage/image/basic600/375/B003752629.jpg?cmd=thumb&w=400&h=400&fit=true&ws=false",
     "color": "라벤더 그레이",
     "description": "후드 포함된 경량 롱코트, 봄여름 간절기용.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Nike",
+    "sale": 13
   },
   {
     "id": 361,
@@ -1499,7 +1843,9 @@
     "imageUrl": "https://cf.product-image.s.zigzag.kr/original/c/14/463/501/144635010-5535682235731706236.jpeg?width=400&height=400&quality=80&format=webp",
     "color": "민트",
     "description": "싱글 버튼 디자인의 산뜻한 여름용 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Adidas",
+    "sale": 21
   },
   {
     "id": 362,
@@ -1509,7 +1855,9 @@
     "imageUrl": "https://shop1.daumcdn.net/thumb/R500x500/?fname=http%3A%2F%2Fshop1.daumcdn.net%2Fshophow%2Fp%2FO30900392784.jpg%3Fut%3D20250326131533",
     "color": "페일 블루",
     "description": "쿨링 기능성 원단으로 제작된 셋업형 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Under Armour",
+    "sale": 26
   },
   {
     "id": 363,
@@ -1519,7 +1867,9 @@
     "imageUrl": "https://image.production.fruitsfamily.com/public/product/resized%40width1125/-ckCq1T1rG-FFD7BF5C-4CD9-4AD1-B219-DBAED3FF157A.jpg",
     "color": "스카이블루",
     "description": "바람막이 기능을 갖춘 코튼 경량 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Columbia",
+    "sale": 16
   },
   {
     "id": 364,
@@ -1529,7 +1879,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/06/24/86/item/1000671862406_i1_336.jpg",
     "color": "라이트 핑크",
     "description": "오픈카라 디자인으로 가볍게 착용 가능한 여름 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Arket",
+    "sale": 28
   },
   {
     "id": 365,
@@ -1539,7 +1891,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/06/24/86/item/1000671862406_i1_336.jpg",
     "color": "화이트",
     "description": "셔츠처럼 입을 수 있는 루즈핏 코트 스타일.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Lacoste",
+    "sale": 19
   },
   {
     "id": 366,
@@ -1549,7 +1903,9 @@
     "imageUrl": "https://m.media-amazon.com/images/I/61Ti4BwL-SL.jpg",
     "color": "라이트 데님",
     "description": "얇은 데님 소재로 제작된 트렌디한 썸머 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Levi's",
+    "sale": 23
   },
   {
     "id": 367,
@@ -1559,7 +1915,9 @@
     "imageUrl": "https://gdimg.gmarket.co.kr/3293457182/still/280?ver=1751010849",
     "color": "내추럴 브라운",
     "description": "린넨 소재의 내추럴한 디자인의 여름용 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Tommy Hilfiger",
+    "sale": 27
   },
   {
     "id": 368,
@@ -1569,7 +1927,9 @@
     "imageUrl": "https://img.danawa.com/prod_img/500000/831/158/img/4158831_1.jpg?_v=20200108135650&shrink=360:360",
     "color": "애쉬 블루",
     "description": "박시한 실루엣으로 활동성이 뛰어난 여름 코트.",
-    "category": "코트 여름용"
+    "category": "코트 여름용",
+    "brand": "Ralph Lauren",
+    "sale": 20
   },
   {
     "id": 369,
@@ -1599,7 +1959,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/17/70/28/item/1000525287017_i1_750.jpg",
     "color": "차콜 그레이",
     "description": "정통 더블브레스트 스타일의 클래식 울 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Zara",
+    "sale": 15
   },
   {
     "id": 402,
@@ -1609,7 +1971,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/64/69/89/item/1000565896964_i1_750.jpg",
     "color": "블랙",
     "description": "고급 캐시미어 혼방 소재의 오버핏 롱코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "H&M",
+    "sale": 20
   },
   {
     "id": 403,
@@ -1619,7 +1983,9 @@
     "imageUrl": "https://mrjason.kr/web/product/big/202112/5bddef563b429cd51345236043b01eb2.jpg",
     "color": "베이지",
     "description": "허리 벨트로 실루엣 조절이 가능한 싱글 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Uniqlo",
+    "sale": 10
   },
   {
     "id": 404,
@@ -1629,7 +1995,9 @@
     "imageUrl": "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4c99/513e914ed10f32ab626990d64044e91362a17989f09308017594d358823a.JPG",
     "color": "브라운",
     "description": "핸드메이드로 제작된 고급 울 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "COS",
+    "sale": 18
   },
   {
     "id": 405,
@@ -1639,7 +2007,9 @@
     "imageUrl": "https://hander1212.openhost.cafe24.com/web/item/32964/32964_16.jpg?99267.09999990463",
     "color": "그레이 체크",
     "description": "클래식한 체크 패턴이 돋보이는 더플코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Topten",
+    "sale": 25
   },
   {
     "id": 406,
@@ -1649,7 +2019,9 @@
     "imageUrl": "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/341b/c3b73d9994eb8bacc9ea4918ae3c5e360f3326d4420b9a2179c1a8f25a03.JPG",
     "color": "트위드 그레이",
     "description": "빈티지한 텍스처의 트위드 롱코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Ziozia",
+    "sale": 12
   },
   {
     "id": 407,
@@ -1659,7 +2031,9 @@
     "imageUrl": "https://d3ha2047wt6x28.cloudfront.net/Ky89hB7f9QE/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQxMjA2XzE3MzM0NTk5OTcwOTMyMjFtLmpwZw",
     "color": "라이트 브라운",
     "description": "카라 없는 디자인으로 유니크한 분위기를 연출.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "8Seconds",
+    "sale": 22
   },
   {
     "id": 408,
@@ -1669,7 +2043,9 @@
     "imageUrl": "https://cafe24.poxo.com/ec01/jacketmallkr/XOgGzg7Z/cVHdUf1DFtQ98/g0wqdMRrP123aPid1jR3BGdITJgv7gC/h+qSQrWMDoJGKLDXbJhyZhg7bMkuSZQ==/_/web/product/big/202208/7701723b1d04424b2859a36fd86228ba.jpg",
     "color": "딥 그린",
     "description": "하이넥 디테일이 포인트인 울 롱코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Musinsa Standard",
+    "sale": 14
   },
   {
     "id": 409,
@@ -1679,7 +2055,9 @@
     "imageUrl": "https://img2.tmon.kr/cdn3/deals/2020/01/14/1638803162/front_041e9_fqrao.jpg",
     "color": "버건디",
     "description": "우드 토글과 넉넉한 핏이 돋보이는 더플코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Beanpole",
+    "sale": 19
   },
   {
     "id": 410,
@@ -1689,7 +2067,9 @@
     "imageUrl": "https://cafe24.poxo.com/ec01/altnrdbsdu/Kz2CAnT6o1ru4a+ciSQRaFa0jmGJYBvYvZciaAWv6ysuIg7qe6W/8x4QczXvj7StVFGSgMIkpWbU9zOJxN411w==/_/web/product/big/202111/eb1507b9c073b614e8bc7e1eff7c38e0.jpg",
     "color": "다크 네이비",
     "description": "무광 울 원단으로 차분하고 따뜻한 하프코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Mixxo",
+    "sale": 30
   },
   {
     "id": 411,
@@ -1699,7 +2079,9 @@
     "imageUrl": "https://thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/8a41/4074e655d7b61ce9ef214ea43fb8ff9586d139eba473d07643a4cf5d66d3.jpg",
     "color": "블랙",
     "description": "내부에 패딩 안감으로 보온성을 극대화한 울 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "System Homme",
+    "sale": 16
   },
   {
     "id": 412,
@@ -1709,7 +2091,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/06/07/97/item/1000564970706_i1_750.jpg",
     "color": "그레이",
     "description": "후드가 달린 실용적인 울 롱코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Giordano",
+    "sale": 13
   },
   {
     "id": 413,
@@ -1719,7 +2103,9 @@
     "imageUrl": "https://img1.tmon.kr/cdn3/deals/2019/10/20/2588073026/front_80cce_doajg.jpg",
     "color": "베이지",
     "description": "카라와 소매에 퍼 트리밍이 돋보이는 럭셔리 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Louis Vuitton",
+    "sale": 8
   },
   {
     "id": 414,
@@ -1729,7 +2115,9 @@
     "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/6c48/4f2f333231a68489e2b98cdef8673423907f156a4ba0302a3b02d4ef4ee3.jpg",
     "color": "네이비",
     "description": "더블 버튼 디자인의 클래식 울 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Club Monaco",
+    "sale": 21
   },
   {
     "id": 415,
@@ -1739,7 +2127,9 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ9zgSP1GSqPv1bD6Kmq8Us27K5Vsn2d_DkQ&s",
     "color": "브라운 체크",
     "description": "따뜻한 체크 패턴이 인상적인 울 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Burberry",
+    "sale": 12
   },
   {
     "id": 416,
@@ -1749,7 +2139,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/58/03/78/item/1000522780358_i1_370.jpg",
     "color": "다크 카멜",
     "description": "벨트로 라인을 잡아주는 울 롱코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Time Homme",
+    "sale": 17
   },
   {
     "id": 417,
@@ -1759,7 +2151,9 @@
     "imageUrl": "https://image2.lotteimall.com/goods/87/60/93/2063936087_1.jpg/dims/resizemc/550x550/optimize",
     "color": "그레이 블루",
     "description": "울 혼방 소재로 제작된 세련된 카라 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "The North Face",
+    "sale": 23
   },
   {
     "id": 418,
@@ -1769,7 +2163,9 @@
     "imageUrl": "https://static.fetchingapp.co.kr/resize/790x790/itemImage/ca0d78bab237e92ab79d256efa1a1f5c.jpg",
     "color": "다크 브라운",
     "description": "고급 핸드메이드 울 원단 사용, 더블 브레스티드 코트.",
-    "category": "코트 겨울용"
+    "category": "코트 겨울용",
+    "brand": "Lanvin",
+    "sale": 11
   },
   {
     "id": 419,
@@ -1799,7 +2195,9 @@
     "imageUrl": "https://images.kolonmall.com/Prod_Img/10003435/2022/LM1/K1674624919690070BK01_LM1.jpg",
     "color": "블랙",
     "description": "간편하게 착용 가능한 베이직한 디자인의 숏패딩.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Nike",
+    "sale": 20
   },
   {
     "id": 452,
@@ -1809,7 +2207,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/27/02/45/item/1000563450227_i1_750.jpg",
     "color": "아이보리",
     "description": "오버핏으로 스타일리시하고 가벼운 숏패딩.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Adidas",
+    "sale": 15
   },
   {
     "id": 453,
@@ -1819,7 +2219,9 @@
     "imageUrl": "https://cafe24img.poxo.com/meetkmi0/web/product/big/202211/25a9c3eb1db590f719cefe572901591c.gif",
     "color": "카키",
     "description": "목을 덮는 하이넥으로 보온성 높은 숏패딩.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "The North Face",
+    "sale": 22
   },
   {
     "id": 454,
@@ -1829,7 +2231,9 @@
     "imageUrl": "https://maninstore.co.kr/web/product/tiny/202412/a2e1367a9bf383ba80087c662928160e.jpg",
     "color": "그레이",
     "description": "무광 원단으로 깔끔하고 고급스러운 느낌.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Uniqlo",
+    "sale": 18
   },
   {
     "id": 455,
@@ -1839,7 +2243,9 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv3xwcs9juImLCiYB1rcAzwMmkCAhFDyg1IA&s",
     "color": "베이지",
     "description": "포켓이 포인트인 실용적인 숏패딩.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Patagonia",
+    "sale": 25
   },
   {
     "id": 456,
@@ -1849,7 +2255,9 @@
     "imageUrl": "https://img1.newsis.com/2023/11/17/NISI20231117_0001415167_web.jpg",
     "color": "실버",
     "description": "광택감 있는 소재로 개성 있는 스타일 완성.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Moncler",
+    "sale": 28
   },
   {
     "id": 457,
@@ -1859,7 +2267,9 @@
     "imageUrl": "https://g-room.kr/web/product/big/202306/7ee7b7f4d3d8b18d7c74672c10cd9263.jpg",
     "color": "화이트",
     "description": "가볍고 따뜻한 웰론 충전재 사용.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Zara",
+    "sale": 16
   },
   {
     "id": 458,
@@ -1869,7 +2279,9 @@
     "imageUrl": "https://cafe24img.poxo.com/scenerity/web/product/big/202310/c4c76bd585d8b08e6ec0fcbbd6e6b2f6.jpg",
     "color": "딥 그린",
     "description": "하이넥에 스트링 디테일을 더한 숏패딩.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "H&M",
+    "sale": 19
   },
   {
     "id": 459,
@@ -1879,7 +2291,9 @@
     "imageUrl": "https://maninstore.co.kr/web/product/tiny/202412/24edaf4801c4c535bf4da616a28d12f5.jpg",
     "color": "블랙",
     "description": "크롭 디자인으로 트렌디한 무드를 연출.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Nike",
+    "sale": 14
   },
   {
     "id": 460,
@@ -1889,7 +2303,9 @@
     "imageUrl": "https://cf.product-image.s.zigzag.kr/original/d/2024/11/7/38956_202411071609560105_46551.jpeg?width=400&height=400&quality=80&format=webp",
     "color": "레드",
     "description": "강렬한 컬러감으로 포인트 주기 좋은 아이템.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Adidas",
+    "sale": 27
   },
   {
     "id": 461,
@@ -1899,7 +2315,9 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyf3q7o1JbjZB8sNgpH26kNtQNTEBT9UuvBA&s",
     "color": "브라운",
     "description": "소매와 밑단에 셔링이 들어간 여성스러운 디자인.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "GU",
+    "sale": 12
   },
   {
     "id": 462,
@@ -1909,7 +2327,9 @@
     "imageUrl": "https://cafe24img.poxo.com/scenerity/web/product/big/20200109/3048e951d127ca6fdc74648862b3a6ab.jpg",
     "color": "네이비",
     "description": "군더더기 없이 깔끔한 실루엣.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "New Balance",
+    "sale": 17
   },
   {
     "id": 463,
@@ -1919,7 +2339,9 @@
     "imageUrl": "https://m.gymbro.kr/web/product/big/202411/52dc3c6965597d8257d0969886f25be1.png",
     "color": "차콜",
     "description": "패치 디테일이 돋보이는 캐주얼 숏패딩.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Carhartt",
+    "sale": 24
   },
   {
     "id": 464,
@@ -1929,7 +2351,9 @@
     "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1054608893453742-e9c1d9df-5933-4719-b2ee-5a489bfcd28a.jpg",
     "color": "크림",
     "description": "경량 소재로 데일리하게 착용 가능.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Uniqlo",
+    "sale": 20
   },
   {
     "id": 465,
@@ -1939,7 +2363,9 @@
     "imageUrl": "https://cdn.seoulfn.com/news/photo/202311/502227_260463_142.jpg",
     "color": "와인",
     "description": "퍼카라로 따뜻하고 고급스러운 느낌.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Tommy Hilfiger",
+    "sale": 30
   },
   {
     "id": 466,
@@ -1949,7 +2375,9 @@
     "imageUrl": "https://cdn-tgreen.bizhost.kr/files/goods/673601/1729149573_0.jpg",
     "color": "네이비/화이트",
     "description": "배색 포인트로 유니크한 디자인.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Fila",
+    "sale": 19
   },
   {
     "id": 467,
@@ -1959,7 +2387,9 @@
     "imageUrl": "https://nabbo.co.kr/web/product/big/202011/9e344f8169cc631aff878941634aa3fa.jpg",
     "color": "그레이",
     "description": "지퍼 클로징이 간편한 숏패딩 스타일.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Stone Island",
+    "sale": 21
   },
   {
     "id": 468,
@@ -1969,7 +2399,9 @@
     "imageUrl": "https://item.elandrs.com/r/image/item/2023-10-06/c9edd3ce-2783-486f-a89c-d06fc2ab4a2e.jpg?w=750&h=&q=100",
     "color": "블루",
     "description": "기본 카라 스타일로 어디에나 잘 어울림.",
-    "category": "숏패딩"
+    "category": "숏패딩",
+    "brand": "Columbia",
+    "sale": 23
   },
   {
     "id": 469,
@@ -1999,7 +2431,9 @@
     "imageUrl": "https://godomall.speedycdn.net/1ddda6d054d0e3f9b799c56cff09cf86/goods/10564/image/detail/10564_detail_024.jpg",
     "color": "블랙",
     "description": "기본에 충실한 디자인으로 데일리하게 입기 좋은 롱패딩.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Nike",
+    "sale": 21
   },
   {
     "id": 502,
@@ -2009,7 +2443,9 @@
     "imageUrl": "https://m.ddmstyle.com/web/product/big/202011/6bfcec6fab2a6fbefb0ca44252835af8.jpg",
     "color": "차콜",
     "description": "하이넥 스타일로 목까지 따뜻하게 감싸줍니다.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Adidas",
+    "sale": 18
   },
   {
     "id": 503,
@@ -2019,7 +2455,9 @@
     "imageUrl": "https://thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/cfdf/da03cfa1f501e0ccb19c1f7f3d0438b30cf8b47f07d31ce6d5bcd6efa167.jpg",
     "color": "아이보리",
     "description": "여유 있는 오버핏으로 스타일과 보온성을 동시에.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "New Balance",
+    "sale": 25
   },
   {
     "id": 504,
@@ -2029,7 +2467,9 @@
     "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/400x0/gift/pdt/1789/S1703731120107.jpg",
     "color": "딥 그린",
     "description": "라쿤 퍼 후드가 포함된 고급스러운 롱패딩.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "The North Face",
+    "sale": 14
   },
   {
     "id": 505,
@@ -2039,7 +2479,9 @@
     "imageUrl": "https://godomall.speedycdn.net/9b6a1925f166adca31fbc221b55f6731/goods/5321/image/detail/5321_detail_087.jpg",
     "color": "네이비",
     "description": "가볍고 따뜻한 착용감의 경량 패딩.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Uniqlo",
+    "sale": 27
   },
   {
     "id": 506,
@@ -2049,7 +2491,9 @@
     "imageUrl": "https://cafe24img.poxo.com/kirsh/web/product/big/202410/c9518418c31ed9ef2dc4dfeda2bb0b08.jpg",
     "color": "브라운",
     "description": "탈부착 가능한 퍼카라로 다양한 스타일 연출 가능.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Zara",
+    "sale": 12
   },
   {
     "id": 507,
@@ -2059,7 +2503,9 @@
     "imageUrl": "https://cafe24img.poxo.com/wooilsin1/web/product/big/202412/9e21189fb4ceaa244c740d1fd1577828.jpg",
     "color": "블랙/그레이",
     "description": "양면으로 활용 가능한 실용적인 롱패딩.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "H&M",
+    "sale": 20
   },
   {
     "id": 508,
@@ -2069,7 +2515,9 @@
     "imageUrl": "https://dimg.donga.com/wps/NEWS/IMAGE/2017/11/07/87158029.2.jpg",
     "color": "카키",
     "description": "팔 부분 패치가 포인트인 밀리터리 무드 패딩.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Stone Island",
+    "sale": 15
   },
   {
     "id": 509,
@@ -2079,7 +2527,9 @@
     "imageUrl": "https://m.uremind.co.kr/web/product/big/202212/b148857d56f26a6d2f8d8f10ff3815a5.jpg",
     "color": "베이지",
     "description": "허리 벨트가 포함되어 슬림한 라인을 연출합니다.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "COS",
+    "sale": 23
   },
   {
     "id": 510,
@@ -2089,17 +2539,21 @@
     "imageUrl": "https://www.motoya.co.kr/news/photo/202401/39448_235468_579.jpg",
     "color": "실버",
     "description": "광택감 있는 소재로 트렌디한 룩 연출.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Supreme",
+    "sale": 28
   },
   {
     "id": 511,
     "number": 11,
     "name": "무광 롱패딩",
     "price": 138000,
-    "imageUrl": "https://tnnews.co.kr/wp-content/uploads/2019/05/%EB%B0%80%EB%A0%88-%EC%82%AC%EC%A7%84%EC%9E%90%EB%A3%8C-%EB%B0%80%EB%A0%88-%E2%80%98%EB%B2%A0%EB%A6%B4-%EB%B2%A4%EC%B9%98%ED%8C%8C%EC%B9%B4-II%E2%80%99-%EC%84%9C%EA%B0%95%EC%A4%80-%EC%B0%A9%EC%9A%A9-%ED%99%94%EB%B3%B4.jpg",
+    "imageUrl": "https://th2.tmon.kr/thumbs/image/a87/ce6/420/f8ad3a63d_700x700_95_FIT.jpg",
     "color": "다크 브라운",
     "description": "은은한 무광 원단으로 고급스럽고 깔끔한 스타일.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Burberry",
+    "sale": 19
   },
   {
     "id": 512,
@@ -2109,7 +2563,9 @@
     "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/400x0/gift/pdt/1737/S1703119208135.jpg",
     "color": "라이트 그레이",
     "description": "허리 스트링으로 실루엣 조절이 가능한 롱패딩.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Under Armour",
+    "sale": 16
   },
   {
     "id": 513,
@@ -2119,7 +2575,9 @@
     "imageUrl": "https://img.khan.co.kr/news/2018/10/11/l_2018101201001421200111121.jpg",
     "color": "블루그레이",
     "description": "깔끔한 절개선과 군더더기 없는 디자인.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Gap",
+    "sale": 22
   },
   {
     "id": 514,
@@ -2129,7 +2587,9 @@
     "imageUrl": "https://image.hnsmall.com/images/goods/161/42308161_g.jpg",
     "color": "화이트",
     "description": "다운 충전재로 보온성이 뛰어난 겨울 필수템.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Moncler",
+    "sale": 30
   },
   {
     "id": 515,
@@ -2139,7 +2599,9 @@
     "imageUrl": "https://gdimg.gmarket.co.kr/4231932057/still/400?ver=1742695080",
     "color": "차콜",
     "description": "울 혼방 원단으로 제작된 프리미엄 롱패딩.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Prada",
+    "sale": 13
   },
   {
     "id": 516,
@@ -2149,7 +2611,9 @@
     "imageUrl": "https://www.wooridle.co.kr/data/goods/152/2022/09/_tmp_9b01ab416080527826cf24b7a03310379229view.jpg",
     "color": "네이비",
     "description": "사이드 슬릿 디테일로 활동성이 뛰어난 디자인.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Fila",
+    "sale": 17
   },
   {
     "id": 517,
@@ -2159,7 +2623,9 @@
     "imageUrl": "https://sitem.ssgcdn.com/50/92/23/item/1000522239250_i1_750.jpg",
     "color": "블랙",
     "description": "넉넉한 후드가 포함되어 바람 차단에 효과적.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Reebok",
+    "sale": 24
   },
   {
     "id": 518,
@@ -2169,14 +2635,16 @@
     "imageUrl": "https://cdn.consumerwide.com/news/photo/201810/32337_32306_5548.jpg",
     "color": "그레이",
     "description": "지퍼 없이 버튼으로 여미는 감성적인 디자인.",
-    "category": "롱패딩"
+    "category": "롱패딩",
+    "brand": "Descente",
+    "sale": 11
   },
   {
     "id": 519,
     "number": 19,
     "name": "카라 롱패딩",
     "price": 132000,
-    "imageUrl": "https://tnnews.co.kr/wp-content/uploads/2024/01/%EC%B2%A8%EB%B6%80%EC%9D%B4%EB%AF%B8%EC%A7%80-K2-%EB%8C%80%ED%91%9C-%EB%A1%B1%ED%8C%A8%EB%94%A9-%ED%8F%AC%EB%94%94%EC%97%84-%ED%8A%9C%EB%B8%8C%EB%8B%A4%EC%9A%B4-%EC%B6%9C%EC%8B%9C.jpg",
+    "imageUrl": "",
     "color": "크림",
     "description": "기본 카라 디자인으로 포멀한 스타일에도 잘 어울림.",
     "category": ""
@@ -2186,7 +2654,7 @@
     "number": 20,
     "name": "하프집업 롱패딩",
     "price": 127000,
-    "imageUrl": "https://th2.tmon.kr/thumbs/image/a87/ce6/420/f8ad3a63d_700x700_95_FIT.jpg",
+    "imageUrl": "",
     "color": "블랙",
     "description": "하프 집업 클로징으로 유니크한 스타일 완성.",
     "category": ""

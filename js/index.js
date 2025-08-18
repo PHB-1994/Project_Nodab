@@ -86,7 +86,7 @@ function shirtFn() {
             <div class="product-item-text">
             <strong>${s.name}</strong>
             <p>${s.description}</p>
-            <strong><span>10%</span> ${Number(
+            <strong><span>${s.sale}%</span> ${Number(
               s.price
             ).toLocaleString()}원</strong>
             </div>
@@ -113,7 +113,7 @@ function pantsFn() {
             <div class="product-item-text">
             <strong>${p.name}</strong>
             <p>${p.description}</p>
-            <strong><span>10%</span> ${Number(
+            <strong><span>${p.sale}%</span> ${Number(
               p.price
             ).toLocaleString()}원</strong>
             </div>
@@ -140,7 +140,7 @@ function sportFn() {
             <div class="product-item-text">
             <strong>${s.name}</strong>
             <p>${s.description}</p>
-            <strong><span>10%</span> ${Number(
+            <strong><span>${s.sale}%</span> ${Number(
               s.price
             ).toLocaleString()}원</strong>
             </div>
@@ -167,7 +167,7 @@ function coatFn() {
             <div class="product-item-text">
             <strong>${c.name}</strong>
             <p>${c.description}</p>
-            <strong><span>10%</span> ${Number(
+            <strong><span>${c.sale}%</span> ${Number(
               c.price
             ).toLocaleString()}원</strong>
             </div>
@@ -193,7 +193,7 @@ function paddingFn() {
             <div class="product-item-text">
             <strong>${p.name}</strong>
             <p>${p.description}</p>
-            <strong><span>10%</span> ${Number(
+            <strong><span>${p.sale}%</span> ${Number(
               p.price
             ).toLocaleString()}원</strong>
             </div>

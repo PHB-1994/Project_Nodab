@@ -35,19 +35,19 @@ function sportList() {
     const filted = data.filter((s) => s.category === category);
 
     const sportHTML = filted
-      .map((s) => {
-        const sale = Math.floor(Math.random() * 21) + 10;
-        return `
+      .map(
+        (s) =>
+          `
           <div class="sport-img" onclick="goToDetail(${s.id})">
             <span>${s.number}</span>
             <img src="${s.imageUrl}" alt="${s.category}"/>
             <strong>${s.brand}</strong>
             <p>${s.name}</p>
             <p>${s.description}</p>
-            <p><em>${sale}%</em>  ${Number(s.price).toLocaleString()}원</p>
+            <p><em>${s.sale}%</em>  ${Number(s.price).toLocaleString()}원</p>
           </div>
-          `;
-      })
+          `
+      )
       .join("");
     const tabNumber = targetTab.replace("tab", "");
     $("#sportResult" + tabNumber).html(sportHTML);

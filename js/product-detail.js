@@ -41,6 +41,6 @@ function productDetail(product) {
   $("#productName").text(product.name);
   $("#productCategory").text(product.category);
   $("#infoDescription").text(product.description);
-  $("#saleResult").text(product.sale);
+  $("#saleResult").text(product.sale + "%");
   $("#infoPrice").text(Number(product.price).toLocaleString());
 }

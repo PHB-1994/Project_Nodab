@@ -4,8 +4,6 @@ $(function () {
 
   $(".coat-btn[data-tab='tab1']").trigger("click");
 
-  banner();
-
   $(window).on("scroll", function () {
     if ($(window).scrollTop() === 0) {
       $(".clothes-top").hide();
@@ -37,19 +35,19 @@ function coatList() {
     const filted = data.filter((c) => c.category === category);
 
     const coatHTML = filted
-      .map((c) => {
-        const sale = Math.floor(Math.random() * 21) + 10;
-        return `
+      .map(
+        (c) =>
+          `
           <div class="coat-img" onclick="goToDetail(${c.id})">
             <span>${c.number}</span>
             <img src="${c.imageUrl}" alt="${c.category}"/>
             <strong>${c.brand}</strong>
             <p>${c.name}</p>
             <p>${c.description}</p>
-            <p><em>${sale}%</em> ${Number(c.price).toLocaleString()}원</p>
+            <p><em>${c.sale}%</em> ${Number(c.price).toLocaleString()}원</p>
           </div>
-          `;
-      })
+          `
+      )
       .join("");
     const tabNumber = targetTab.replace("tab", "");
     $("#coatResult" + tabNumber).html(coatHTML);

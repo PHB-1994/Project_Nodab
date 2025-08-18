@@ -105,7 +105,7 @@ body {
   text-decoration: none;
   color: white;
   font-style: italic;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 a > strong {
@@ -242,6 +242,7 @@ a > strong {
 
 .ban-info {
   margin: 0 auto;
+  padding: 20px;
 }
 
 .ban-text {
@@ -313,6 +314,9 @@ a > strong {
     width: 100%;
   }
 
+  .ban-info {
+    padding: 10px;
+  }
   .ban-text {
     text-align: center;
     margin-left: 10px;

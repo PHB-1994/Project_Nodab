@@ -18,11 +18,6 @@ $(function () {
   });
 });
 
-// 로그인 이동 페이지
-function loginFn() {
-  window.location.href = "login.html";
-}
-
 // 시작 화면
 function shirtList() {
   const targetTab = $(this).data("tab");
@@ -47,19 +42,19 @@ function shirtList() {
     const filted = data.filter((s) => s.category === category);
 
     const shirtHtml = filted
-      .map((s) => {
-        const sale = Math.floor(Math.random() * 21) + 10; // 10~30 사이의 정수
-        return `
+      .map(
+        (s) =>
+          `
         <div class="shirt-img" onclick="goToDetail(${s.id})" >
           <span>${s.number}</span>
           <img src="${s.imageUrl}" alt="${s.category}"/>
           <strong>${s.brand}</strong>
           <p>${s.name}</p>
           <p>${s.description}</p>
-          <p><em>${sale}%</em>  ${Number(s.price).toLocaleString()}원</p>
+          <p><em>${s.sale}%</em>  ${Number(s.price).toLocaleString()}원</p>
         </div>
-      `;
-      })
+      `
+      )
       .join("");
 
     const tabNumber = targetTab.replace("tab", "");
