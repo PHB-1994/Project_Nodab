@@ -3,13 +3,11 @@
   background-color: rgb(250, 250, 250);
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 40px;
 }
 
 .product-img {
-  flex: 1 1 50%;
-  max-width: 600px;
+  max-width: 800px;
+  margin-bottom: 30px;
 }
 
 .product-poster {
@@ -21,13 +19,7 @@
 }
 
 .product-info {
-  /* background-color: white;
-  border: 1px solid black; */
   background-color: white;
-  border: 1px solid #ddd;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 
 .logo {

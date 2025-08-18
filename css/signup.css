@@ -89,3 +89,13 @@
   color: #e74c3c;
   font-size: 12px;
 }
+
+@media (max-width: 460px) {
+  .signup-form {
+    width: 100%;
+  }
+
+  .signup-btn {
+    width: 62%;
+  }
+}

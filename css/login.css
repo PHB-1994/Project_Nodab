@@ -21,17 +21,24 @@
 }
 
 .input-info {
-  display: block;
-  justify-content: center;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.user-id,
+.user-pw {
+  width: 100%;
 }
 
 #userId {
-  margin: 20px 20px 5px;
-  width: 90%;
-  height: 15px;
+  width: 100%;
+  padding: 8px;
+  height: 36px;
+  margin: 30px 0 5px 0;
   border: 1px solid rgb(225, 225, 225);
   border-radius: 4px;
-  padding: 8px;
+  box-sizing: border-box;
 }
 
 #userId:focus {
@@ -39,23 +46,24 @@
   border: none;
 }
 
-.input-info p {
-  margin: 0 20px;
-  font-size: 12px;
-}
-
 #userPw {
-  margin: 3px 20px;
-  width: 90%;
-  height: 15px;
+  width: 100%;
+  padding: 8px;
+  height: 36px;
+  margin: 10px 0 5px 0;
   border: 1px solid rgb(225, 225, 225);
   border-radius: 4px;
-  padding: 8px;
+  box-sizing: border-box;
 }
 
 #userPw:focus {
   border: 1px solid rgb(136, 136, 136);
   outline: none;
+}
+
+.input-info p {
+  margin: 0;
+  font-size: 12px;
 }
 
 .login-btn {
@@ -67,14 +75,16 @@
   background-color: black;
   color: white;
   font-weight: bold;
-  width: 93%;
+  width: 91%;
   cursor: pointer;
 }
 
 .check-list {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0;
+  margin: 0; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .check1 {
@@ -159,4 +169,10 @@
   margin: 2px;
   font-size: 11px;
   color: red;
+}
+
+@media (max-width: 460px) {
+  .login-form {
+    width: 100%;
+  }
 }

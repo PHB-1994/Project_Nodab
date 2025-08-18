@@ -128,6 +128,12 @@ function inputPhoneFn(e) {
 // 회원가입 버튼
 function signupFn(e) {
   // console.log("데이터 가져옵니까..?");
+  const inputId = $("#inputId").val();
+  if (inputId.length == 0) {
+    alert("아이디 중복확인을 먼저 해주세요");
+    e.preventDefault();
+    return;
+  }
 
   if (checkList.inputPw == false) {
     alert("비밀번호가 유효하지 않습니다.");
