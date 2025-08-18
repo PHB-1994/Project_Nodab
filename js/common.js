@@ -3,6 +3,9 @@ $(function () {
 
   $("#navLoginBtn").click(loginFn);
 
+  $(".search").click(searchFn);
+  $("#closeModal").click(closeFn);
+
   banner();
 
   $(window).on("scroll", function () {
@@ -22,6 +25,12 @@ function menuBtnFn() {
   return;
 }
 
+// 메뉴 링크 클릭시 이동 페이지
+function menuLinkFn() {
+  alert("업데이트를 기대해주세요.");
+  return;
+}
+
 // 로그인 이동 페이지
 function loginFn() {
   const loginUrl = window.location.pathname.includes("pages")
@@ -31,10 +40,13 @@ function loginFn() {
   window.location.href = loginUrl;
 }
 
-// 메뉴 링크 클릭시 이동 페이지
-function menuLinkFn() {
-  alert("업데이트를 기대해주세요.");
-  return;
+// MODAL
+function searchFn() {
+  $("#modalOverlay").fadeIn(100);
+}
+
+function closeFn() {
+  $("#modalOverlay").fadeOut(100);
 }
 
 // 베너

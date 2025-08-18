@@ -63,9 +63,24 @@
         <div class="search-box">
           <input
             type="text"
-            id="searchInput"
+            class="search"
             placeholder=" 모든 제품 50% 할인!!!"
+            readonly
           />
+        </div>
+
+        <div class="modal-overlay" id="modalOverlay" style="display: none">
+          <div class="modal-content">
+            <input
+              type="text"
+              class="search-input"
+              id="searchInput"
+              placeholder="검색어를 입력하세요."
+            />
+            <button class="close-btn" id="closeModal">✕</button>
+
+            <h5>업데이트를 기대해주세요</h5>
+          </div>
         </div>
 
         <ul class="nav-menu">
@@ -99,12 +114,6 @@
           <i class="fa-solid fa-angle-right"></i>
         </button>
       </div>
-
-      <!-- <div class="load">
-      <strong>최고의 상품이 기다리고 있습니다.</strong>
-      <p>어디서나 볼 수 없는 옷들이 가득!!!</p>
-      <p>마음껏 구경하세요📢</p>
-    </div> -->
 
       <div class="scroll-btn">
         <button class="scr-btn">
