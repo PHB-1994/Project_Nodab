@@ -10,6 +10,8 @@ $(function () {
       $(".clothes-top").show();
     }
   });
+
+  $(".menuLink").click(menuLinkFn);
 });
 
 // 로그인 이동 페이지
@@ -19,6 +21,12 @@ function loginFn() {
     : "pages/login.html"; // 그렇지 않다면
 
   window.location.href = loginUrl;
+}
+
+// 메뉴 링크 클릭시 이동 페이지
+function menuLinkFn() {
+  alert("업데이트를 기대해주세요.");
+  return;
 }
 
 // 베너

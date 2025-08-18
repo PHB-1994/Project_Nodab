@@ -6,7 +6,7 @@
     "price": 15000,
     "color": "화이트",
     "size": ["S", "M", "L", "XL"],
-    "imageUrl": "https://sitem.ssgcdn.com/33/12/62/item/1000540621233_i1_750.jpg",
+    "imageUrl": "https://image.msscdn.net/display/images/2025/08/14/d8e36632e3a6439aba50306b94eeb287.jpg",
     "category": "베스트",
     "text": "가을에 어울리는 클래식 모던"
   },
@@ -19,7 +19,7 @@
     "size": ["S", "M", "L", "XL"],
     "imageUrl": "https://pimg.mk.co.kr/news/cms/202402/08/news-p.v1.20240208.7a4ea6fcf9e3430bbecc85f3222033c6_P1.png",
     "category": "베스트",
-    "text": "조회수로 증명하는..."
+    "text": "조회수로 증명하는 모든 신상 제품"
   },
   {
     "id": "1003",
@@ -30,7 +30,7 @@
     "size": ["S", "M", "L", "XL"],
     "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/1458/4c1f1134687e4c8559f374e8d2c1deb8a93bea009166df43929dc98385f1.jpg",
     "category": "베스트",
-    "text": "최예나와 함께한 25 FW 선 발매"
+    "text": "2025 FW 선 발매 특가 적용"
   },
   {
     "id": "1004",
@@ -41,7 +41,7 @@
     "size": ["S", "M", "L", "XL"],
     "imageUrl": "https://dimg.donga.com/wps/NEWS/IMAGE/2022/03/28/112570601.2.png",
     "category": "베스트",
-    "text": "자연과 도시의 조화"
+    "text": "자연과 도시의 아름다운 조화"
   },
   {
     "id": "1005",
@@ -63,7 +63,7 @@
     "size": ["S", "M", "L", "XL"],
     "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/08/1000_bb.jpg",
     "category": "베스트",
-    "text": "아웃도어 필수 잡화"
+    "text": "아웃도어 필수 잡화 제품 모음"
   },
   {
     "id": "1007",
@@ -85,7 +85,7 @@
     "size": ["S", "M", "L", "XL"],
     "imageUrl": "https://img.etoday.co.kr/pto_db/2021/09/600/20210901174122_1661828_1200_911.jpg",
     "category": "베스트",
-    "text": "완벽한 쿨링 아이템"
+    "text": "완벽한 쿨링 및 경량 아이템"
   },
   {
     "id": "1009",
@@ -96,7 +96,304 @@
     "size": ["S", "M", "L", "XL"],
     "imageUrl": "https://xen-api.linkareer.com/attachments/65832",
     "category": "베스트",
-    "text": "포근한 집캉스"
+    "text": "포근한 집캉스를 위한다면..."
+  },
+  {
+    "id": "1011",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://image.msscdn.net/display/images/2025/08/14/d8e36632e3a6439aba50306b94eeb287.jpg",
+    "category": "베스트",
+    "text": "가을에 어울리는 클래식 모던"
+  },
+  {
+    "id": "1012",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://pimg.mk.co.kr/news/cms/202402/08/news-p.v1.20240208.7a4ea6fcf9e3430bbecc85f3222033c6_P1.png",
+    "category": "베스트",
+    "text": "조회수로 증명하는 모든 신상 제품"
+  },
+  {
+    "id": "1013",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/1458/4c1f1134687e4c8559f374e8d2c1deb8a93bea009166df43929dc98385f1.jpg",
+    "category": "베스트",
+    "text": "2025 FW 선 발매 특가 적용"
+  },
+  {
+    "id": "1014",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://dimg.donga.com/wps/NEWS/IMAGE/2022/03/28/112570601.2.png",
+    "category": "베스트",
+    "text": "자연과 도시의 아름다운 조화"
+  },
+  {
+    "id": "1015",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://common.image.cf.marpple.co/files/u_193535/2022/4/original/0abc4abf04a80b4e9109500a16c6b5f487f6172b1.png?q=92&w=1480&f=jpeg&bg=f6f6f6",
+    "category": "베스트",
+    "text": "노답 입점기념 최대 30% 할인"
+  },
+  {
+    "id": "1016",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/08/1000_bb.jpg",
+    "category": "베스트",
+    "text": "아웃도어 필수 잡화 제품 모음"
+  },
+  {
+    "id": "1017",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/03/1000_linda2.jpg",
+    "category": "베스트",
+    "text": "카테고리데이 셔츠 & 팬츠"
+  },
+  {
+    "id": "1018",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://img.etoday.co.kr/pto_db/2021/09/600/20210901174122_1661828_1200_911.jpg",
+    "category": "베스트",
+    "text": "완벽한 쿨링 및 경량 아이템"
+  },
+  {
+    "id": "1019",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://xen-api.linkareer.com/attachments/65832",
+    "category": "베스트",
+    "text": "포근한 집캉스를 위한다면..."
+  },
+  {
+    "id": "1021",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://image.msscdn.net/display/images/2025/08/14/d8e36632e3a6439aba50306b94eeb287.jpg",
+    "category": "베스트",
+    "text": "가을에 어울리는 클래식 모던"
+  },
+  {
+    "id": "1022",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://pimg.mk.co.kr/news/cms/202402/08/news-p.v1.20240208.7a4ea6fcf9e3430bbecc85f3222033c6_P1.png",
+    "category": "베스트",
+    "text": "조회수로 증명하는 모든 신상 제품"
+  },
+  {
+    "id": "1023",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/1458/4c1f1134687e4c8559f374e8d2c1deb8a93bea009166df43929dc98385f1.jpg",
+    "category": "베스트",
+    "text": "2025 FW 선 발매 특가 적용"
+  },
+  {
+    "id": "1024",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://dimg.donga.com/wps/NEWS/IMAGE/2022/03/28/112570601.2.png",
+    "category": "베스트",
+    "text": "자연과 도시의 아름다운 조화"
+  },
+  {
+    "id": "1025",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://common.image.cf.marpple.co/files/u_193535/2022/4/original/0abc4abf04a80b4e9109500a16c6b5f487f6172b1.png?q=92&w=1480&f=jpeg&bg=f6f6f6",
+    "category": "베스트",
+    "text": "노답 입점기념 최대 30% 할인"
+  },
+  {
+    "id": "1026",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/08/1000_bb.jpg",
+    "category": "베스트",
+    "text": "아웃도어 필수 잡화 제품 모음"
+  },
+  {
+    "id": "1027",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/03/1000_linda2.jpg",
+    "category": "베스트",
+    "text": "카테고리데이 셔츠 & 팬츠"
+  },
+  {
+    "id": "1028",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://img.etoday.co.kr/pto_db/2021/09/600/20210901174122_1661828_1200_911.jpg",
+    "category": "베스트",
+    "text": "완벽한 쿨링 및 경량 아이템"
+  },
+  {
+    "id": "1029",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://xen-api.linkareer.com/attachments/65832",
+    "category": "베스트",
+    "text": "포근한 집캉스를 위한다면..."
+  },
+  {
+    "id": "1001",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://image.msscdn.net/display/images/2025/08/14/d8e36632e3a6439aba50306b94eeb287.jpg",
+    "category": "베스트",
+    "text": "가을에 어울리는 클래식 모던"
+  },
+  {
+    "id": "1002",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://pimg.mk.co.kr/news/cms/202402/08/news-p.v1.20240208.7a4ea6fcf9e3430bbecc85f3222033c6_P1.png",
+    "category": "베스트",
+    "text": "조회수로 증명하는 모든 신상 제품"
+  },
+  {
+    "id": "1003",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/1458/4c1f1134687e4c8559f374e8d2c1deb8a93bea009166df43929dc98385f1.jpg",
+    "category": "베스트",
+    "text": "2025 FW 선 발매 특가 적용"
+  },
+  {
+    "id": "1004",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://dimg.donga.com/wps/NEWS/IMAGE/2022/03/28/112570601.2.png",
+    "category": "베스트",
+    "text": "자연과 도시의 아름다운 조화"
+  },
+  {
+    "id": "1005",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://common.image.cf.marpple.co/files/u_193535/2022/4/original/0abc4abf04a80b4e9109500a16c6b5f487f6172b1.png?q=92&w=1480&f=jpeg&bg=f6f6f6",
+    "category": "베스트",
+    "text": "노답 입점기념 최대 30% 할인"
+  },
+  {
+    "id": "1006",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/08/1000_bb.jpg",
+    "category": "베스트",
+    "text": "아웃도어 필수 잡화 제품 모음"
+  },
+  {
+    "id": "1007",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://the-edit.co.kr/wp-content/uploads/2024/03/1000_linda2.jpg",
+    "category": "베스트",
+    "text": "카테고리데이 셔츠 & 팬츠"
+  },
+  {
+    "id": "1008",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://img.etoday.co.kr/pto_db/2021/09/600/20210901174122_1661828_1200_911.jpg",
+    "category": "베스트",
+    "text": "완벽한 쿨링 및 경량 아이템"
+  },
+  {
+    "id": "1009",
+    "productId": "T001",
+    "name": "베이직 반팔 티셔츠",
+    "price": 15000,
+    "color": "화이트",
+    "size": ["S", "M", "L", "XL"],
+    "imageUrl": "https://xen-api.linkareer.com/attachments/65832",
+    "category": "베스트",
+    "text": "포근한 집캉스를 위한다면..."
   },
   {
     "id": "1100",

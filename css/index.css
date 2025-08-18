@@ -54,13 +54,14 @@
 }
 
 .best-img p {
-  width: 100px;
+  width: 200px;
   height: 100px;
-  border: 1px solid black;
+  margin-bottom: 0;
 }
+
 .image-text {
   position: absolute;
-  bottom: 15px;
+  bottom: 0;
   left: 15px;
   color: white;
   font-size: 22px;

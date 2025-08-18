@@ -104,16 +104,16 @@
     "price": 27000,
     "imageUrl": "https://images.onthelook.co.kr/pr/60a623a1f5f63dc4e1719a56.jpg",
     "color": "화이트",
-    "description": "",
+    "description": "엠보싱 프린트로 고급스러운 느낌",
     "category": "반팔티"
   },
   {
     "id": 13,
-    "name": "",
+    "name": "박시핏 로고 반팔티",
     "price": 21000,
     "imageUrl": "https://cafe24img.poxo.com/lovejeehoo/web/product/big/202203/0dcc2e45d19f8ca87696b464d3d0fa52.jpg",
     "color": "화이트",
-    "description": "",
+    "description": "로고 프린트로 캐주얼한 무드",
     "category": "반팔티"
   },
   {
@@ -168,7 +168,7 @@
     "imageUrl": "https://artistwear.co.kr/web/product/big/202406/c1d621ad72707082a4b804b48fd39cf3.jpg",
     "color": "화이트 / 블랙",
     "description": "가슴 포켓으로 실용성과 포인트 제공",
-    "category": "반팔티"
+    "category": ""
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "imageUrl": "https://image2.lotteimall.com/goods/48/12/63/1994631248_2.jpg/dims/resizemc/550x550/optimize",
     "color": "크림",
     "description": "예술적인 그래픽으로 유니크한 스타일",
-    "category": "반팔티"
+    "category": ""
   },
   {
     "id": 21,
@@ -384,7 +384,7 @@
     "imageUrl": "https://mixny.cafe24.com/data/goods/product/polo-ralph-lauren/710938691002_th.jpg",
     "color": "브라운",
     "description": "가슴 포켓으로 실용성과 포인트 제공",
-    "category": "긴팔티"
+    "category": ""
   },
   {
     "id": 70,
@@ -393,7 +393,7 @@
     "imageUrl": "https://gdimg.gmarket.co.kr/399621950/still/280?ver=1741233587",
     "color": "화이트 / 블랙",
     "description": "예술적인 그래픽으로 유니크한 스타일",
-    "category": "긴팔티"
+    "category": ""
   },
   {
     "id": 71,
@@ -600,7 +600,7 @@
     "imageUrl": "https://static.zara.net/assets/public/7c01/8de1/241d468f94ff/97838f6f5cc7/09144304401-a1/09144304401-a1.jpg?ts=1754408709426&w=352&f=auto",
     "color": "다크 브라운",
     "description": "앞면의 두 개의 포켓이 포인트인 셔츠.",
-    "category": "셔츠"
+    "category": ""
   },
   {
     "id": 120,
@@ -609,7 +609,7 @@
     "imageUrl": "https://guystory.co.kr/web/product/medium/202303/fd912afdf150ee39c353e5b694360f74.jpg",
     "color": "스카이 블루",
     "description": "하루 종일 편안하게 입을 수 있는 데일리 셔츠.",
-    "category": "셔츠"
+    "category": ""
   },
   {
     "id": 151,
@@ -780,7 +780,7 @@
     "imageUrl": "https://cafe24img.poxo.com/scenerity/web/product/big/20200602/7a4ba092e6430bf83e2df92f9ea671d4.jpg",
     "color": "블랙/화이트",
     "description": "트렌디한 페이즐리 패턴으로 눈길을 끄는 아이템.",
-    "category": "반바지"
+    "category": ""
   },
   {
     "id": 170,
@@ -789,7 +789,7 @@
     "imageUrl": "https://www.yonexmall.com/shop/data/goods/164911590957s0.png",
     "color": "라이트 베이지",
     "description": "넉넉한 와이드핏으로 편안한 착용감을 제공하는 이지 반바지.",
-    "category": "반바지"
+    "category": ""
   },
   {
     "id": 201,
@@ -979,7 +979,7 @@
     "imageUrl": "https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/cc35/e3ebfd6673fd8f1b6b133eb0c7937aa980e7aeda5375f95e70acb9269b78.jpg",
     "color": "아이보리",
     "description": "발목 위로 떨어지는 크롭핏이 돋보이는 트렌디한 팬츠.",
-    "category": "긴바지"
+    "category": ""
   },
   {
     "id": 220,
@@ -989,7 +989,7 @@
     "imageUrl": "https://image.made-in-china.com/202f0j00LOQhsCWzhvgu/Women-Fashion-Loose-Suit-Pants-Long-Trousers-High-Waist-Office-Lady-Spring-Professional-Wide-Leg-Pants.webp",
     "color": "딥 네이비",
     "description": "신축성 좋은 기능성 소재로 제작된 테크 스트레치 팬츠.",
-    "category": "긴바지"
+    "category": ""
   },
   {
     "id": 251,
@@ -1179,7 +1179,7 @@
     "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/8aeb/a08b5cd712570af2505dca403bc01ba50921ed6ceca5d44be2dccde96850.jpg",
     "color": "차콜 그레이",
     "description": "기본에 충실한 여름용 상하의 운동복 세트.",
-    "category": "여름용"
+    "category": ""
   },
   {
     "id": 270,
@@ -1189,7 +1189,7 @@
     "imageUrl": "https://asset.m-gs.kr/prod/1083688295/1/550",
     "color": "크림",
     "description": "루즈핏 상의와 밴딩 팬츠가 포함된 세트.",
-    "category": "여름용"
+    "category": ""
   },
   {
     "id": 301,
@@ -1379,7 +1379,7 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBD_hIuuFFoopqdYKg6mFAbU38TIYRmGUBAQ&s",
     "color": "스톤 그레이",
     "description": "안감이 풍성한 퍼플리스 소재의 겨울 세트.",
-    "category": "겨울용"
+    "category": ""
   },
   {
     "id": 320,
@@ -1389,7 +1389,7 @@
     "imageUrl": "https://thumbnail9.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/e2e4/8e2ea9f428e20f46c5df94b9a733b5517f6f9ca948304de13fed6e149b2f.jpg",
     "color": "그린 블랙",
     "description": "극한의 추위에도 견디는 방한 전용 트레이닝 세트.",
-    "category": "겨울용"
+    "category": ""
   },
   {
     "id": 351,
@@ -1579,7 +1579,7 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTulq3cOShB3DEwNQBXUIWXSkEm4enYw-oMUw&s",
     "color": "라이트 카키",
     "description": "트렌치 디자인을 라이트하게 풀어낸 여름 아우터.",
-    "category": "코트 여름용"
+    "category": ""
   },
   {
     "id": 370,
@@ -1589,7 +1589,7 @@
     "imageUrl": "https://sitem.ssgcdn.com/78/91/51/item/1000694519178_i1_300.jpg",
     "color": "라임 그레이",
     "description": "소매가 짧아 여름철에도 쾌적한 착용감 제공.",
-    "category": "코트 여름용"
+    "category": ""
   },
   {
     "id": 401,
@@ -1779,7 +1779,7 @@
     "imageUrl": "https://cf.product-image.s.zigzag.kr/original/d/2024/5/31/27986_202405311050120080_79589.jpeg?width=400&height=400&quality=80&format=webp",
     "color": "블랙",
     "description": "패딩 레이어드 디자인으로 보온성을 더한 울 코트.",
-    "category": "코트 겨울용"
+    "category": ""
   },
   {
     "id": 420,
@@ -1789,7 +1789,7 @@
     "imageUrl": "https://cdn.011st.com/11dims/resize/1000x1000/quality/75/11src/product/6470886447/B.jpg?989000000",
     "color": "탄",
     "description": "무스탕 안감이 포함된 따뜻한 하프코트.",
-    "category": "코트 겨울용"
+    "category": ""
   },
   {
     "id": 451,
@@ -1979,7 +1979,7 @@
     "imageUrl": "https://m.awesomestudio.co.kr/web/product/big/202312/c82fea3f798f6718ed541220c8592066.jpg",
     "color": "블랙",
     "description": "지퍼 대신 버튼으로 클로징하는 숏패딩.",
-    "category": "숏패딩"
+    "category": ""
   },
   {
     "id": 470,
@@ -1989,7 +1989,7 @@
     "imageUrl": "https://img.croket.co.kr/item/thumbnail/8f86e3fe8d81fd2443acff6e7849d7f6.webp",
     "color": "브라운",
     "description": "울 혼방 소재로 따뜻함을 더한 프리미엄 숏패딩.",
-    "category": "숏패딩"
+    "category": ""
   },
   {
     "id": 501,
@@ -2179,7 +2179,7 @@
     "imageUrl": "https://tnnews.co.kr/wp-content/uploads/2024/01/%EC%B2%A8%EB%B6%80%EC%9D%B4%EB%AF%B8%EC%A7%80-K2-%EB%8C%80%ED%91%9C-%EB%A1%B1%ED%8C%A8%EB%94%A9-%ED%8F%AC%EB%94%94%EC%97%84-%ED%8A%9C%EB%B8%8C%EB%8B%A4%EC%9A%B4-%EC%B6%9C%EC%8B%9C.jpg",
     "color": "크림",
     "description": "기본 카라 디자인으로 포멀한 스타일에도 잘 어울림.",
-    "category": "롱패딩"
+    "category": ""
   },
   {
     "id": 520,
@@ -2189,6 +2189,6 @@
     "imageUrl": "https://th2.tmon.kr/thumbs/image/a87/ce6/420/f8ad3a63d_700x700_95_FIT.jpg",
     "color": "블랙",
     "description": "하프 집업 클로징으로 유니크한 스타일 완성.",
-    "category": "롱패딩"
+    "category": ""
   }
 ]

@@ -43,21 +43,25 @@ function shirtList() {
 
   $.get("../json/products.json").done(function (data) {
     console.log("찾기 가능?");
+
     const filted = data.filter((s) => s.category === category);
+
     const shirtHtml = filted
-      .map(
-        (s) =>
-          `
-          <div class="shirt-img" onclick="goToDetail(${s.id})" >
-            <img src="${s.imageUrl}" alt="${s.category}"/>
-            <strong>${s.name}</strong>
-            <p>${s.description}</p>
-            <p>색상 : ${s.color}</p>
-            <p><span>10%</span> ${Number(s.price).toLocaleString()}원</p>
-          </div>
-          `
-      )
+      .map((s) => {
+        const sale = Math.floor(Math.random() * 21) + 10; // 10~30 사이의 정수
+        return `
+        <div class="shirt-img" onclick="goToDetail(${s.id})" >
+          <span>${s.id}</span>
+          <img src="${s.imageUrl}" alt="${s.category}"/>
+          <strong>${s.name}</strong>
+          <p>${s.description}</p>
+          <p>색상 : ${s.color}</p>
+          <p><em>${sale}%</em> ${Number(s.price).toLocaleString()}원</p>
+        </div>
+      `;
+      })
       .join("");
+
     const tabNumber = targetTab.replace("tab", "");
     $("#shirtResult" + tabNumber).html(shirtHtml);
   });

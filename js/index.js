@@ -53,11 +53,10 @@ function nextFn() {
     if (현재페이지 < 이미지총개수 - 1) {
       현재페이지++;
       $(".best-img").animate({ left: -width * 현재페이지 }, 500);
-    } else {
-      alert("마지막");
     }
   });
 }
+/// 페이지 끝까지 이동 시 첫 번째 이미지가 다시 보이게 하는 방법을 모르겠음...
 
 // 이전 페이지 이동
 function prevFn() {
@@ -65,7 +64,7 @@ function prevFn() {
 
   if (현재페이지 > 0) {
     현재페이지--;
-    $(".best-img").animate({ left: width * 현재페이지 }, 500);
+    $(".best-img").animate({ left: -width * 현재페이지 }, 500);
   } else {
     alert("처음");
   }

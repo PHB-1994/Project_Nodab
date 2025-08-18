@@ -24,11 +24,45 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin: 15px 20px;
+  padding: 10px 10px 10px 4px;
 }
 
 .menu-btn {
-  margin: 0 10px 0 0;
+  margin: 0;
+  background-color: rgb(26, 27, 31);
+  border: none;
+  cursor: pointer;
+}
+
+.menu-btn svg {
+  color: rgb(204, 204, 204);
+  width: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+
+.menu span {
+  cursor: pointer;
+}
+
+.nav-btn {
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.nav-btn button {
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  background-color: #201d1d;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 5px;
 }
 
 .nav-head p {
@@ -67,21 +101,6 @@ body {
 
 a > strong {
   font-size: 25px;
-}
-
-.nav-btn {
-  margin-top: 10px;
-  padding: 0 10px;
-}
-
-.nav-btn button {
-  border: 1px solid rgb(204, 204, 204);
-  border-radius: 4px;
-  background-color: #201d1d;
-  color: inherit;
-  font-size: 13px;
-  cursor: pointer;
-  margin-left: 5px;
 }
 
 /* 검색 */
