@@ -94,3 +94,19 @@
   color: red;
   font-weight: 500;
 }
+
+@media (max-width: 460px) {
+  .shirt-list {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .shirt-btn {
+    margin: 10px;
+    padding: 0 5px;
+  }
+
+  .shirt {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

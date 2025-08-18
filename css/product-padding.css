@@ -95,3 +95,19 @@
   color: red;
   font-weight: 500;
 }
+
+@media (max-width: 460px) {
+  .padding-list {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .padding-btn {
+    margin: 10px;
+    padding: 0 5px;
+  }
+
+  .padding {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
