@@ -65,7 +65,7 @@ body {
 .nav-btn button {
   border: 1px solid rgb(204, 204, 204);
   border-radius: 4px;
-  background-color: #201d1d;
+  background-color: rgb(26, 27, 31);
   color: rgb(204, 204, 204);
   font-size: 13px;
   cursor: pointer;
@@ -271,7 +271,7 @@ a > strong {
   text-decoration: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 460px) {
   .body {
     width: 100%;
     padding: 0;
@@ -289,6 +289,11 @@ a > strong {
 
   .nav-btn button {
     margin: 5px;
+  }
+
+  .nav-btn button {
+    font-size: 10px;
+    height: 18px;
   }
 
   #navQuestionBtn {

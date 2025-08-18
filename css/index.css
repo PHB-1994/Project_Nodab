@@ -217,6 +217,7 @@
     width: 30px;
     height: 30px;
     font-size: 12px;
+    opacity: 1;
   }
 
   .scroll-btn {
@@ -233,6 +234,10 @@
   .scr-btn img {
     width: 15px;
     height: 15px;
+  }
+
+  .list-container {
+    margin-bottom: 30px;
   }
 
   .list-images {
