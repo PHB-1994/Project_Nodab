@@ -53,78 +53,14 @@
           <button type="button" id="navQuestionBtn">문의사항</button>
         </div>
       </div>
-      <div class="logo">
-        <a href="../index.html"
-          ><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          height="100%"
-          viewBox="0 0 20 20"
-          fill="none"
-          class="size-7"
-          data-mds="IcBoldAlarm"
-        >
-          <path
-            d="M13 14C13 15.6569 11.6569 17 10 17C8.34315 17 7 15.6569 7 14M5 8C5 5.23858 7.23858 3 10 3C12.7614 3 15 5.23858 15 8V11.8C15 12.3511 15.6222 12.8998 16.2458 13.3115C16.517 13.4904 16.3927 14 16.0678 14H3.93217C3.60727 14 3.48302 13.4904 3.75417 13.3115C4.37778 12.8998 5 12.3511 5 11.8V8Z"
-            stroke-width="1.4"
-            stroke="#FFFFFF"
-            data-mds="IcBoldAlarm"
-            vector-effect="non-scaling-stroke"
-          ></path>
-        </svg>
-      </div>
-
-      <div class="search-box">
-        <input
-          type="text"
-          class="search"
-          placeholder=" 모든 제품 50% 할인!!!"
-          readonly
-        />
-      </div>
-
-      <div class="modal-overlay" id="modalOverlay" style="display: none">
-        <div class="modal-content">
-          <input
-            type="text"
-            class="search-input"
-            id="searchInput"
-            placeholder="검색어를 입력하세요."
-          />
-          <button class="close-btn" id="closeModal">✕</button>
-
-          <h5>업데이트를 기대해주세요</h5>
-        </div>
-      </div>
-
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="../index.html" class="nav-link">추천</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-shirt.html" class="nav-link">상의</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-pants.html" class="nav-link">하의</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-sport.html" class="nav-link">운동복</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-coat.html" class="nav-link">코트</a>
-        </li>
-        <li class="nav-item">
-          <a href="product-padding.html" class="nav-link">패딩</a>
-        </li>
-      </ul>
-    </div>
 
     <div class="product-detail" id="productDetail">
-      <img class="product-poster" id="productPoster" src="" alt="" />
+      <div class="product-img">
+        <img class="product-poster" id="productPoster" src="" alt="" />
+      </div>
       <div class="product-info">
         <div class="logo">
-          Nodab
+          <p id="brandResult"></p>
           <button class="love">♡ 1.0천</button>
         </div>
 
@@ -205,11 +141,6 @@
         </div>
       </div>
     </div>
-
-    <a href="#top" class="clothes-top">
-      <i class="fa-solid fa-angle-up" style="color: black"></i>
-    </a>
-
     <div class="banner" id="bannerResult"></div>
     <script src="../js/common.js"></script>
     <script src="../js/product-detail.js"></script>

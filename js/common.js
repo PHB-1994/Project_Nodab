@@ -11,6 +11,8 @@ $(function () {
 
   $("#navLogoutBtn").click(navLogoutBtnFn);
 
+  $("#navQuestionBtn").click(navQuestionBtnFn);
+
   $(".search").click(searchFn);
   $("#closeModal").click(closeFn);
   $("#modalOverlay").click(modalOverlayFn);
@@ -50,12 +52,6 @@ function loginFn() {
   window.location.href = loginUrl;
 }
 
-// 로그인 시 데이터 가져와서 정보 입력
-// function currentFn() {
-//   $("#userInfo").text(`${currentUser[0].id}님 환영합니다.`);
-//   $("#navLogoutBtn").show();
-//   $("#navLoginBtn").hide();
-
 // }
 function currentFn() {
   if (Array.isArray(currentUser) && currentUser.length > 0) {
@@ -76,6 +72,11 @@ function navLogoutBtnFn() {
     : "../index.html";
 
   window.location.href = loginUrl;
+}
+
+// 문의사항 버튼
+function navQuestionBtnFn() {
+  alert("업데이트를 기대해주세요");
 }
 
 // MODAL

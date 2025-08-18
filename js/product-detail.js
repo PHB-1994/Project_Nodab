@@ -37,6 +37,7 @@ function productLoad(id) {
 
 function productDetail(product) {
   $("#productPoster").attr("src", product.imageUrl);
+  $("#brandResult").text(product.brand);
   $("#productName").text(product.name);
   $("#productCategory").text(product.category);
   $("#infoDescription").text(product.description);

@@ -246,11 +246,11 @@ a > strong {
 
 .ban-text {
   text-align: center;
-  margin-left: 10px;
   padding: 2px;
 }
 .banner p {
   font-size: 12px;
+  margin: 0;
 }
 
 /* 항목 이동 버튼 */
