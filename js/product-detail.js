@@ -8,14 +8,7 @@ $(function () {
   } else {
     productLoad(전달받은id확인);
   }
-
-  banner();
 });
-
-// 로그인 이동 페이지
-function loginFn() {
-  window.location.href = "login.html";
-}
 
 // index 페이지에 있는 항목을 선택했을 때
 function indexLoad(id) {
@@ -47,24 +40,6 @@ function productDetail(product) {
   $("#productName").text(product.name);
   $("#productCategory").text(product.category);
   $("#infoDescription").text(product.description);
-  $("#infoPrice").text(product.price);
-}
-
-// 베너
-function banner() {
-  $.get("../json/banner.json").done(function (data) {
-    $("#bannerResult").html(
-      `
-      <div class="ban-info">
-      <p class="ban-text">© ${data.brand}</p>
-      <p class="ban-text">${data.company}</p>
-      <p class="ban-text">${data.adress}</p>
-      <p class="ban-text">${data.a}</p>
-      <p class="ban-text">${data.b}</p>
-      <p class="ban-text">${data.c}</p>
-      <p class="ban-text">${data.d}</p>
-      </div>
-      `
-    );
-  });
+  $("#saleResult").text(product.sale);
+  $("#infoPrice").text(Number(product.price).toLocaleString());
 }

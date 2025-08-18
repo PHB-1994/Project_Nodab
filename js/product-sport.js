@@ -13,11 +13,6 @@ $(function () {
   });
 });
 
-// 로그인 이동 페이지
-function loginFn() {
-  window.location.href = "login.html";
-}
-
 function sportList() {
   const targetTab = $(this).data("tab");
 
@@ -40,18 +35,19 @@ function sportList() {
     const filted = data.filter((s) => s.category === category);
 
     const sportHTML = filted
-      .map(
-        (s) =>
-          `
+      .map((s) => {
+        const sale = Math.floor(Math.random() * 21) + 10;
+        return `
           <div class="sport-img" onclick="goToDetail(${s.id})">
+            <span>${s.number}</span>
             <img src="${s.imageUrl}" alt="${s.category}"/>
-            <strong>${s.name}</strong>
+            <strong>${s.brand}</strong>
+            <p>${s.name}</p>
             <p>${s.description}</p>
-            <p>색상 : ${s.color}</p>
-            <p><span>10%</span> ${Number(s.price).toLocaleString()}원</p>
+            <p><em>${sale}%</em>  ${Number(s.price).toLocaleString()}원</p>
           </div>
-          `
-      )
+          `;
+      })
       .join("");
     const tabNumber = targetTab.replace("tab", "");
     $("#sportResult" + tabNumber).html(sportHTML);

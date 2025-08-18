@@ -3,21 +3,22 @@
 }
 
 .pants-btn {
-  border: 1px solid rgb(224, 224, 224);
+  border: 1px solid rgb(102 102 102);
   border-radius: 4px;
-  background-color: white;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 500;
   padding: 5px 10px;
   margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgb(102 102 102);
 }
 
 .pants-btn.active {
-  color: white;
-  background-color: #201d1d;
+  color: black;
+  background-color: #fafafa;
+  border: 1px solid black;
 }
 
 .pants-btn:hover {
@@ -40,7 +41,6 @@
 .pants-content {
   display: none;
   text-align: left;
-  padding: 0 20px;
 }
 
 .pants-content.active {
@@ -49,9 +49,27 @@
 
 .pants {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(6, 1fr);
   cursor: pointer;
+}
+
+.pants-img {
+  background-color: white;
+  padding: 0 0 10px 0;
+  position: relative;
+}
+
+.pants-img span {
+  position: absolute;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  margin: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pants-img img {
@@ -61,17 +79,17 @@
 }
 
 .pants-img strong {
-  font-size: 15px;
-  margin-left: 20px;
+  font-size: 12px;
+  margin-left: 10px;
 }
 
 .pants-img p {
   margin: 0 auto;
-  font-size: 13px;
-  margin-left: 20px;
+  font-size: 12px;
+  margin-left: 10px;
 }
 
-.pants p span {
+.pants-img p em {
   color: red;
   font-weight: 500;
 }

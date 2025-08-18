@@ -35,18 +35,19 @@ function pantsList() {
     const filted = data.filter((p) => p.category === category);
 
     const pantsHtml = filted
-      .map(
-        (p) =>
-          `
+      .map((p) => {
+        const sale = Math.floor(Math.random() * 21) + 10;
+        return `
           <div class="pants-img" onclick="goToDetail(${p.id})">
+            <span>${p.number}</span>
             <img src="${p.imageUrl}" alt="${p.category}"/>
-            <strong>${p.name}</strong>
+            <strong>${p.brand}</strong>
+            <p>${p.name}</p>
             <p>${p.description}</p>
-            <p>색상 : ${p.color}</p>
-            <p><span>10%</span> ${Number(p.price).toLocaleString()}원</p>
+            <p><em>${sale}%</em>  ${Number(p.price).toLocaleString()}원</p>
           </div>
-          `
-      )
+          `;
+      })
       .join("");
     const tabNumber = targetTab.replace("tab", "");
     $("#pantsResult" + tabNumber).html(pantsHtml);

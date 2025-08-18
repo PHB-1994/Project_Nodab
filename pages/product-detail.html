@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>상세페이지</title>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -57,6 +57,13 @@
         <a href="index.html"><strong>Nodab</strong> 옷을 잘 입기 위한 사람들</a>
       </div>
 
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder=" 모든 제품 50% 할인!!!"
+        />
+      </div>
       <ul class="nav-menu">
         <li class="nav-item">
           <a href="index.html" class="nav-link">추천</a>
@@ -101,7 +108,7 @@
         <div class="info-row">⭐ 5 <span class="star">후기 100개</span></div>
 
         <div class="info-price">
-          <span class="sale">10% 할인</span>
+          <span class="sale" id="saleResult">10%</span>
           <span class="info-value" id="infoPrice"></span>
           <span class="info-label">원</span>
         </div>

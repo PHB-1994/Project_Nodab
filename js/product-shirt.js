@@ -51,12 +51,12 @@ function shirtList() {
         const sale = Math.floor(Math.random() * 21) + 10; // 10~30 사이의 정수
         return `
         <div class="shirt-img" onclick="goToDetail(${s.id})" >
-          <span>${s.id}</span>
+          <span>${s.number}</span>
           <img src="${s.imageUrl}" alt="${s.category}"/>
-          <strong>${s.name}</strong>
+          <strong>${s.brand}</strong>
+          <p>${s.name}</p>
           <p>${s.description}</p>
-          <p>색상 : ${s.color}</p>
-          <p><em>${sale}%</em> ${Number(s.price).toLocaleString()}원</p>
+          <p><em>${sale}%</em>  ${Number(s.price).toLocaleString()}원</p>
         </div>
       `;
       })

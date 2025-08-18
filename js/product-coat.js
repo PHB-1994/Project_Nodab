@@ -15,11 +15,6 @@ $(function () {
   });
 });
 
-// 로그인 이동 페이지
-function loginFn() {
-  window.location.href = "login.html";
-}
-
 function coatList() {
   const targetTab = $(this).data("tab");
 
@@ -42,18 +37,19 @@ function coatList() {
     const filted = data.filter((c) => c.category === category);
 
     const coatHTML = filted
-      .map(
-        (c) =>
-          `
+      .map((c) => {
+        const sale = Math.floor(Math.random() * 21) + 10;
+        return `
           <div class="coat-img" onclick="goToDetail(${c.id})">
+            <span>${c.number}</span>
             <img src="${c.imageUrl}" alt="${c.category}"/>
-            <strong>${c.name}</strong>
+            <strong>${c.brand}</strong>
+            <p>${c.name}</p>
             <p>${c.description}</p>
-            <p>색상 : ${c.color}</p>
-            <p><span>10%</span> ${Number(c.price).toLocaleString()}원</p>
+            <p><em>${sale}%</em> ${Number(c.price).toLocaleString()}원</p>
           </div>
-          `
-      )
+          `;
+      })
       .join("");
     const tabNumber = targetTab.replace("tab", "");
     $("#coatResult" + tabNumber).html(coatHTML);
@@ -62,24 +58,4 @@ function coatList() {
 
 function goToDetail(coatId) {
   window.location.href = `product-datail.html?id=${coatId}`;
-}
-
-// 베너
-function banner() {
-  $.get("../json/banner.json").done(function (data) {
-    console.log("데이터?");
-    $("#bannerResult").html(
-      `
-      <div class="ban-info">
-      <p class="ban-text">© ${data.brand}</p>
-      <p class="ban-text">${data.company}</p>
-      <p class="ban-text">${data.adress}</p>
-      <p class="ban-text">${data.a}</p>
-      <p class="ban-text">${data.b}</p>
-      <p class="ban-text">${data.c}</p>
-      <p class="ban-text">${data.d}</p>
-      </div>
-      `
-    );
-  });
 }
