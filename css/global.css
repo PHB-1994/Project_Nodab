@@ -1,6 +1,6 @@
 body {
-  min-width: 1000px;
-  width: 1450px;
+  width: 100%;
+  max-width: 1450px;
   margin: 0 auto;
   padding: 0;
   position: relative;
@@ -105,10 +105,17 @@ body {
   text-decoration: none;
   color: white;
   font-style: italic;
+  font-size: 15px;
 }
 
 a > strong {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.logo svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
 
 /* 검색 */
@@ -264,22 +271,50 @@ a > strong {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .body {
-    width: 100%;
-  }
-
-  .main-container {
     width: 100%;
     padding: 0;
     margin: 0;
+    border: 10px solid white;
   }
 
-  .nav-container {
+  .menu .menuLink {
+    display: none;
+  }
+
+  .logo > a {
+    font-size: 10px;
+  }
+
+  .nav-btn button {
+    margin: 5px;
+  }
+
+  #navQuestionBtn {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner {
+    background-color: #e2e2e2;
+    position: bottom;
+    bottom: 0;
+    left: 0;
     width: 100%;
   }
 
-  .menuLink {
-    font-size: 50px;
+  .ban-text {
+    text-align: center;
+    margin-left: 10px;
+    padding: 2px;
+  }
+  .banner p {
+    font-size: 8px;
+    margin: 0;
   }
 }
