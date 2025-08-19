@@ -82,7 +82,7 @@
               type="password"
               id="inputPw"
               autocomplete="new-password"
-              placeholder="비밀번호 입력"
+              placeholder="영어, 숫자, 특수문자를 사용해서 9 ~ 20 이내로 비밀번호를 설정해주세요"
             />
             <span class="input-result" id="pwResult"></span>
           </div>
@@ -92,28 +92,30 @@
               type="password"
               id="inputPwCheck"
               autocomplete="new-passwordCheck"
-              placeholder="비밀번호 확인"
+              placeholder="비밀번호와 동일하게 적어주세요"
             />
             <span class="input-result" id="pwCheckResult"></span>
           </div>
 
           <div class="signup-info">
             <p>이메일</p>
-            <input type="email" id="inputEmail" placeholder="이메일 입력" />
+            <input type="email" id="inputEmail" placeholder="이메일 형식으로 작성해주세요" />
             <span class="input-result" id="emailResult"></span>
           </div>
           <div class="signup-info">
             <p>이름</p>
-            <input type="text" id="inputName" placeholder="이름 입력" />
+            <input type="text" id="inputName" placeholder="한글 2 ~ 5 글자로 작성해주세요" />
             <span class="input-result" id="namelResult"></span>
           </div>
           <div class="signup-info">
             <p>연락처</p>
-            <input type="text" id="inputPhone" placeholder="010-0000-0000" />
+            <input type="text" id="inputPhone" placeholder="01(016)-0000-0000 형식으로 작성해주세요" />
             <span class="input-result" id="phonelResult"></span>
           </div>
         </form>
+        <div class="signup-go">
         <button class="signup-btn" id="signupResult">회원 가입</button>
+        </div>
       </div>
     </div>
     <script src="../js/common.js"></script>
