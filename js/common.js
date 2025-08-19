@@ -179,8 +179,11 @@ function displayResults(result, keyword) {
 
     return `
     <div class="product-choice">
-      <div class="product-brand">${brand}</div>
-      <div class="product-name">${name}</div>
+      <div class="product-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+      <div class="product-text">
+      <span class="product-brand">${brand}</span>
+      <span class="product-name">${name}</span>
+      </div>
     </div>    
     `;
   });
