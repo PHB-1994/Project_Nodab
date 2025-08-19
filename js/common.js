@@ -4,14 +4,12 @@ $(function () {
   $("#menuBtn").click(menuBtnFn);
 
   $("#navLoginBtn").click(loginFn);
+  $("#navLogoutBtn").click(navLogoutBtnFn);
+  $("#navQuestionBtn").click(qnaFn);
 
   if (currentUser) {
     currentFn();
   }
-
-  $("#navLogoutBtn").click(navLogoutBtnFn);
-
-  $("#navQuestionBtn").click(navQuestionBtnFn);
 
   $(".search").click(searchFn);
   $("#closeModal").click(closeFn);
@@ -73,8 +71,21 @@ function navLogoutBtnFn() {
 }
 
 // 문의사항 버튼
-function navQuestionBtnFn() {
-  alert("업데이트를 기대해주세요");
+function qnaFn() {
+  if (Array.isArray(currentUser) && currentUser.length > 0) {
+    const qnaUrl = window.location.pathname.includes("pages")
+      ? "qna.html"
+      : "pages/qna.html";
+
+    window.location.href = qnaUrl;
+  } else {
+    alert("로그인을 먼저 해주세요");
+    const loginUrl = window.location.pathname.includes("pages")
+      ? "login.html" // 현재가 pages 안에 있다면
+      : "pages/login.html"; // 그렇지 않다면
+
+    window.location.href = loginUrl;
+  }
 }
 
 // MODAL
@@ -94,7 +105,6 @@ function modalOverlayFn(e) {
 
 // 베너
 function banner() {
-  // 현재 페이지의 경로 확인
   const jsonPath = window.location.pathname.includes("/pages/")
     ? "../json/banner.json"
     : "json/banner.json";
