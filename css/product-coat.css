@@ -42,6 +42,7 @@
 .coat-content {
   display: none;
   text-align: left;
+  padding: 0 20px;
 }
 
 .coat-content.active {
@@ -95,6 +96,31 @@
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .coat-list {
+    margin: 0;
+    gap: 18px;
+    margin-left: 20px;
+  }
+
+  .coat-btn {
+    margin: 15px 0;
+    padding: 5px 8px;
+  }
+
+  .coat {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .coat-img strong {
+    font-size: 12px;
+  }
+
+  .coat-img p {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 460px) {
   .coat-list {
     justify-content: center;
@@ -102,11 +128,19 @@
   }
 
   .coat-btn {
-    margin: 10px;
+    margin: 10px 5px 10px;
     padding: 0 5px;
   }
 
   .coat {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .coat-img strong {
+    font-size: 10px;
+  }
+
+  .coat-img p {
+    font-size: 8px;
   }
 }

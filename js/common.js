@@ -17,8 +17,6 @@ $(function () {
   $("#closeModal").click(closeFn);
   $("#modalOverlay").click(modalOverlayFn);
 
-  banner();
-
   $(window).on("scroll", function () {
     if ($(window).scrollTop() === 0) {
       $(".clothes-top").hide();
@@ -28,6 +26,7 @@ $(function () {
   });
 
   $(".menuLink").click(menuLinkFn);
+  banner();
 });
 
 // 메뉴 버튼 클릭 시
@@ -52,7 +51,7 @@ function loginFn() {
   window.location.href = loginUrl;
 }
 
-// }
+// 로그인 시 localStorage 에서 데이터 가져와서 sessionStorage 에 저장
 function currentFn() {
   if (Array.isArray(currentUser) && currentUser.length > 0) {
     $("#userInfo").text(`${currentUser[0].id}님 환영합니다.`);
@@ -65,7 +64,7 @@ function currentFn() {
 function navLogoutBtnFn() {
   sessionStorage.removeItem("currentUser");
   alert("로그아웃이 완료되었습니다.");
-  window.location.href = "index.html";
+  // window.location.href = "index.html";
 
   const loginUrl = window.location.pathname.includes("../")
     ? "index.html"

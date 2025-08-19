@@ -171,6 +171,12 @@
   color: red;
 }
 
+@media (max-width: 768px) {
+  .login-form {
+    width: 70%;
+  }
+}
+
 @media (max-width: 460px) {
   .login-form {
     width: 100%;

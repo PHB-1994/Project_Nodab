@@ -55,7 +55,8 @@ function loginFn(e) {
 
     sessionStorage.setItem("currentUser", JSON.stringify(currentUser));
 
-    window.open("../index.html");
+    // window.open("../index.html");
+    window.location.href = "../index.html";
   } else if (a[0].id === userId) {
     alert("아이디 또는 비밀번호가 일치하지 않습니다.");
     $("#nameResult").html("");
