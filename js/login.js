@@ -28,36 +28,33 @@ function loginFn(e) {
     return;
   }
 
-  const userList = localStorage.getItem("userList");
-  let a = JSON.parse(userList);
-  console.log("user : ", a[0]);
+  let userList = JSON.parse(localStorage.getItem("userList") || "[]");
 
-  // let userCheck = user[i]; 배열 지정해서 아이디에 맞는 인덱스 값 찾아야함... 필터 사용해보자
+  const userInfo = userList.find(
+    (u) => u.id === userId && u.password === userPw
+  );
 
-  if (a[0].id === userId && a[0].password === userPw) {
-    $("#nameResult").html("");
-    $("#pwResult").html("");
-    alert(
-      `
-      로그인에 성공하였습니다.
-      반갑습니다. ${a[0].id}님
-      `
-    );
-
-    let currentUser = JSON.parse(sessionStorage.getItem("currentUser")) || [];
-
+  if (userInfo) {
     const newUser = {
       id: $("#userId").val(),
       password: $("#userPw").val(),
+      name: userInfo.name,
     };
 
     currentUser.push(newUser);
 
     sessionStorage.setItem("currentUser", JSON.stringify(currentUser));
 
-    // window.open("../index.html");
+    $("#nameResult").html("");
+    $("#pwResult").html("");
+    alert(
+      `
+      로그인에 성공하였습니다.
+      반갑습니다. ${userInfo.name}님
+      `
+    );
     window.location.href = "../index.html";
-  } else if (a[0].id === userId) {
+  } else if (!userInfo) {
     alert("아이디 또는 비밀번호가 일치하지 않습니다.");
     $("#nameResult").html("");
     $("#pwResult").html("");

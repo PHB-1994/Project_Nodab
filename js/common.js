@@ -54,7 +54,7 @@ function loginFn() {
 // 로그인 시 localStorage 에서 데이터 가져와서 sessionStorage 에 저장
 function currentFn() {
   if (Array.isArray(currentUser) && currentUser.length > 0) {
-    $("#userInfo").text(`${currentUser[0].id}님 환영합니다.`);
+    $("#userInfo").text(`${currentUser[0].name}님 환영합니다.`);
     $("#navLogoutBtn").show();
     $("#navLoginBtn").hide();
   }

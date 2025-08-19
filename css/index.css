@@ -26,9 +26,6 @@
 }
 
 #bestResult {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  cursor: pointer; */
   display: flex;
   transition: transform 0.5s ease-in-out;
   will-change: transform;
@@ -37,11 +34,6 @@
 }
 
 .best-img {
-  /*
-  flex: 1 1 0; /* 이미지 3개가 동일하게 너비 차지 
-  aspect-ratio: 1 / 1; /정사각형 비율 고정 
-  overflow: hidden;
-  position: relative; */
   width: calc(100% / 3);
   flex-shrink: 0;
   aspect-ratio: 1 / 1;
