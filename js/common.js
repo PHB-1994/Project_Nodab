@@ -64,11 +64,10 @@ function currentFn() {
 function navLogoutBtnFn() {
   sessionStorage.removeItem("currentUser");
   alert("로그아웃이 완료되었습니다.");
-  // window.location.href = "index.html";
 
-  const loginUrl = window.location.pathname.includes("../")
-    ? "index.html"
-    : "../index.html";
+  const loginUrl = window.location.pathname.includes("/pages/")
+    ? "../index.html"
+    : "index.html";
 
   window.location.href = loginUrl;
 }

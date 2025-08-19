@@ -46,6 +46,26 @@ body {
   text-decoration: none;
   color: rgb(204, 204, 204);
 }
+.nav-head p {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 16px;
+  background-color: #fff6;
+  margin: 0 5px;
+}
+
+.nav-head span {
+  height: 100%;
+  color: rgb(190, 190, 190);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-decoration: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
 
 .menu span {
   cursor: pointer;
@@ -71,27 +91,6 @@ body {
   cursor: pointer;
   margin-left: 5px;
   height: 22px;
-}
-
-.nav-head p {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 16px;
-  background-color: #fff6;
-  margin: 0 5px;
-}
-
-.nav-head span {
-  height: 100%;
-  color: rgb(190, 190, 190);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 22px;
-  text-decoration: inherit;
-  display: flex;
-  align-items: center;
-  padding: 0 10px;
 }
 
 .logo {
@@ -278,9 +277,22 @@ a > strong {
     padding: 0;
     margin: 0;
   }
+  .nav-head span {
+    padding: 0 5px;
+  }
+
+  #userInfo {
+    font-size: 14px;
+  }
+
   #navQuestionBtn {
     display: none;
   }
+
+  .nav-btn {
+    padding: 0px 6px;
+  }
+
   .logo {
     margin-bottom: 5px;
   }
