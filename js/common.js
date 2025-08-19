@@ -12,6 +12,9 @@ $(function () {
   }
 
   $(".search").click(searchFn);
+  $("#searchInput").on("input", searchInputFn);
+  loadProduct();
+
   $("#closeModal").click(closeFn);
   $("#modalOverlay").click(modalOverlayFn);
 
@@ -42,11 +45,26 @@ function menuLinkFn() {
 
 // 로그인 이동 페이지
 function loginFn() {
-  const loginUrl = window.location.pathname.includes("pages")
-    ? "login.html" // 현재가 pages 안에 있다면
-    : "pages/login.html"; // 그렇지 않다면
+  const loginurl = pageFn("login.html");
+  window.location.href = loginurl;
+}
 
-  window.location.href = loginUrl;
+// 페이지 반환 매개변수
+function pageFn(url) {
+  const pageUrl = window.location.pathname.includes("pages")
+    ? url // 현재가 pages 안에 있다면
+    : "pages/" + url; // 그렇지 않다면
+
+  return pageUrl;
+}
+
+// json 반환 매개변수
+function jsonFn(url) {
+  const jsonUrl = window.location.pathname.includes("pages")
+    ? "../json/" + url // 현재가 pages 안에 있다면
+    : "json/" + url; // 그렇지 않다면
+
+  return jsonUrl;
 }
 
 // 로그인 시 localStorage 에서 데이터 가져와서 sessionStorage 에 저장
@@ -101,6 +119,71 @@ function modalOverlayFn(e) {
   if (e.target === this) {
     $("#modalOverlay").fadeOut(100);
   }
+}
+
+// 검색 기능
+let products = [];
+
+function loadProduct() {
+  const producturl = jsonFn("products.json");
+  $.get(producturl).done(function (data) {
+    for (let i = 0; i < data.length; i++) {
+      products.push(data[i]);
+    }
+
+    console.log(products);
+  });
+}
+
+function searchInputFn() {
+  const keyword = $("#searchInput").val().trim();
+
+  const allProduct = Object.values(products);
+
+  let result;
+
+  if (keyword) {
+    result = allProduct.filter(
+      (product) =>
+        product.name.includes(keyword) || product.category.includes(keyword)
+    );
+    displayResults(result, keyword);
+  }
+}
+
+function displayResults(result, keyword) {
+  const searchResults = $("#searchResult");
+
+  if (result.length === 0) {
+    searchResults.html(
+      `<div class="no-searchResult">검색 결과가 없습니다.</div>`
+    );
+    return;
+  }
+
+  const productHTMLS = result.map((product) => {
+    let name = product.name;
+    let category = product.category;
+
+    if (keyword) {
+      name = product.name.replace(
+        new RegExp(keyword, "gi"),
+        `<span class="highlight">${keyword}</span>`
+      );
+      category = product.category.replace(
+        new RegExp(keyword, "gi"),
+        `<span class="highlight">${keyword}</span>`
+      );
+    }
+
+    return `
+    <div class="product-item">
+      <div class="product-name">${name}</div>
+      <div class="product-category">${category}</div>
+    </div>    
+    `;
+  });
+  searchResults.html(productHTMLS.join(""));
 }
 
 // 베너
