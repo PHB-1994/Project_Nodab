@@ -1,7 +1,6 @@
 // let page = 1;
 
 $(function () {
-  $("#loginBtn").click(loginFn);
   $(".shirt-btn").click(shirtList);
 
   $(".shirt-btn[data-tab='tab1']").trigger("click"); // 뭐가 뭔지 모르겠음

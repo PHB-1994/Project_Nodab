@@ -1,4 +1,7 @@
+const userList = JSON.parse(localStorage.getItem("userList") || "[]");
+
 const checkList = {
+  inputId: false,
   inputPw: false,
   inputPwCheck: false,
   inputEmail: false,
@@ -7,10 +10,10 @@ const checkList = {
 };
 
 $(function () {
-  $("#loginBtn").click(loginFn);
   $("#signupResult").click(signupFn);
-  $(".idCheck").click(idCheckFn);
+  // $(".idCheck").click(idCheckFn);
 
+  $(".idCheck").click(inputIdFn);
   $("#inputPw").on("input", inputPwFn);
   $("#inputPwCheck").on("input", inputPwCheckFn);
   $("#inputEmail").on("input", inputEmailFn);
@@ -18,11 +21,43 @@ $(function () {
   $("#inputPhone").on("input", inputPhoneFn);
 });
 
+// 아이디 입력 설정
+function inputIdFn(e) {
+  e.preventDefault();
+
+  const inputId = $("#inputId").val().trim();
+
+  const regExpId = /^[A-Za-z0-9]{4,12}$/;
+
+  const isDup = userList.some((u) => u.id === inputId);
+
+  if (!regExpId.test(inputId)) {
+    $("#idResult").html(
+      `<span style="color: orange">아이디는 영문과 숫자 조합의 4~12자여야 합니다.</span>`
+    );
+    checkList["inputId"] = false;
+    return;
+  }
+
+  if (isDup) {
+    $("#idResult").html(
+      `<span style="color: red">이미 사용중인 아이디입니다.</span>`
+    );
+    checkList["inputId"] = false;
+    return;
+  } else {
+    $("#idResult").html(
+      `<span style="color: green">사용 가능한 아이디입니다.</span>`
+    );
+    checkList["inputId"] = true;
+  }
+}
+
 // 비밀번호 입력 설정
 function inputPwFn(e) {
   e.preventDefault();
 
-  const inputPw = $("#inputPw").val();
+  const inputPw = $("#inputPw").val().trim();
 
   const regExpPw = /^[A-Za-z\d!@#$%^&*]{8,20}$/;
 
@@ -43,8 +78,8 @@ function inputPwFn(e) {
 function inputPwCheckFn(e) {
   e.preventDefault();
 
-  const inputPw = $("#inputPw").val();
-  const inputPwCheck = $("#inputPwCheck").val();
+  const inputPw = $("#inputPw").val().trim();
+  const inputPwCheck = $("#inputPwCheck").val().trim();
 
   if (inputPw === inputPwCheck) {
     $("#pwCheckResult").html("비밀번호가 일치합니다.");
@@ -65,7 +100,7 @@ function inputEmailFn(e) {
 
   $("#emailResult");
 
-  const inputEmail = $("#inputEmail").val();
+  const inputEmail = $("#inputEmail").val().trim();
 
   const regExpEmail = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
 
@@ -86,7 +121,7 @@ function inputEmailFn(e) {
 function inputNameFn(e) {
   e.preventDefault();
 
-  const inputName = $("#inputName").val();
+  const inputName = $("#inputName").val().trim();
 
   const regExpName = /^[가-힣]{2,15}$/;
 
@@ -107,7 +142,7 @@ function inputNameFn(e) {
 function inputPhoneFn(e) {
   e.preventDefault();
 
-  const inputPhone = $("#inputPhone").val();
+  const inputPhone = $("#inputPhone").val().trim();
 
   // const regExpPhone = /^01[0-9]-[0-9]{4}-[0-9]{4}$/;
   const regExpPhone = /^01[016789]-\d{3,4}-\d{4}$/;
@@ -128,51 +163,48 @@ function inputPhoneFn(e) {
 // 회원가입 버튼
 function signupFn(e) {
   // console.log("데이터 가져옵니까..?");
-  const inputId = $("#inputId").val();
-  if (inputId.length == 0) {
+
+  e.preventDefault();
+
+  if (checkList.inputId == false) {
     alert("아이디 중복확인을 먼저 해주세요");
-    e.preventDefault();
+    $("#inputId").focus();
     return;
   }
 
   if (checkList.inputPw == false) {
     alert("비밀번호가 유효하지 않습니다.");
     $("#inputPw").focus();
-    e.preventDefault();
     return;
   }
 
   if (checkList.inputPwCheck == false) {
     alert("비밀번호가 일치하지 않습니다.");
     $("#inputPwCheck").focus();
-    e.preventDefault();
+
     return;
   }
 
   if (checkList.inputEmail == false) {
     alert("이메일이 유효하지 않습니다.");
     $("#inputEmail").focus();
-    e.preventDefault();
+
     return;
   }
 
   if (checkList.inputName == false) {
     alert("이름이 유요하지 않습니다.");
     $("#inputEmailFn").focus();
-    e.preventDefault();
     return;
   }
 
   if (checkList.inputPhone == false) {
     alert("연락처가 유효하지 않습니다.");
     $("#inputPhnoe").focus();
-    e.preventDefault();
     return;
   }
 
   if (checkList) {
-    let userList = JSON.parse(localStorage.getItem("userList") || "[]");
-
     const newUser = {
       id: $("#inputId").val(),
       password: $("#inputPw").val(),
@@ -189,20 +221,20 @@ function signupFn(e) {
   }
 }
 
-// 아이디 중복 확인 페이지 이동
-function idCheckFn() {
-  const idWidth = "400";
-  const idHeight = "400";
+// // 아이디 중복 확인 페이지 이동
+// function idCheckFn() {
+//   const idWidth = "400";
+//   const idHeight = "400";
 
-  const left = (window.screen.width - idWidth) / 2;
-  const top = (window.screen.height - idHeight) / 2;
+//   const left = (window.screen.width - idWidth) / 2;
+//   const top = (window.screen.height - idHeight) / 2;
 
-  const options = `
-  width=${idWidth},
-  height=${idHeight},
-  left=${left},
-  top=${top},
-  `;
+//   const options = `
+//   width=${idWidth},
+//   height=${idHeight},
+//   left=${left},
+//   top=${top},
+//   `;
 
-  window.open("idCheck.html", "_blank", options);
-}
+//   window.open("idCheck.html", "_blank", options);
+// }

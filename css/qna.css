@@ -1,0 +1,133 @@
+.qna-container {
+  background-color: #fafafa;
+}
+
+.qna-form {
+  width: 45%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.qna-top {
+  background-color: #d3d3d3;
+  border: 1px solid #f5f5f5;
+  text-align: center;
+  padding: 10px;
+}
+
+.qna-top-name {
+  font-size: 15px;
+}
+
+.qna-list {
+  padding: 20px 50px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #5c5c5c;
+}
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background-color: #f9f9f9;
+  font-size: 15px;
+  color: rgb(136, 136, 136);
+}
+
+.input-info {
+  width: 100%;
+  padding: 0 50px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.input-info h4 {
+  margin: 0;
+  padding: 5px;
+  color: #5c5c5c;
+}
+
+.input-title {
+  width: 100%;
+  padding: 8px;
+  height: 36px;
+  margin: 0 0 5px 0;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-title:focus {
+  outline: 1px solid rgb(136, 136, 136);
+  border: none;
+}
+
+.input-detail {
+  width: 100%;
+  padding: 8px;
+  height: 300px;
+  margin: 0 0 5px 0;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #5c5c5c;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+.input-detail:focus {
+  border: 1px solid rgb(136, 136, 136);
+  outline: none;
+}
+
+.input-info button {
+  width: 100%;
+  height: 36px;
+  background-color: white;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 5px;
+  cursor: pointer;
+  color: #5c5c5c;
+}
+
+.input-info button span {
+  color: black;
+  font-weight: 500;
+}
+
+.submit {
+  padding: 0 50px;
+  margin: 30px 0;
+  box-sizing: border-box;
+}
+
+.submit button {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #5c5c5c;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 460px) {
+  .login-form {
+    width: 100%;
+  }
+}

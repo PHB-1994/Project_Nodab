@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>문의 사항</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/qna.css" />
+    <link rel="icon" type="image/png" href="../image/25.png" />
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="nav-head">
+        <div class="menu">
+          <button class="menu-btn" id="menuBtn">
+            <svg
+              class="_gnb__category--icon_1iucd_35"
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M4 8.70005H8V7.30005H4V8.70005ZM4 15.2H8V13.8H4V15.2ZM4 21.7H8V20.3H4V21.7ZM10 8.70005H24V7.30005H10V8.70005ZM10 15.2H24V13.8H10V15.2ZM10 21.7H24V20.3H10V21.7Z"
+                fill="currentColor"
+                fill-opacity="0.8"
+              ></path>
+            </svg>
+          </button>
+          <p></p>
+          <span><a href="../index.html">NODAB</a></span>
+          <span class="menuLink">BEAUTY</span>
+          <span class="menuLink">PLAYER</span>
+          <span class="menuLink">OUTLET</span>
+          <span class="menuLink">BOUTIQUE</span>
+          <span class="menuLink">SHOED</span>
+          <span class="menuLink">KIDS</span>
+        </div>
+        <div class="nav-btn">
+          <span id="userInfo"></span>
+          <button type="button" id="navLoginBtn">로그인 / 회원가입</button>
+          <button type="button" id="navLogoutBtn" style="display: none">
+            로그아웃
+          </button>
+          <button type="button" id="navQuestionBtn">문의사항</button>
+        </div>
+      </div>
+    </div>
+    <div class="qna-container">
+      <div class="qna-form">
+        <div class="qna-top">
+          <div class="qna-top-name">문의 사항</div>
+        </div>
+        <div class="qna-list">
+          <div class="faq-item">
+            Q. 배송은 얼마나 걸리나요?
+            <div class="faq-answer">A. 평균 2~3일 내에 배송됩니다</div>
+          </div>
+          <div class="faq-item">
+            Q. 교환, 환불, 정책이 궁금합니다?
+            <div class="faq-answer">
+              A. 수령 후 7일 이내 가능하며, 고객센터로 문의 바랍니다.
+            </div>
+          </div>
+          <div class="faq-item">
+            Q. 오배송 시 어떻게 진행되나요?
+            <div class="faq-answer">
+              A. 최대한 빠르게 회수하며, 늦어지는 고객님에게는 선물을 증정하고
+              있습니다.
+            </div>
+          </div>
+        </div>
+        <form>
+          <div class="input-info">
+            <h4>제목</h4>
+            <input
+              type="text"
+              class="input-title"
+              id="inputTitle"
+              placeholder="제목을 적어주세요"
+            />
+          </div>
+          <div class="input-info">
+            <h4>내용</h4>
+            <!-- <input
+              type="text"
+              class="input-detail"
+              id="inputDetail"
+              placeholder="내용을 적어주세요"
+            /> -->
+            <textarea
+              class="input-detail"
+              placeholder="내용을 입력해주세요"
+            ></textarea>
+          </div>
+          <div class="input-info">
+            <h4>첨부 파일</h4>
+            <button id="file">
+              <span>파일 추가</span> 또는 파일을 여기로 드래그
+            </button>
+          </div>
+
+          <div class="submit">
+            <button>제출하기</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="../js/common.js"></script>
+    <script src="../js/qna.js"></script>
+  </body>
+</html>

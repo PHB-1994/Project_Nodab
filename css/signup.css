@@ -59,10 +59,16 @@
   border: none;
 }
 
+span {
+  display: block;
+  font-size: 12px;
+  margin: 0;
+}
+
 .idCheck {
   border: none;
   background-color: #5c5c5c;
-  margin: 15px auto 0;
+  margin: 5px auto 0;
   font-size: 14px;
   padding: 3px 10px;
   border-radius: 5px;
