@@ -16,7 +16,7 @@ $(function () {
   loadProduct();
 
   $("#closeModal").click(closeFn);
-  $("#modalOverlay").click(modalOverlayFn);
+  // $("#modalOverlay").click(modalOverlayFn);
 
   $(window).on("scroll", function () {
     if ($(window).scrollTop() === 0) {
@@ -115,11 +115,11 @@ function closeFn() {
   $("#modalOverlay").fadeOut(100);
 }
 
-function modalOverlayFn(e) {
-  if (e.target === this) {
-    $("#modalOverlay").fadeOut(100);
-  }
-}
+// function modalOverlayFn(e) {
+//   if (e.target === this) {
+//     $("#modalOverlay").fadeOut(100);
+//   }
+// }
 
 // 검색 기능
 let products = [];
@@ -131,7 +131,7 @@ function loadProduct() {
       products.push(data[i]);
     }
 
-    console.log(products);
+    // console.log(products);
   });
 }
 
@@ -145,7 +145,8 @@ function searchInputFn() {
   if (keyword) {
     result = allProduct.filter(
       (product) =>
-        product.name.includes(keyword) || product.category.includes(keyword)
+        product.name.toLowerCase().includes(keyword.toLowerCase()) ||
+        product.brand.toLowerCase().includes(keyword.toLowerCase())
     );
     displayResults(result, keyword);
   }
@@ -163,23 +164,23 @@ function displayResults(result, keyword) {
 
   const productHTMLS = result.map((product) => {
     let name = product.name;
-    let category = product.category;
+    let brand = product.brand;
 
     if (keyword) {
       name = product.name.replace(
         new RegExp(keyword, "gi"),
-        `<span class="highlight">${keyword}</span>`
+        `<span>${keyword}</span>`
       );
-      category = product.category.replace(
+      brand = product.brand.replace(
         new RegExp(keyword, "gi"),
-        `<span class="highlight">${keyword}</span>`
+        `<span>${keyword}</span>`
       );
     }
 
     return `
-    <div class="product-item">
+    <div class="product-choice">
+      <div class="product-brand">${brand}</div>
       <div class="product-name">${name}</div>
-      <div class="product-category">${category}</div>
     </div>    
     `;
   });
