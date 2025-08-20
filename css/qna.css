@@ -6,7 +6,7 @@
   background-color: #fafafa;
 }
 
-.qna-form {
+.qna-info {
   width: 45%;
   height: 100vh;
   margin: 0 auto;
@@ -41,6 +41,31 @@
   background-color: #f9f9f9;
   font-size: 15px;
   color: rgb(136, 136, 136);
+}
+
+.qna-form {
+  display: none;
+}
+
+.qna-form.active {
+  display: block;
+}
+
+#qna-register {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  margin: 50px 0;
+  padding: 10px;
+  background-color: #5c5c5c;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+}
+
+#qna-register.active {
+  display: none;
 }
 
 .input-info {
@@ -83,6 +108,7 @@
   text-align: left;
   vertical-align: top;
   padding-top: 8px;
+  resize: none;
 }
 
 .input-detail:focus {

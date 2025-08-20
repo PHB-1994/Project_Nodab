@@ -76,6 +76,13 @@ function currentFn() {
   }
 }
 
+// 문의 사항 페이지 이동
+function qnaFn() {
+  const pageUrl = pageFn("qna.html");
+
+  window.location.href = pageUrl;
+}
+
 // 로그아웃 버튼
 function navLogoutBtnFn() {
   sessionStorage.removeItem("currentUser");
@@ -86,24 +93,6 @@ function navLogoutBtnFn() {
     : "index.html";
 
   window.location.href = loginUrl;
-}
-
-// 문의사항 버튼
-function qnaFn() {
-  if (Array.isArray(currentUser) && currentUser.length > 0) {
-    const qnaUrl = window.location.pathname.includes("pages")
-      ? "qna.html"
-      : "pages/qna.html";
-
-    window.location.href = qnaUrl;
-  } else {
-    alert("로그인을 먼저 해주세요");
-    const loginUrl = window.location.pathname.includes("pages")
-      ? "login.html" // 현재가 pages 안에 있다면
-      : "pages/login.html"; // 그렇지 않다면
-
-    window.location.href = loginUrl;
-  }
 }
 
 // MODAL

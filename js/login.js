@@ -53,7 +53,7 @@ function loginFn(e) {
       반갑습니다. ${userInfo.name}님
       `
     );
-    window.location.href = "../index.html";
+    history.back();
   } else if (!userInfo) {
     alert("아이디 또는 비밀번호가 일치하지 않습니다.");
     $("#nameResult").html("");
