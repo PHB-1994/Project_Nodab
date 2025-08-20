@@ -102,6 +102,7 @@ body {
 
 .logo {
   margin: 0px 20px 10px;
+  padding: 10px 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -351,10 +352,6 @@ a > strong {
     font-size: 14px;
   }
 
-  #navQuestionBtn {
-    display: none;
-  }
-
   .nav-btn {
     padding: 0px 6px;
   }
@@ -402,10 +399,6 @@ a > strong {
   .nav-btn button {
     font-size: 12px;
     height: 20px;
-  }
-
-  #navQuestionBtn {
-    display: none;
   }
 
   .nav-menu {
