@@ -1,5 +1,5 @@
 .body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .qna-container {
@@ -8,16 +8,18 @@
 
 .qna-info {
   width: 45%;
-  height: 100vh;
-  margin: 0 auto;
+  min-height: calc(100vh - 100px);
+  margin: 20px auto 0;
   background-color: white;
+  padding-bottom: 20px;
 }
 
 .qna-top {
   background-color: #d3d3d3;
   border: 1px solid #f5f5f5;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  margin-top: 20px;
 }
 
 .qna-top-name {
@@ -25,22 +27,32 @@
 }
 
 .qna-list {
-  padding: 20px 50px;
+  padding: 25px 50px;
 }
 
 .faq-item {
   border-bottom: 1px solid #ccc;
-  padding: 10px;
+  padding: 18px 15px;
+  margin-bottom: 8px;
   cursor: pointer;
   font-size: 15px;
   color: #5c5c5c;
+  transition: background-color 0.2s ease;
 }
+
+.faq-item:hover {
+  background-color: #f8f8f8;
+}
+
 .faq-answer {
   display: none;
-  padding: 10px;
+  padding: 15px 20px;
+  margin: 10px 0;
   background-color: #f9f9f9;
   font-size: 15px;
   color: rgb(136, 136, 136);
+  border-left: 3px solid #d3d3d3;
+  border-radius: 0 5px 5px 0;
 }
 
 .qna-form {
@@ -150,14 +162,285 @@
   cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+  .qna-info {
+    width: 60%;
+    margin: 20px auto 0;
+    padding-bottom: 20px;
+  }
+
+  .qna-top {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .qna-list {
+    padding: 20px 40px;
+  }
+
+  .input-info {
+    padding: 0 40px;
+  }
+
+  .submit {
+    padding: 0 40px;
+  }
+}
+
 @media (max-width: 768px) {
-  .login-form {
-    width: 70%;
+  .qna-info {
+    width: 80%;
+    min-height: calc(100vh - 120px);
+    margin: 15px auto 0;
+    padding-bottom: 15px;
+  }
+
+  .qna-top {
+    margin-top: 15px;
+    padding: 12px;
+  }
+
+  .qna-list {
+    padding: 20px 30px;
+  }
+
+  .input-info {
+    padding: 0 30px;
+  }
+
+  .submit {
+    padding: 0 30px;
+  }
+
+  .faq-item {
+    font-size: 14px;
+    padding: 16px 12px;
+    margin-bottom: 6px;
+  }
+
+  .faq-answer {
+    font-size: 14px;
+    padding: 12px 16px;
+    margin: 8px 0;
+  }
+
+  .qna-top-name {
+    font-size: 16px;
+  }
+
+  .input-detail {
+    height: 250px;
+  }
+
+  #qna-register {
+    margin: 40px 0;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .qna-list {
+    padding: 15px 30px;
+  }
+
+  .input-info {
+    padding: 0 30px;
+  }
+
+  .submit {
+    padding: 0 30px;
+  }
+
+  .faq-item {
+    font-size: 14px;
+    padding: 12px 8px;
+  }
+
+  .faq-answer {
+    font-size: 14px;
+    padding: 12px 8px;
+  }
+
+  .qna-top-name {
+    font-size: 16px;
+  }
+
+  .input-detail {
+    height: 250px;
+  }
+
+  #qna-register {
+    margin: 40px 0;
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .qna-info {
+    width: 90%;
+    margin: 12px auto 0;
+    padding-bottom: 12px;
+  }
+
+  .qna-top {
+    margin-top: 12px;
+    padding: 12px;
+  }
+
+  .qna-list {
+    padding: 18px 25px;
+  }
+
+  .input-info {
+    padding: 0 25px;
+  }
+
+  .submit {
+    padding: 0 25px;
   }
 }
 
 @media (max-width: 460px) {
-  .login-form {
+  .qna-info {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .qna-list {
+    padding: 18px 20px;
+  }
+
+  .input-info {
+    padding: 0 20px;
+    margin-bottom: 15px;
+  }
+
+  .submit {
+    padding: 0 20px;
+    margin: 25px 0;
+  }
+
+  .faq-item {
+    font-size: 13px;
+    padding: 14px 10px;
+    margin-bottom: 5px;
+  }
+
+  .faq-answer {
+    font-size: 13px;
+    padding: 10px 14px;
+    margin: 6px 0;
+  }
+
+  .qna-top {
+    padding: 12px;
+  }
+
+  .qna-top-name {
+    font-size: 15px;
+  }
+
+  .input-info h4 {
+    font-size: 14px;
+  }
+
+  .input-title {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .input-detail {
+    height: 200px;
+    font-size: 14px;
+  }
+
+  .input-info button {
+    height: 40px;
+    font-size: 13px;
+  }
+
+  #qna-register {
+    margin: 30px 0;
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .submit button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .qna-info {
     width: 100%;
+    margin: 0;
+  }
+
+  .qna-list {
+    padding: 15px 15px;
+  }
+
+  .input-info {
+    padding: 0 15px;
+    margin-bottom: 12px;
+  }
+
+  .submit {
+    padding: 0 15px;
+    margin: 20px 0;
+  }
+
+  .faq-item {
+    font-size: 12px;
+    padding: 12px 8px;
+    margin-bottom: 4px;
+  }
+
+  .faq-answer {
+    font-size: 12px;
+    padding: 8px 12px;
+    margin: 5px 0;
+  }
+
+  .qna-top {
+    padding: 10px;
+  }
+
+  .qna-top-name {
+    font-size: 14px;
+  }
+
+  .input-info h4 {
+    font-size: 13px;
+    padding: 3px;
+  }
+
+  .input-title {
+    height: 36px;
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .input-detail {
+    height: 180px;
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .input-info button {
+    height: 36px;
+    font-size: 12px;
+  }
+
+  #qna-register {
+    margin: 25px 0;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .submit button {
+    padding: 10px;
+    font-size: 13px;
   }
 }
