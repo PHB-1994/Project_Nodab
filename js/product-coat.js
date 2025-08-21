@@ -1,16 +1,7 @@
 $(function () {
-  $("#loginBtn").click(loginFn);
   $(".coat-btn").click(coatList);
 
   $(".coat-btn[data-tab='tab1']").trigger("click");
-
-  $(window).on("scroll", function () {
-    if ($(window).scrollTop() === 0) {
-      $(".clothes-top").hide();
-    } else {
-      $(".clothes-top").show();
-    }
-  });
 });
 
 function coatList() {

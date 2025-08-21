@@ -2,14 +2,6 @@ $(function () {
   $(".padding-btn").click(paddingList);
 
   $(".padding-btn[data-tab='tab1']").trigger("click"); // 뭐가 뭔지 모르겠음
-
-  $(window).on("scroll", function () {
-    if ($(window).scrollTop() === 0) {
-      $(".clothes-top").hide();
-    } else {
-      $(".clothes-top").show();
-    }
-  });
 });
 
 // 시작 화면

@@ -59,5 +59,3 @@ function shirtList() {
 function goToDetail(shirtId) {
   window.location.href = `product-detail.html?id=${shirtId}`;
 }
-
-

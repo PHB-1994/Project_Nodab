@@ -2,14 +2,6 @@ $(function () {
   $(".pants-btn").click(pantsList);
 
   $(".pants-btn[data-tab='tab1']").trigger("click");
-
-  $(window).on("scroll", function () {
-    if ($(window).scrollTop() === 0) {
-      $(".clothes-top").hide();
-    } else {
-      $(".clothes-top").show();
-    }
-  });
 });
 
 // 시작 화면

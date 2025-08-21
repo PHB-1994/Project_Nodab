@@ -10,14 +10,6 @@ $(function () {
   sportFn();
   coatFn();
   paddingFn();
-
-  $(window).on("scroll", function () {
-    if ($(window).scrollTop() === 0) {
-      $(".clothes-top").hide();
-    } else {
-      $(".clothes-top").show();
-    }
-  });
 });
 
 // 베스트 상품 이미지 페이지
