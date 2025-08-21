@@ -53,7 +53,8 @@ function loginFn(e) {
       반갑습니다. ${userInfo.name}님
       `
     );
-    history.back();
+    // history.back(); 이전 페이지로 이동인데 문의 사항 페이지에서 이동 시 문의 사항 페이지로만 돌아가기 설정 해야함
+    window.location.href = "../index.html";
   } else if (!userInfo) {
     alert("아이디 또는 비밀번호가 일치하지 않습니다.");
     $("#nameResult").html("");
